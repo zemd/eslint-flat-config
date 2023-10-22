@@ -1,6 +1,6 @@
 # @zemd/eslint-flat-config
 
-[![npm](https://img.shields.io/npm/v/@zemd/eslint-flat-config?color=000&label=)](https://npmjs.com/package/@zemd/eslint-flat-config)
+[![npm](https://img.shields.io/npm/v/@zemd/eslint-flat-config?color=000&label=npm)](https://npmjs.com/package/@zemd/eslint-flat-config)
 
 - Easy,
 - Helps to code and find bugs with only necessary rules, and less stress,
