@@ -24,35 +24,35 @@ export default [...config];
 
 ### Debug your rules
 
-There is a awesome tools called `eslint-flat-config-viewer` which can show all your applied rules, display link to the documentation. I highly recommend using it if you want to dig deeper into your project's rules.
+A fantastic tool called `eslint-flat-config-viewer` can show all your applied rules, display links to the documentation, and group rules by the provider. I recommend using it to dig deeper into your project's rules.
 
 ## Goal
 
-The purpose of this package is to develop confidently without pressure from tools and too strict rules, but at the same time try to make sure that tools help you not to shoot in your foot.
+The purpose of this package is to develop confidently without pressure from tools and too strict rules, but at the same time, try to make sure that tools help you not to shoot in your foot.
 
 Some key points behind this package include:
 
 - developer should not be blocked by the tool and should be able to use language features,
-- no or minimum warnings, without compromises, just errors that doesn't mess your output,
+- no or minimum warnings, without compromises, just errors that don't mess up output,
 - minimum formatting rules or none, this should be handled by formatter without blocking your flow,
-- no configuration, plug the rules and start working, otherwise override in your config,
+- no configuration, plug the rules and start working; otherwise, override in your config,
 - batteries included by default: typescript, prettier, react, nextjs, tailwind, vitest, playwright, storybook
-- rules should not force you to use specific programming style, but help you catch bugs
+- rules should not force you to use a specific programming style but help you catch bugs
 
 ## Rules
 
-- Recommended rules from `@eslint/js`
+- Recommended rules from `@eslint/js`,
 - **strict-type-checked** and **stylistic-type-checked** rules from `@typescript-eslint/eslint-plugin`
 - Additional stylistic rules from `@typescript-eslint/eslint-plugin`
 - Recommended rules from `eslint-plugin-sonarjs`
-- Carefully hand picked rules from `eslint-plugin-unicorn`
+- Carefully hand-picked rules from `eslint-plugin-unicorn`
 - Recommended rules from `eslint-plugin-jsx-a11y` and `eslint-plugin-react-hooks`
-- Carefully hand picked rules from `eslint-plugin-react`
+- Carefully hand-picked rules from `eslint-plugin-react`
 - Single rule for **lodash** imports
 - Recommended and **core-web-vitals** configs from `@next/eslint-plugin-next`
 - Recommended rules from `eslint-plugin-playwright`
 - Recommended rules from `eslint-plugin-vitest`
-- Recommended rules from `eslint-config-prettier` that disable rules which overlap with `@typescript-eslint` and prettier
+- Recommended rules from `eslint-config-prettier` that turn off rules which overlap with `@typescript-eslint` and prettier
 - Recommended rules from `eslint-config-turbo`
 
 ## Inspirations and alternatives
