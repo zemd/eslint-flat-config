@@ -1,0 +1,9 @@
+.vscode
+.github
+.idea
+.node-version
+.editorconfig
+src
+tsconfig.json
+tsup.config.ts
+eslint.config.js
