@@ -94,6 +94,21 @@ const customTypescriptRules: Linter.RulesRecord = {
     // https://typescript-eslint.io/rules/no-unsafe-return/
     // should not be forced by default, turn on when you really need it
     "off",
+  ],
+  "@typescript-eslint/no-unsafe-assignment": [
+    // https://typescript-eslint.io/rules/no-unsafe-assignment/
+    // should not be forced by default, turn on when you really need it
+    "off",
+  ],
+  "@typescript-eslint/no-unsafe-member-access": [
+    // https://typescript-eslint.io/rules/no-unsafe-member-access/
+    // should not be forced by default, turn on when you really need it
+    "off",
+  ],
+  "@typescript-eslint/no-unsafe-argument": [
+    // https://typescript-eslint.io/rules/no-unsafe-argument/
+    // should not be forced by default, turn on when you really need it
+    "off",
   ]
 };
 
