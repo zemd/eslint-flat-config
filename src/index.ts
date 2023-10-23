@@ -80,6 +80,11 @@ const customTypescriptRules: Linter.RulesRecord = {
     // https://typescript-eslint.io/rules/require-array-sort-compare/
     "error",
   ],
+  "@typescript-eslint/no-unsafe-call": [
+    // https://typescript-eslint.io/rules/no-unsafe-call/
+    // should not be forced by default, turn on when you really need it
+    "off",
+  ]
 };
 
 const customEslintRules: Linter.RulesRecord = {
