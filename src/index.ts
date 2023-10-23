@@ -84,6 +84,11 @@ const customTypescriptRules: Linter.RulesRecord = {
     // https://typescript-eslint.io/rules/no-unsafe-call/
     // should not be forced by default, turn on when you really need it
     "off",
+  ],
+  "@typescript-eslint/no-explicit-any": [
+    // https://typescript-eslint.io/rules/no-explicit-any/
+    // should not be forced by default, turn on when you really need it
+    "off",
   ]
 };
 
