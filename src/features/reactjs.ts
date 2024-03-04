@@ -21,6 +21,10 @@ export const rules: Array<Linter.FlatConfig> = [
       react,
     },
     languageOptions: {
+      globals: {
+        React: "readonly",
+        JSX: "readonly",
+      },
       parser: typescriptParser as Linter.ParserModule,
       parserOptions: {
         ecmaFeatures: { modules: true, jsx: true },
