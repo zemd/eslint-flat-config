@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 2.0.3
+
+### Patch Changes
+
+- 1976ee2: avoiding react/function-component-definition rule
+
 ## 2.0.2
 
 ### Patch Changes
