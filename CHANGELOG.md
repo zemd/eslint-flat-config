@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 2.0.1
+
+### Patch Changes
+
+- a792b5d: fixing glob configs
+
 ## 2.0.0
 
 ### Major Changes
