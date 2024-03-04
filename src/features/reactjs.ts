@@ -46,13 +46,6 @@ export const rules: Array<Linter.FlatConfig> = [
       ...react.configs["jsx-runtime"].rules,
       "react/no-unstable-nested-components": "error",
       "react/jsx-no-useless-fragment": "error",
-      "react/function-component-definition": [
-        "error",
-        {
-          namedComponents: "function-declaration",
-          unnamedComponents: "arrow-function",
-        },
-      ],
       "react/jsx-boolean-value": "error",
       "react/jsx-fragments": ["error", "syntax"],
       "react/hook-use-state": "error",
