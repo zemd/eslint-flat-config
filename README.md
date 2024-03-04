@@ -1,10 +1,12 @@
 # @zemd/eslint-flat-config
 
-[![npm](https://img.shields.io/npm/v/@zemd/eslint-flat-config?color=000&label=npm)](https://npmjs.com/package/@zemd/eslint-flat-config)
+[![npm](https://img.shields.io/npm/v/@zemd/eslint-flat-config?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-flat-config)
+
 
 - Easy,
 - Helps to code and find bugs with only necessary rules, and less stress,
 - Provides everything out of the box,
+- Configurable
 - **DOES NOT** sort imports,
 - [ESLint Flat config](https://eslint.org/docs/latest/use/configure/configuration-files-new)
 
