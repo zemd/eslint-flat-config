@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-flat-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "LGPL-3.0-or-later",
   "description": "Shared zemd ESLint flat config",
   "keywords": [
