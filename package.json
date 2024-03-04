@@ -1,72 +1,81 @@
 {
   "name": "@zemd/eslint-flat-config",
-  "type": "module",
   "version": "1.0.0",
-  "description": "Shared zemd ESLint flat config",
-  "author": "Dmytro Zelenetskyi <dmytro.zelenetskyi@gmail.com> (https://github.com/zemd/)",
   "license": "LGPL-3.0-or-later",
-  "funding": "https://github.com/sponsors/zemd",
-  "homepage": "https://github.com/zemd/eslint-config",
+  "description": "Shared zemd ESLint flat config",
   "keywords": [
     "eslint-config",
     "eslint-flat-config",
     "eslint",
     "flat config"
   ],
+  "author": {
+    "name": "Dmytro Zelenetskyi",
+    "email": "dmytro.zelenetskyi@gmail.com",
+    "url": "https://codeandgin.co"
+  },
+  "homepage": "https://github.com/zemd/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zemd/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zemd/eslint-config/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "funding": "https://github.com/sponsors/zemd",
+  "type": "module",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "tsup",
     "dev": "eslint-flat-config-viewer",
-    "semantic-release": "semantic-release --debug"
+    "release": "bun run build && changeset publish"
   },
   "peerDependencies": {
-    "eslint": ">=8.0.0"
+    "eslint": ">=8.53.0"
   },
   "dependencies": {
-    "@eslint/js": "^8.52.0",
-    "@next/eslint-plugin-next": "^13.5.6",
-    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@eslint/js": "^8.57.0",
+    "@next/eslint-plugin-next": "^14.1.1",
+    "@stylistic/eslint-plugin": "^1.6.3",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/experimental-utils": "^5.62.0",
-    "@typescript-eslint/parser": "^6.8.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-define-config": "^1.24.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-lodash-f": "^7.5.3",
-    "eslint-plugin-playwright": "^0.17.0",
+    "eslint-plugin-playwright": "^1.5.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-sonarjs": "^0.21.0",
+    "eslint-plugin-sonarjs": "^0.24.0",
     "eslint-plugin-sort-keys": "^2.3.5",
-    "eslint-plugin-storybook": "^0.6.15",
-    "eslint-plugin-tailwindcss": "^3.13.0",
-    "eslint-plugin-turbo": "^1.10.16",
-    "eslint-plugin-unicorn": "^48.0.1",
-    "eslint-plugin-vitest": "^0.3.6"
+    "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-tailwindcss": "^3.14.3",
+    "eslint-plugin-turbo": "^1.12.4",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-vitest": "^0.3.22"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.6",
-    "@types/eslint__js": "^8.42.2",
-    "@types/node": "^20.8.7",
+    "@changesets/cli": "^2.27.1",
+    "@swc/core": "^1.4.2",
+    "@types/eslint": "^8.56.5",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^20.11.24",
     "@zemd/tsconfig": "^1.2.0",
-    "eslint": "^8.51.0",
-    "eslint-flat-config-viewer": "^0.1.0",
-    "semantic-release": "^22.0.5",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ]
+    "eslint": "^8.57.0",
+    "eslint-flat-config-viewer": "^0.1.11",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
   }
 }
