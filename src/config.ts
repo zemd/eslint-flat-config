@@ -17,7 +17,7 @@ export const supportedAllFileTypesSet = [
 export const supportedAllFileTypes = supportedAllFileTypesSet.join(",");
 
 export const supportedReactFileTypesSet = [
-  ...supportedJsxFileTypes,
-  ...supportedTsxFileTypes,
+  ...supportedJsxFileTypesSet,
+  ...supportedTsxFileTypesSet,
 ] as const;
 export const supportedReactFileTypes = supportedReactFileTypesSet.join(",");
