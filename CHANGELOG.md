@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 2.0.2
+
+### Patch Changes
+
+- f20dbbe: adding react globals
+
 ## 2.0.1
 
 ### Patch Changes
