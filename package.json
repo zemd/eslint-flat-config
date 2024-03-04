@@ -29,11 +29,12 @@
   "type": "module",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -42,7 +43,7 @@
     "release": "bun run build && changeset publish"
   },
   "peerDependencies": {
-    "eslint": ">=8.0.0"
+    "eslint": ">=8.53.0"
   },
   "dependencies": {
     "@eslint/js": "^8.57.0",
