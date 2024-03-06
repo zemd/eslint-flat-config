@@ -38,6 +38,9 @@ export const createEslintConfig = (
     ...opts,
   };
   return [
+    {
+      ignores: [".next/**", ".turbo/**", "node_modules/**"],
+    },
     ...typescriptRules,
     ...recommendedRules,
     ...reactjsRules,

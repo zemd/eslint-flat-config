@@ -44,6 +44,7 @@ export const rules: Array<Linter.FlatConfig> = [
     rules: {
       ...react.configs.recommended.rules,
       ...react.configs["jsx-runtime"].rules,
+      "react/prop-types": "off",
       "react/no-unstable-nested-components": "error",
       "react/jsx-no-useless-fragment": "error",
       "react/jsx-boolean-value": "error",

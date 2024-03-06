@@ -38,6 +38,9 @@ export const rules: Array<Linter.FlatConfig> = [
       ...strictTypescriptRules,
       // Custom rules
       ...customTypescriptRules,
+      // disabling default eslint rule and using @typescript-eslint/no-unused-vars instead
+      // to avoid unnecessary errors for type definitions
+      "no-unused-vars": ["off"],
     },
   },
 ];
