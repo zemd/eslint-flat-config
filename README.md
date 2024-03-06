@@ -20,8 +20,17 @@ npm install eslint @zemd/eslint-flat-config --save-dev
 
 ```typescript
 // eslint.config.js
-import { config } from "@zemd/eslint-flat-config";
-export default [...config];
+const { createEslintConfig } = require("@zemd/eslint-flat-config");
+export default [
+  {
+    ignores: [".next/**", ".turbo/**", "node_modules/**"],
+  },
+  ...createEslintConfig({
+    useNextjs: true,
+    useTailwind: true,
+    useTurbo: true,
+  }),
+];
 ```
 
 ### Debug your rules
