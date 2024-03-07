@@ -41,8 +41,8 @@ export const createEslintConfig = (
     {
       ignores: [".next/**", ".turbo/**", "node_modules/**"],
     },
-    ...typescriptRules,
     ...recommendedRules,
+    ...typescriptRules,
     ...reactjsRules,
     ...(options.useAsFormatter ? stylisticRules : []),
     ...(options.useStorybook ? storybookRules : []),
