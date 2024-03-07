@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 2.0.4
+
+### Patch Changes
+
+- 18eb737: fixing no-unused-vars rule for typescript, ignoring temporary folders, turning off react/prop-types
+
 ## 2.0.3
 
 ### Patch Changes
