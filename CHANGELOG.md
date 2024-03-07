@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 2.0.5
+
+### Patch Changes
+
+- cf48693: changing the order of the rules
+
 ## 2.0.4
 
 ### Patch Changes
