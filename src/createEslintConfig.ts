@@ -1,3 +1,4 @@
+import { graphql } from "@graphql-eslint";
 import { type Linter } from "eslint";
 
 import { rules as storybookRules } from "./features/storybook.js";
@@ -11,6 +12,7 @@ import { rules as tailwindRules } from "./features/tailwind.js";
 import { rules as typescriptRules } from "./features/typescript.js";
 import { rules as recommendedRules } from "./features/recommended.js";
 import { rules as stylisticRules } from "./features/stylistic.js";
+import { rules as graphqlRules } from "./features/graphql.js";
 
 type CreateEslintConfigOptions = {
   useStorybook: boolean;
@@ -21,6 +23,7 @@ type CreateEslintConfigOptions = {
   useTurbo: boolean;
   useTailwind: boolean;
   useAsFormatter: boolean;
+  useGraphQL: boolean;
 };
 
 export const createEslintConfig = (
@@ -35,6 +38,7 @@ export const createEslintConfig = (
     useTurbo: true,
     useTailwind: false,
     useAsFormatter: false,
+    useGraphQL: false,
     ...opts,
   };
   return [
@@ -52,5 +56,6 @@ export const createEslintConfig = (
     ...(options.useVitest ? vitestRules : []),
     ...(options.useTurbo ? turboRules : []),
     ...(options.useTailwind ? tailwindRules : []),
+    ...(options.useGraphQL ? graphqlRules : []),
   ];
 };
