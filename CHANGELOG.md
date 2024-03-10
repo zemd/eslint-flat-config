@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 2.0.6
+
+### Patch Changes
+
+- e425255: adding @graphql-eslint rules
+
 ## 2.0.5
 
 ### Patch Changes
