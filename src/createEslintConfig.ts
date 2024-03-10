@@ -1,4 +1,3 @@
-import { graphql } from "@graphql-eslint";
 import { type Linter } from "eslint";
 
 import { rules as storybookRules } from "./features/storybook.js";
