@@ -3,6 +3,10 @@
 [![npm](https://img.shields.io/npm/v/@zemd/eslint-flat-config?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-flat-config)
 
 
+> [!WARNING]
+> The package does not support ESLint v9 yet. Please use v8+ until all underlying plugins get supported new ESLint version.
+
+
 - Easy,
 - Helps to code and find bugs with only necessary rules, and less stress,
 - Provides everything out of the box,
