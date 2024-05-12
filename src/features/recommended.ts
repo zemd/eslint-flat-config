@@ -2,7 +2,7 @@ import type { Linter } from "eslint";
 
 import eslintJsRecommended from "@eslint/js";
 import unicorn from "eslint-plugin-unicorn";
-import * as sonarjs from "eslint-plugin-sonarjs";
+import sonarjs from "eslint-plugin-sonarjs";
 import { unicornRules } from "../rules/unicorn.js";
 import { customEslintRules } from "../rules/eslint.js";
 import { supportedAllFileTypes } from "../config.js";
@@ -40,6 +40,6 @@ export const rules: Array<Linter.FlatConfig> = [
     files: [`**/*.{${supportedAllFileTypes}}`],
     plugins: { sonarjs },
     // @ts-ignore
-    rules: sonarjs.configs.recommended.rules,
+    rules: sonarjs.configs.recommended,
   },
 ];

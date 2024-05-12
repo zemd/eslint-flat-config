@@ -1,5 +1,14 @@
-import config from "./src/";
+import { createEslintConfig } from "./src/";
 
 export default [
-  ...config
+  ...createEslintConfig({
+    useStorybook: true,
+    useGraphQL: true,
+    useLodash: true,
+    useNextjs: true,
+    usePlaywright: true,
+    useTailwind: true,
+    useTurbo: true,
+    useVitest: true,
+  }),
 ];
