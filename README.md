@@ -4,7 +4,7 @@
 
 
 > [!WARNING]
-> The package does not support ESLint v9 yet. Please use v8+ until all underlying plugins get supported new ESLint version.
+> The package does not support ESLint v9 yet. Please use v8+ until all underlying plugins support new ESLint version.
 
 
 - Easy,
