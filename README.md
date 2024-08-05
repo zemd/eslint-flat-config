@@ -6,6 +6,7 @@
 > [!WARNING]
 > The package does not support ESLint v9 yet. Please use v8+ until all underlying plugins support new ESLint version.
 
+![Alt](https://repobeats.axiom.co/api/embed/51fb05f4ccf63c09485cba8bd64c33aa00b7c025.svg "Repobeats analytics image")
 
 - Easy,
 - Helps to code and find bugs with only necessary rules, and less stress,
