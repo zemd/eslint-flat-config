@@ -14,13 +14,13 @@ export const rules: Array<Linter.Config> = [
       parser: graphql,
     },
   },
-  // @ts-ignore
   {
+    name: "graphql-schema:rules",
     files: GQL_FILES,
     ...graphql.configs["flat/schema-recommended"],
   },
-  // @ts-ignore
   {
+    name: "graphql-operations:rules",
     files: GQL_FILES,
     ...graphql.configs["flat/operations-recommended"],
   },

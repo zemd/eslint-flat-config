@@ -8,6 +8,7 @@ export const rules: Array<Linter.Config> = [
   ...storybook.configs["flat/csf-strict"],
   {
     // enabling support for storybook stories and main config
+    name: "storybook-custom:rules",
     files: [`**/*.stories.{${supportedAllFileTypes}}`, `**/*.story.{${supportedAllFileTypes}}`],
     rules: {
       "storybook/csf-component": "error",

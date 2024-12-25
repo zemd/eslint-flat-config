@@ -1,6 +1,7 @@
 import type { Linter } from "eslint";
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
+import reactCompiler from "eslint-plugin-react-compiler";
 import reactAccessibility from "eslint-plugin-jsx-a11y";
 import { supportedAllFileTypes, supportedReactFileTypes } from "../config.js";
 import typescriptParser from "@typescript-eslint/parser";
@@ -26,6 +27,7 @@ export const rules: Array<Linter.Config> = [
     },
   },
   {
+    name: "react:rules",
     files: [`**/*.{${supportedReactFileTypes}}`],
     plugins: { react },
     settings: {
@@ -34,8 +36,8 @@ export const rules: Array<Linter.Config> = [
       },
     },
     rules: {
-      ...react.configs.flat.recommended.rules,
-      ...react.configs.flat["jsx-runtime"].rules,
+      ...react.configs.flat?.recommended.rules,
+      ...react.configs.flat?.["jsx-runtime"].rules,
       "react/prop-types": "off", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
       "react/no-unstable-nested-components": "error", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md
       "react/jsx-no-useless-fragment": "error", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
@@ -52,16 +54,33 @@ export const rules: Array<Linter.Config> = [
   },
   {
     // enabling support for react accessibility rules
+    name: "jsx-a11y:rules",
     files: [`**/*.{${supportedReactFileTypes}}`],
     plugins: { "jsx-a11y": reactAccessibility },
     rules: reactAccessibility.configs.recommended.rules,
   },
   {
     // enabling support for react hooks rules
+    name: "react-hooks:rules",
     files: [`**/*.{${supportedAllFileTypes}}`],
     plugins: {
       "react-hooks": reactHooks,
     },
     rules: reactHooks.configs.recommended.rules,
+  },
+  {
+    name: "react-compiler:rules",
+    files: [`**/*.{${supportedReactFileTypes}}`],
+    plugins: {
+      "react-compiler": {
+        ...reactCompiler,
+        meta: {
+          name: "react-compiler",
+        },
+      },
+    },
+    rules: {
+      "react-compiler/react-compiler": "error"
+    },
   },
 ];

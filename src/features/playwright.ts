@@ -5,6 +5,7 @@ import playwright from "eslint-plugin-playwright";
 export const rules: Array<Linter.Config> = [
   {
     // enabling support for playwright
+    name: "playwright:rules",
     files: [`**/*.{${[supportedJsFileTypes, supportedTsFileTypes].join(",")}}`],
     plugins: {
       playwright,

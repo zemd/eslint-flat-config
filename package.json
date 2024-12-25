@@ -59,6 +59,7 @@
     "eslint-plugin-lodash-f": "^7.5.3",
     "eslint-plugin-playwright": "^2.1.0",
     "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-b2e8e9c-20241220",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-sonarjs": "^3.0.1",
     "eslint-plugin-sort-keys": "^2.3.5",

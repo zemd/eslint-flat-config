@@ -1,7 +1,8 @@
 import type { Linter } from "eslint";
 import typescriptPlugin from "@typescript-eslint/eslint-plugin";
 
-export const strictTypescriptRules = typescriptPlugin.configs["strict-type-checked"]!.rules as Linter.RulesRecord;
+export const strictTypescriptRules = typescriptPlugin.configs["strict-type-checked"]!
+  .rules as Linter.RulesRecord;
 
 export const customTypescriptRules: Linter.RulesRecord = {
   "@typescript-eslint/consistent-type-exports": [

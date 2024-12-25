@@ -1,6 +1,6 @@
 import type { Linter } from "eslint";
 
-export const customEslintRules: Linter.RulesRecord = {
+export const customESlintRules: Linter.RulesRecord = {
   "no-promise-executor-return": [
     // https://eslint.org/docs/latest/rules/no-promise-executor-return
     "error",

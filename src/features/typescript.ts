@@ -19,6 +19,7 @@ export const rules: Array<Linter.Config> = [
   },
   {
     // enabling typescript rules
+    name: "typescript:rules",
     files: [`**/*.{${[supportedTsFileTypes, supportedTsxFileTypes]}}`],
     plugins: {
       "@typescript-eslint": typescript as unknown as ESLint.Plugin,

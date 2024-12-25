@@ -9,6 +9,7 @@ const recommended = tailwindcss.configs["flat/recommended"]?.find(
 export const rules: Array<Linter.Config> = [
   {
     // enabling support for tailwindcss
+    name: "tailwindcss:rules",
     files: [`**/*.{${supportedAllFileTypes}}`],
     plugins: { tailwindcss },
     languageOptions: {
