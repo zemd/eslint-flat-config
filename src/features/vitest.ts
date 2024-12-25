@@ -2,7 +2,7 @@ import type { Linter } from "eslint";
 import { supportedAllFileTypes } from "../config.js";
 import vitest from "eslint-plugin-vitest";
 
-export const rules: Array<Linter.FlatConfig> = [
+export const rules: Array<Linter.Config> = [
   {
     // enabling support for vitest
     files: [

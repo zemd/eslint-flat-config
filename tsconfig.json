@@ -1,18 +1,12 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "@zemd/eslint-config",
-  "extends": "@zemd/tsconfig/tsconfig-node.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "sourceMap": false,
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "target": "ESNext",
+    "module": "NodeNext",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "outDir": "./dist"
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["**/*.ts"]
 }

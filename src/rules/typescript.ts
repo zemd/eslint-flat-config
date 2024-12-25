@@ -1,11 +1,7 @@
 import type { Linter } from "eslint";
 import typescriptPlugin from "@typescript-eslint/eslint-plugin";
 
-export const strictTypescriptRules = typescriptPlugin.configs["strict-type-checked"]!
-  .rules as Linter.RulesRecord;
-
-export const stylisticTypescriptRules = typescriptPlugin.configs["stylistic-type-checked"]!
-  .rules as Linter.RulesRecord;
+export const strictTypescriptRules = typescriptPlugin.configs["strict-type-checked"]!.rules as Linter.RulesRecord;
 
 export const customTypescriptRules: Linter.RulesRecord = {
   "@typescript-eslint/consistent-type-exports": [
@@ -19,11 +15,11 @@ export const customTypescriptRules: Linter.RulesRecord = {
     "error",
     { fixStyle: "inline-type-imports" },
   ],
-  "@typescript-eslint/explicit-function-return-type": [
-    // https://typescript-eslint.io/rules/explicit-function-return-type/
-    "error",
-    { allowIIFEs: true },
-  ],
+  // "@typescript-eslint/explicit-function-return-type": [
+  //   // https://typescript-eslint.io/rules/explicit-function-return-type/
+  //   "error",
+  //   { allowIIFEs: true },
+  // ],
   "@typescript-eslint/explicit-module-boundary-types": [
     // https://typescript-eslint.io/rules/explicit-module-boundary-types/
     "error",
@@ -77,5 +73,5 @@ export const customTypescriptRules: Linter.RulesRecord = {
     // https://typescript-eslint.io/rules/no-unsafe-argument/
     // should not be forced by default, turn on when you really need it
     "off",
-  ]
+  ],
 };
