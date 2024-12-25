@@ -72,12 +72,7 @@ export const rules: Array<Linter.Config> = [
     name: "react-compiler:rules",
     files: [`**/*.{${supportedReactFileTypes}}`],
     plugins: {
-      "react-compiler": {
-        ...reactCompiler,
-        meta: {
-          name: "react-compiler",
-        },
-      },
+      "react-compiler": reactCompiler,
     },
     rules: {
       "react-compiler/react-compiler": "error",
