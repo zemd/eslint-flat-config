@@ -36,8 +36,8 @@ export const rules: Array<Linter.Config> = [
       },
     },
     rules: {
-      ...react.configs.flat?.recommended.rules,
-      ...react.configs.flat?.["jsx-runtime"].rules,
+      ...react.configs.flat?.recommended?.rules,
+      ...react.configs.flat?.["jsx-runtime"]?.rules,
       "react/prop-types": "off", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
       "react/no-unstable-nested-components": "error", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md
       "react/jsx-no-useless-fragment": "error", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md

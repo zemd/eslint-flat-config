@@ -3,9 +3,13 @@ import { supportedAllFileTypes } from "../config.js";
 import storybook from "eslint-plugin-storybook";
 
 export const rules: Array<Linter.Config> = [
+  //@ts-ignore
   ...storybook.configs["flat/recommended"],
+  //@ts-ignore
   ...storybook.configs["flat/csf"],
+  //@ts-ignore
   ...storybook.configs["flat/csf-strict"],
+  //@ts-ignore
   {
     // enabling support for storybook stories and main config
     name: "storybook-custom:rules",
