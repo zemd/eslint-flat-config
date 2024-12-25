@@ -11,7 +11,7 @@ import { rules as typescriptRules } from "./features/typescript.js";
 import { rules as recommendedRules } from "./features/recommended.js";
 import { rules as graphqlRules } from "./features/graphql.js";
 
-type CreateESlintConfigOptions = {
+type CreateESLintConfigOptions = {
   useStorybook: boolean;
   useNextjs: boolean;
   usePlaywright: boolean;
@@ -22,9 +22,9 @@ type CreateESlintConfigOptions = {
 };
 
 export const createESLintConfig = (
-  opts: Partial<CreateESlintConfigOptions>,
+  opts: Partial<CreateESLintConfigOptions>,
 ): Array<Linter.Config> => {
-  const options: CreateESlintConfigOptions = {
+  const options: CreateESLintConfigOptions = {
     useStorybook: false,
     useNextjs: false,
     usePlaywright: false,
