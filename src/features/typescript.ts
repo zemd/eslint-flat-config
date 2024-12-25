@@ -2,20 +2,15 @@ import { ESLint, type Linter } from "eslint";
 import typescriptParser from "@typescript-eslint/parser";
 import typescript from "@typescript-eslint/eslint-plugin";
 import { supportedTsFileTypes, supportedTsxFileTypes } from "../config.js";
-import {
-  customTypescriptRules,
-  strictTypescriptRules,
-  // stylisticTypescriptRules,
-} from "../rules/typescript.js";
-
+import { customTypescriptRules, strictTypescriptRules } from "../rules/typescript.js";
 
 // the rules that match specifically to typescript
-export const rules: Array<Linter.FlatConfig> = [
+export const rules: Array<Linter.Config> = [
   {
     // enabling parsing typescript files support
     files: [`**/*.{${[supportedTsFileTypes, supportedTsxFileTypes]}}`],
     languageOptions: {
-      parser: typescriptParser as Linter.ParserModule,
+      parser: typescriptParser,
       parserOptions: {
         ecmaFeatures: { modules: true },
         project: true,
@@ -24,6 +19,7 @@ export const rules: Array<Linter.FlatConfig> = [
   },
   {
     // enabling typescript rules
+    name: "typescript:rules",
     files: [`**/*.{${[supportedTsFileTypes, supportedTsxFileTypes]}}`],
     plugins: {
       "@typescript-eslint": typescript as unknown as ESLint.Plugin,

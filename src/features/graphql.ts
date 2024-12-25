@@ -3,7 +3,7 @@ import * as graphql from "@graphql-eslint/eslint-plugin";
 
 const GQL_FILES = ["**/*.{graphql,gql}"];
 
-export const rules: Array<Linter.FlatConfig> = [
+export const rules: Array<Linter.Config> = [
   {
     files: GQL_FILES,
     plugins: {
@@ -14,14 +14,14 @@ export const rules: Array<Linter.FlatConfig> = [
       parser: graphql,
     },
   },
-  // @ts-ignore
   {
+    name: "graphql-schema:rules",
     files: GQL_FILES,
-    ...graphql.flatConfigs["schema-recommended"],
+    ...graphql.configs["flat/schema-recommended"],
   },
-  // @ts-ignore
   {
+    name: "graphql-operations:rules",
     files: GQL_FILES,
-    ...graphql.flatConfigs["operations-recommended"],
+    ...graphql.configs["flat/operations-recommended"],
   },
 ];

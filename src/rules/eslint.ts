@@ -1,6 +1,6 @@
 import type { Linter } from "eslint";
 
-export const customEslintRules: Linter.RulesRecord = {
+export const customESlintRules: Linter.RulesRecord = {
   "no-promise-executor-return": [
     // https://eslint.org/docs/latest/rules/no-promise-executor-return
     "error",
@@ -106,12 +106,6 @@ export const customEslintRules: Linter.RulesRecord = {
   ],
   "prefer-object-has-own": [
     // https://eslint.org/docs/latest/rules/prefer-object-has-own
-    "error",
-  ],
-  "no-constant-binary-expression": [ 
-    // TODO: it seems it has been included into recommended config in the last version.
-    //  see https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
-    // https://eslint.org/docs/latest/rules/no-constant-binary-expression
     "error",
   ],
   "no-lone-blocks": [
