@@ -22,12 +22,12 @@ bun add --dev eslint @zemd/eslint-flat-config
 
 ```typescript
 // eslint.config.js
-const { createESlintConfig } = require("@zemd/eslint-flat-config");
+const { createESLintConfig } = require("@zemd/eslint-flat-config");
 export default [
   {
     ignores: [".next/**", ".turbo/**", "node_modules/**"],
   },
-  ...createESlintConfig({
+  ...createESLintConfig({
     useNextjs: true,
     useTailwind: true,
     useTurbo: true,
@@ -41,7 +41,7 @@ export default [
 
 <!-- prettier-ignore -->
 > [!NOTE]
-> All optional rules are disabled by default. If you need you should explicitly enable it within `createESlintConfig({ ... })` options.
+> All optional rules are disabled by default. If you need you should explicitly enable it within `createESLintConfig({ ... })` options.
 
 ### Debug your rules
 
