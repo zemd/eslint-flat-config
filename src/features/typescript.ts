@@ -8,7 +8,7 @@ import { customTypescriptRules, strictTypescriptRules } from "../rules/typescrip
 export const rules: Array<Linter.Config> = [
   {
     // enabling parsing typescript files support
-    files: [`**/*.{${[supportedTsFileTypes, supportedTsxFileTypes]}}`],
+    files: [`**/*.{${supportedTsFileTypes},${supportedTsxFileTypes}}`],
     languageOptions: {
       parser: typescriptParser,
       parserOptions: {
@@ -20,7 +20,7 @@ export const rules: Array<Linter.Config> = [
   {
     // enabling typescript rules
     name: "typescript:rules",
-    files: [`**/*.{${[supportedTsFileTypes, supportedTsxFileTypes]}}`],
+    files: [`**/*.{${supportedTsFileTypes},${supportedTsxFileTypes}}`],
     plugins: {
       "@typescript-eslint": typescript as unknown as ESLint.Plugin,
     },
