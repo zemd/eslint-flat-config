@@ -21,7 +21,7 @@ type CreateESlintConfigOptions = {
   useGraphQL: boolean;
 };
 
-export const createESlintConfig = (
+export const createESLintConfig = (
   opts: Partial<CreateESlintConfigOptions>,
 ): Array<Linter.Config> => {
   const options: CreateESlintConfigOptions = {

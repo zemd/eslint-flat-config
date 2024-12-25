@@ -35,6 +35,14 @@ export default [
 ];
 ```
 
+<!-- prettier-ignore -->
+> [!NOTE]
+> All groups of rules are named, so you can filter out by name if you want to disable some of the rules.
+
+<!-- prettier-ignore -->
+> [!NOTE]
+> All optional rules are disabled by default. If you need you should explicitly enable it within `createESlintConfig({ ... })` options.
+
 ### Debug your rules
 
 Debug your rules locally using [`@eslint/config-inspector`](https://github.com/eslint/config-inspector) package.
@@ -66,7 +74,7 @@ Some key points behind this package include:
 - Carefully hand-picked rules from `eslint-plugin-unicorn` avoiding some style relating rules (~70 rules)
 - **Recommended** rules from `eslint-plugin-sonarjs` (~204 rules)
 - Typescript support is covered by `typescript-eslint` importing **strict-type-checked** configs and configuring some rules (~73 rules)
-- JSX and react.js is supported out of the box by leveraging `eslint-plugin-react`, `eslint-plugin-react-hooks` and `eslint-plugin-jsx-a11y` (~68 rules)
+- JSX and react.js is supported out of the box by leveraging `eslint-plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-react-compiler` and `eslint-plugin-jsx-a11y` (~69 rules)
 
 ### Available as optional
 

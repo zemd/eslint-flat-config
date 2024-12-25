@@ -1,7 +1,7 @@
-import { createESlintConfig } from "./src/";
+import { createESLintConfig } from "./src/";
 
 export default [
-  ...createESlintConfig({
+  ...createESLintConfig({
     useStorybook: true,
     useGraphQL: true,
     useNextjs: true,

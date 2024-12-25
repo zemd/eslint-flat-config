@@ -1,4 +1,4 @@
-import { createESlintConfig } from "./createESlintConfig.js";
+import { createESLintConfig } from "./createESLintConfig.js";
 
-export default createESlintConfig({});
-export { createESlintConfig } from "./createESlintConfig.js";
+export default createESLintConfig({});
+export { createESLintConfig } from "./createESLintConfig.js";
