@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 3.0.1
+
+### Patch Changes
+
+- 4ec5af6: fixing typescript files glob
+
 ## 3.0.0
 
 ### Major Changes
