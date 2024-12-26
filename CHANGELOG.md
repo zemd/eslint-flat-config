@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 3.1.2
+
+### Patch Changes
+
+- 2e71dbd: Migrating to npm, fixing dependencies issues
+
 ## 3.1.1
 
 ### Patch Changes
