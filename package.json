@@ -39,6 +39,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup-node --minify",
+    "build:inspector": "npx @eslint/config-inspector build",
     "dev": "npx @eslint/config-inspector@latest",
     "release": "npm run build && changeset publish",
     "prepare": "husky",

@@ -63,3 +63,5 @@ dist
 
 *.lerna_backup
 _fixtures
+
+.eslint-config-inspector

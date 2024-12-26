@@ -18,12 +18,16 @@ export default function graphql(): Array<Linter.Config> {
     {
       name: "zemd/graphql/rules-schema",
       files: [GLOB_GQL],
-      ...plugin.configs["flat/schema-recommended"],
+      rules: {
+        ...plugin.configs["flat/schema-recommended"].rules,
+      },
     },
     {
       name: "zemd/graphql/rules-operations",
       files: [GLOB_GQL],
-      ...plugin.configs["flat/operations-recommended"],
+      rules: {
+        ...plugin.configs["flat/operations-recommended"].rules,
+      },
     },
   ];
 }
