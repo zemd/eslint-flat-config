@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 3.1.1
+
+### Patch Changes
+
+- e270493: Fixing build setup, targeting node.js environment
+
 ## 3.1.0
 
 ### Minor Changes
