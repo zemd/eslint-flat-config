@@ -1,10 +1,9 @@
-import type { Linter } from "eslint";
-import typescriptPlugin from "@typescript-eslint/eslint-plugin";
+import type { ESLint, Linter } from "eslint";
+import plugin from "@typescript-eslint/eslint-plugin";
+import parser from "@typescript-eslint/parser";
+import type { Feature } from "../types";
 
-export const strictTypescriptRules = typescriptPlugin.configs["strict-type-checked"]!
-  .rules as Linter.RulesRecord;
-
-export const customTypescriptRules: Linter.RulesRecord = {
+export const rules: Linter.RulesRecord = {
   "@typescript-eslint/consistent-type-exports": [
     // https://typescript-eslint.io/rules/consistent-type-exports/
     "error",
@@ -75,4 +74,21 @@ export const customTypescriptRules: Linter.RulesRecord = {
     // should not be forced by default, turn on when you really need it
     "off",
   ],
+};
+
+export default <Feature>{
+  plugins: {
+    "@typescript-eslint": plugin as unknown as ESLint.Plugin,
+  },
+  parser,
+  // more about @typescript-eslint/eslint-plugin rules see:
+  // - https://typescript-eslint.io/linting/configs#recommended-configurations
+  // - https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/strict.ts
+  rules: {
+    ...(plugin.configs["strict-type-checked"]!.rules as Linter.RulesRecord),
+    ...rules,
+    // disabling default eslint rule and using @typescript-eslint/no-unused-vars instead
+    // to avoid unnecessary errors for type definitions
+    "no-unused-vars": ["off"],
+  },
 };

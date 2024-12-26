@@ -1,6 +1,8 @@
 import type { Linter } from "eslint";
+import eslint from "@eslint/js";
+import type { Feature } from "../types";
 
-export const customESlintRules: Linter.RulesRecord = {
+export const rules: Linter.RulesRecord = {
   "no-promise-executor-return": [
     // https://eslint.org/docs/latest/rules/no-promise-executor-return
     "error",
@@ -161,4 +163,15 @@ export const customESlintRules: Linter.RulesRecord = {
   // "dot-notation": 0, // we are using the @typescript/eslint version
   // "no-shadow": 0, // we are using the @typescript/eslint version
   // "default-param-last": 0, // we are using the @typescript/eslint version
+};
+
+// see more: https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
+export default <Feature>{
+  plugins: {
+    eslint,
+  },
+  rules: {
+    ...eslint.configs.recommended.rules,
+    ...rules,
+  },
 };

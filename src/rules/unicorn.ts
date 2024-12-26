@@ -1,6 +1,10 @@
+import type { Feature } from "../types";
 import type { Linter } from "eslint";
+import unicorn from "eslint-plugin-unicorn";
 
-export const unicornRules: Linter.RulesRecord = {
+//recommended is not following the idea of this package,
+// so I hand picked some rules that I think are useful
+export const rules: Linter.RulesRecord = {
   "unicorn/error-message": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/error-message.md
   "unicorn/escape-case": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/escape-case.md
   "unicorn/expiring-todo-comments": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md
@@ -71,4 +75,11 @@ export const unicornRules: Linter.RulesRecord = {
   "unicorn/switch-case-braces": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md
   "unicorn/text-encoding-identifier-case": "error", // (???) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md
   "unicorn/throw-new-error": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md
+};
+
+export default <Feature>{
+  plugins: {
+    unicorn,
+  },
+  rules,
 };
