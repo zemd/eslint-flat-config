@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 3.1.0
+
+### Minor Changes
+
+- 5b5f354: Cleaning and refactoring the file structure
+
 ## 3.0.1
 
 ### Patch Changes
