@@ -42,7 +42,8 @@
     "dev": "npx @eslint/config-inspector@latest",
     "release": "npm run build && changeset publish",
     "prepare": "husky",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset"
   },
   "peerDependencies": {
     "eslint": ">=9.2.0"
