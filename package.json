@@ -39,8 +39,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup-node --minify",
-    "dev": "bunx @eslint/config-inspector@latest",
-    "release": "bun run build && changeset publish",
+    "dev": "npx @eslint/config-inspector@latest",
+    "release": "npm run build && changeset publish",
     "prepare": "husky",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -55,7 +55,7 @@
     "@graphql-eslint/eslint-plugin": "^4.3.0",
     "@next/eslint-plugin-next": "^15.1.2",
     "@typescript-eslint/eslint-plugin": "^8.18.2",
-    "@typescript-eslint/experimental-utils": "^5.62.0",
+    "@typescript-eslint/utils": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",
     "eslint-config-flat-gitignore": "^0.3.0",
     "eslint-define-config": "^2.1.0",
@@ -73,8 +73,7 @@
     "eslint-plugin-turbo": "^2.3.3",
     "eslint-plugin-unicorn": "^56.0.1",
     "eslint-plugin-vitest": "^0.5.4",
-    "local-pkg": "^0.5.1",
-    "typescript-eslint": "^8.18.2"
+    "local-pkg": "^0.5.1"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.11",
