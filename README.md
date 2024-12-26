@@ -150,7 +150,7 @@ Each feature can be used separately and available in the exports of the package.
 - `storybook` - recommended and csf-strict rules from `eslint-plugin-storybook`
 - `tailwind` - recommended rules from `eslint-plugin-tailwindcss` except `tailwindcss/classnames-order`, since the official prettier plugin sorts classes differently.
 - `turbo` - recommended rules from `eslint-config-turbo`
-- `vitest` - recommended rules from `eslint-plugin-vitest`
+- `vitest` - recommended rules from `@vitest/eslint-plugin`
 
 ## Inspirations and alternatives
 

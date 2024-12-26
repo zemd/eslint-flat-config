@@ -7,9 +7,10 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "sourceMap": false,
-    "module": "ES2022",
+    "module": "ESNext",
     "moduleResolution": "Bundler",
-    "verbatimModuleSyntax": true
+    "allowJs": true,
+    "noImplicitAny": false,
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
