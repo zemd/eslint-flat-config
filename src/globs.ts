@@ -21,13 +21,11 @@ export const GLOB_GQL = `**/*.{${GQL_FILES.join(",")}}` as const;
 
 export const GLOB_REACT = `**/*.{${REACT_FILES.join(",")}}` as const;
 
-export const GLOB_TEST =
-  `**/*.{test,spec}.{${SRC_ALL_FILES.join(",")}}` as const;
+export const GLOB_TEST = `**/*.{test,spec}.{${SRC_ALL_FILES.join(",")}}` as const;
 
 // Storybook
 export const GLOB_MAIN = `.storybook/main.{${SRC_FILES.join(",")}}` as const;
-export const GLOB_STORIES =
-  `**/*.{stories,story}.{${SRC_ALL_FILES.join(",")}}` as const;
+export const GLOB_STORIES = `**/*.{stories,story}.{${SRC_ALL_FILES.join(",")}}` as const;
 
 // Node
 export const GLOB_NODE_MODULES = "**/node_modules";

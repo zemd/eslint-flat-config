@@ -3,8 +3,7 @@ import type { ESLint, Linter } from "eslint";
 import plugin from "eslint-plugin-storybook";
 
 export default function storybook(): Array<Linter.Config> {
-  const [, recommendedStories, recommendedMain] =
-    plugin.configs["flat/recommended"];
+  const [, recommendedStories, recommendedMain] = plugin.configs["flat/recommended"];
   const [, csf, csfMain, csfStrict] = plugin.configs["flat/csf-strict"]; // csf-strict includes csf rules
   return [
     {

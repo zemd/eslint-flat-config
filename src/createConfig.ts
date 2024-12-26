@@ -24,9 +24,7 @@ type CreateConfigOptions = {
   // vue: boolean;
 };
 
-export const createConfig = (
-  opts: Partial<CreateConfigOptions> = {},
-): Array<Linter.Config> => {
+export const createConfig = (opts: Partial<CreateConfigOptions> = {}): Array<Linter.Config> => {
   const options: CreateConfigOptions = {
     storybook: false,
     nextjs: false,

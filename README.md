@@ -78,9 +78,7 @@ const config = createConfig().filter((feature) => {
   return feature.name !== "zemd/react/rules";
 });
 
-export default [
-  ...config,
-];
+export default [...config];
 ```
 
 Or you can import exactly what you need from the package:
@@ -89,11 +87,7 @@ Or you can import exactly what you need from the package:
 // eslint.config.js
 import { javascript, typescript, vitest } from "@zemd/eslint-flat-config";
 
-export default [
-  ...javascript(),
-  ...typescript(),
-  ...vitest(),
-];
+export default [...javascript(), ...typescript(), ...vitest()];
 ```
 
 ### Add script for package.json

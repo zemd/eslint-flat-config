@@ -6,9 +6,7 @@ type VitestConfig = {
   files: string[];
 };
 
-export default function vitest({
-  files = [],
-}: Partial<VitestConfig> = {}): Array<Linter.Config> {
+export default function vitest({ files = [] }: Partial<VitestConfig> = {}): Array<Linter.Config> {
   return [
     {
       name: "zemd/vitest/rules",
