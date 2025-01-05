@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 3.1.3
+
+### Patch Changes
+
+- 17183be: Tuning typescript experience with better rules
+
 ## 3.1.2
 
 ### Patch Changes
