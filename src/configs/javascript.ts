@@ -8,8 +8,14 @@ import markdown from "@eslint/markdown";
 import gitignore from "eslint-config-flat-gitignore";
 import globals from "globals";
 
-export default function javascript(): Array<Linter.Config> {
-  return [
+type JavascriptOptions = {
+  enableMarkdown: boolean;
+};
+
+export default function javascript({
+  enableMarkdown = false,
+}: Partial<JavascriptOptions> = {}): Array<Linter.Config> {
+  const rules: Array<Linter.Config> = [
     gitignore({
       name: "zemd/gitignore/ignores",
     }),
@@ -54,10 +60,15 @@ export default function javascript(): Array<Linter.Config> {
         ...comments.configs.recommended.rules,
       },
     },
-    {
+  ];
+
+  if (enableMarkdown) {
+    rules.push({
       // @ts-ignore
       ...markdown.configs?.recommended?.at(0),
       name: "zemd/javascript/rules-markdown",
-    },
-  ];
+    });
+  }
+
+  return rules;
 }
