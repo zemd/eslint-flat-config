@@ -15,6 +15,18 @@ export const rules: Linter.RulesRecord = {
     "error",
     { fixStyle: "inline-type-imports" },
   ],
+  "@typescript-eslint/no-unused-vars": [
+    "error",
+    {
+      args: "all",
+      argsIgnorePattern: "^_",
+      caughtErrors: "all",
+      caughtErrorsIgnorePattern: "^_",
+      destructuredArrayIgnorePattern: "^_",
+      varsIgnorePattern: "^_",
+      ignoreRestSiblings: true,
+    },
+  ],
   // "@typescript-eslint/explicit-function-return-type": [
   //   // https://typescript-eslint.io/rules/explicit-function-return-type/
   //   "error",
@@ -74,6 +86,15 @@ export const rules: Linter.RulesRecord = {
     // should not be forced by default, turn on when you really need it
     "off",
   ],
+  "@typescript-eslint/no-empty-object-type": [
+    // https://typescript-eslint.io/rules/no-empty-object-type/
+    // should not be forced by default, turn on when you really need it
+    "off",
+  ],
+  "@typescript-eslint/no-unnecessary-type-parameters": [
+    // should not be forced by default, turn on when you really need it
+    "off",
+  ],
 };
 
 export default <Feature>{
@@ -90,5 +111,6 @@ export default <Feature>{
     // disabling default eslint rule and using @typescript-eslint/no-unused-vars instead
     // to avoid unnecessary errors for type definitions
     "no-unused-vars": ["off"],
+    "no-dupe-class-members": ["off"],
   },
 };

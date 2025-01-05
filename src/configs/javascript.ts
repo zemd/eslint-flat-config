@@ -49,6 +49,8 @@ export default function javascript(): Array<Linter.Config> {
         ...eslint.rules,
         ...unicorn.rules,
         ...sonarjs.configs.recommended.rules,
+        "sonarjs/no-clear-text-protocols": ["off"],
+        "sonarjs/no-useless-intersection": ["off"],
         ...comments.configs.recommended.rules,
       },
     },
