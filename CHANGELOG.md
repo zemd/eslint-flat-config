@@ -1,5 +1,11 @@
 # @zemd/eslint-flat-config
 
+## 3.2.0
+
+### Minor Changes
+
+- f52f9ab: updating deps, adding react-web-api rules, detecting react router 7
+
 ## 3.1.3
 
 ### Patch Changes
