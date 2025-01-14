@@ -55,10 +55,16 @@ export default function react({
                   allowConstantExport: isPackageExists("vite"),
                   allowExportNames: [
                     ...([
+                      // Remix
                       "@remix-run/node",
                       "@remix-run/react",
                       "@remix-run/serve",
                       "@remix-run/dev",
+                      // React Router 7
+                      "@react-router/node",
+                      "@react-router/react",
+                      "@react-router/serve",
+                      "@react-router/dev",
                     ].some((pkg) => isPackageExists(pkg))
                       ? ["meta", "links", "headers", "loader", "action"]
                       : []),
