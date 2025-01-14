@@ -5,6 +5,7 @@ import a11y from "eslint-plugin-jsx-a11y";
 import hooks from "eslint-plugin-react-hooks";
 import reactHooksExtra from "eslint-plugin-react-hooks-extra";
 import type { ESLint } from "eslint";
+import reactWebApi from "eslint-plugin-react-web-api";;
 
 // Possible alternatives to `eslint-plugin-react` plugin:
 // - https://github.com/jsx-eslint/eslint-plugin-react
@@ -16,6 +17,7 @@ export default <Feature>{
     "jsx-a11y": a11y,
     "react-hooks": hooks,
     "react-hooks-extra": reactHooksExtra as unknown as ESLint.Plugin,
+    "react-web-api": reactWebApi as unknown as ESLint.Plugin,
   },
   parser: parserTs,
   rules: {
@@ -41,5 +43,10 @@ export default <Feature>{
     "react-hooks-extra/no-unnecessary-use-memo": "error",
     "react-hooks-extra/no-useless-custom-hooks": "error",
     "react-hooks-extra/prefer-use-state-lazy-initialization": "error",
+    // react-web-api recommended rules
+    "react-web-api/no-leaked-timeout": "error",
+    "react-web-api/no-leaked-interval": "error",
+    "react-web-api/no-leaked-event-listener": "error",
+    "react-web-api/no-leaked-resize-observer": "error",
   },
 };

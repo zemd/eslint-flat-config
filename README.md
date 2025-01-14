@@ -121,17 +121,26 @@ npx @eslint/config-inspector@latest
 
 Since `eslint` is a tool for javascript project the core set of rules is `javascript`. I recommend to include at minimum `javascript` rules in your configuration.
 
-### Enabled by default
+### Recommended configs
 
 These set of rules are enabled by default when you call `createConfig()` function without additional parameters. The rules are constructed by composing `javascript()`, `typescript()` and `react()` configs.
+
+**Javascript config:**
 
 - `eslint-config-flat-gitignore` - ignores all files from your .gitignore file
 - `@eslint/js` - recommended rules **plus** the ones that were not included
 - `eslint-plugin-unicorn` - carefully hand-picked rules avoiding some style relating rules
 - `eslint-plugin-sonarjs` - all recommended rules
 - `@eslint-community/eslint-plugin-eslint-comments` - additional ESLint rules for ESLint directive comments (e.g. //eslint-disable-line)
-- `@eslint/markdown` - helpful rules for linting code blocks in markdown files
+- `@eslint/markdown`(_disabled by default_) - helpful rules for linting code blocks in markdown files
+
+
+**Typescript config:**
+
 - `@typescript-eslint/eslint-plugin` - carefully hand-picked rules in conjunction with `strict-type-checked` config.
+
+**React config:**
+
 - `eslint-plugin-react` - recommended rules and some additional rules
 - `eslint-plugin-react-hooks` - recommended rules
 - `eslint-plugin-jsx-a11y` - recommended rules
@@ -139,8 +148,9 @@ These set of rules are enabled by default when you call `createConfig()` functio
   - I am considering also switching from `eslint-plugin-react` to `@eslint-react/eslint-plugin` in the future, but till then can use some of the rules from underlying package.
 - `eslint-plugin-react-refresh`
 - `eslint-plugin-react-compiler`
+- `eslint-plugin-react-web-api` - recommended rules from the package
 
-### Available as optional
+### Available configs as additional
 
 Each feature can be used separately and available in the exports of the package.
 

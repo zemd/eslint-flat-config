@@ -67,6 +67,7 @@
     "eslint-plugin-react-compiler": "^19.0.0-beta-55955c9-20241229",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "eslint-plugin-react-web-api": "^1.23.2",
     "eslint-plugin-sonarjs": "^3.0.1",
     "eslint-plugin-storybook": "^0.11.2",
     "eslint-plugin-tailwindcss": "^3.17.5",
