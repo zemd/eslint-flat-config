@@ -134,7 +134,6 @@ These set of rules are enabled by default when you call `createConfig()` functio
 - `@eslint-community/eslint-plugin-eslint-comments` - additional ESLint rules for ESLint directive comments (e.g. //eslint-disable-line)
 - `@eslint/markdown`(_disabled by default_) - helpful rules for linting code blocks in markdown files
 
-
 **Typescript config:**
 
 - `@typescript-eslint/eslint-plugin` - carefully hand-picked rules in conjunction with `strict-type-checked` config.

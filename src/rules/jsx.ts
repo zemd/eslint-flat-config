@@ -5,7 +5,7 @@ import a11y from "eslint-plugin-jsx-a11y";
 import hooks from "eslint-plugin-react-hooks";
 import reactHooksExtra from "eslint-plugin-react-hooks-extra";
 import type { ESLint } from "eslint";
-import reactWebApi from "eslint-plugin-react-web-api";;
+import reactWebApi from "eslint-plugin-react-web-api";
 
 // Possible alternatives to `eslint-plugin-react` plugin:
 // - https://github.com/jsx-eslint/eslint-plugin-react
