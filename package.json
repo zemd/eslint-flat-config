@@ -30,9 +30,9 @@
   "type": "module",
   "scripts": {
     "build": "turbo build",
-    "build:inspector": "npx @eslint/config-inspector build",
+    "build:inspector": "pnpm dlx @eslint/config-inspector build",
     "dev": "turbo dev",
-    "dev:inspector": "npx @eslint/config-inspector@latest",
+    "dev:inspector": "pnpm dlx @eslint/config-inspector@latest",
     "release": "pnpm run build && changeset publish",
     "prepare": "husky",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
