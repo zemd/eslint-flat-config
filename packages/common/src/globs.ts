@@ -36,4 +36,4 @@ export const makeGlobSrcFiles = (glob: string) => {
 
 export const makeGlobJsFiles = (glob: string) => {
   return `${glob}.{${JS_FILES.join(",")}}`;
-}
+};
