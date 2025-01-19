@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-common",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Common utilities for @zemd/eslint-* packages",
   "keywords": [
     "eslint-config",
