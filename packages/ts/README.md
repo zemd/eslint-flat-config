@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@zemd/eslint-ts?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-ts)
 
 > [!NOTE]  
-> This package comprises `@zemd/eslint-js` and adds its rules by default. However, you can disable them if you want to configure the rules yourself or add your own rules.
+> This package comprises `@zemd/eslint-js` and adds its rules by default. However, you can import each set of rules separately.
 
 This package includes a set of ESLint configurations for Typescript projects.
 
@@ -26,7 +26,8 @@ npm install --save-dev @zemd/eslint-ts
 
 import typescript from "@zemd/eslint-ts";
 export default [...typescript()];
-// export default [...typescript({ includeJs: false })];
+// import { typescript } from "@zemd/eslint-ts"; // import only typescript config
+// export default [...typescript()];
 ```
 
 ## License

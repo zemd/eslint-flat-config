@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@zemd/eslint-react?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-react)
 
 > [!NOTE]
-> This package comprises [`@zemd/eslint-ts`](https://npmjs.com/package/@zemd/eslint-ts) and adds its rules by default. However, you can disable them if you want to configure the rules yourself or add your own rules.
+> This package comprises [`@zemd/eslint-ts`](https://npmjs.com/package/@zemd/eslint-ts) and adds its rules by default. However, you can import each set of rules separately.
 
 This package includes a set of ESLint configurations for React projects.
 
@@ -32,10 +32,10 @@ npm install --save-dev @zemd/eslint-react
 
 import react from "@zemd/eslint-react"; // <- this will import all rules including the @zemd/eslint-ts rules
 // you can import the react rules separately
-// import { react } from "@zemd/eslint-react";
+// import { react, typescript, javascript } from "@zemd/eslint-react";
 
 export default [...react()];
-// export default [...react({ includeTs: false })];
+// export default [...react()];
 ```
 
 ## License

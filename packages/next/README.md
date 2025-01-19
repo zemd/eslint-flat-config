@@ -22,7 +22,7 @@ npm install --save-dev @zemd/eslint-next
 ```javascript
 // eslint.config.js
 
-import fullstack from "@zemd/eslint-next";
+import next from "@zemd/eslint-next";
 export default [...next()];
 ```
 
