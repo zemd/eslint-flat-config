@@ -29,11 +29,11 @@ Some key points behind these packages include:
 
 The monorepo includes the following packages:
 
-- [`@zemd/eslint-js`](./packages/js/README.md) - The package with the javascript rules only
-- [`@zemd/eslint-ts`](./packages/ts/README.md) - The package with the typescript rules and javascript rules from the `@zemd/eslint-js`. If you need only typescript you can import just them separately. The package also re-exports the rules from the `@zemd/eslint-js`.
-- [`@zemd/eslint-react`](./packages/react/README.md) - The package with the react rules and typescript rules from the `@zemd/eslint-ts`. If you need only react you can import just them separately. Additionally, the package re-exports `@zemd/eslint-js` rules.
-- [`@zemd/eslint-rock-stack`](./packages/rock-stack/README.md) - The package with the rules for react.js, graphql, playwright, tailwind, turbo, vitest. Additionally, there are rules for storybook, which are not included in the default configuration. Each configuration can be exported separately.
-- [`@zemd/next`](./packages/next/README.md) - The package with the rules for next.js. It inherits everything from the `@zemd/eslint-rock-stack` package. However, you can import only the rules you need.
+- [`@zemd/eslint-js`](./packages/js/README.md) [![npm](https://img.shields.io/npm/v/@zemd/eslint-js?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-js) - The package with the javascript rules only
+- [`@zemd/eslint-ts`](./packages/ts/README.md) [![npm](https://img.shields.io/npm/v/@zemd/eslint-ts?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-ts) - The package with the typescript rules and javascript rules from the `@zemd/eslint-js`. If you need only typescript you can import just them separately. The package also re-exports the rules from the `@zemd/eslint-js`.
+- [`@zemd/eslint-react`](./packages/react/README.md) [![npm](https://img.shields.io/npm/v/@zemd/eslint-react?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-react) - The package with the react rules and typescript rules from the `@zemd/eslint-ts`. If you need only react you can import just them separately. Additionally, the package re-exports `@zemd/eslint-js` rules.
+- [`@zemd/eslint-rock-stack`](./packages/rock-stack/README.md) [![npm](https://img.shields.io/npm/v/@zemd/eslint-rock-stack?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-rock-stack) - The package with the rules for react.js, graphql, playwright, tailwind, turbo, vitest. Additionally, there are rules for storybook, which are not included in the default configuration. Each configuration can be exported separately.
+- [`@zemd/next`](./packages/next/README.md) [![npm](https://img.shields.io/npm/v/@zemd/eslint-next?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-next) - The package with the rules for next.js. It inherits everything from the `@zemd/eslint-rock-stack` package. However, you can import only the rules you need.
 
 Each package allows you to configure the rules. Please refer to the typescript definitions for the configuration options.
 
