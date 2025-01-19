@@ -1,0 +1,53 @@
+{
+  "name": "@zemd/eslint-common",
+  "version": "0.0.0",
+  "description": "Common utilities for @zemd/eslint-* packages",
+  "keywords": [
+    "eslint-config",
+    "eslint-flat-config",
+    "eslint",
+    "flat config",
+    "javascript"
+  ],
+  "author": {
+    "name": "Dmytro Zelenetskyi",
+    "email": "dmytro.zelenetskyi@gmail.com",
+    "url": "https://codeandgin.co"
+  },
+  "homepage": "https://github.com/zemd/eslint-flat-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zemd/eslint-flat-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zemd/eslint-flat-config/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "funding": "https://github.com/sponsors/zemd",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "peerDependencies": {
+    "eslint": "^9.2.0"
+  },
+  "devDependencies": {
+    "@zemd/tsconfig": "catalog:",
+    "eslint": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:"
+  },
+  "scripts": {
+    "build": "tsup-node --minify",
+    "dev": "tsup-node --watch"
+  }
+}

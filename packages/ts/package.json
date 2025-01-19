@@ -1,0 +1,62 @@
+{
+  "name": "@zemd/eslint-ts",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "description": "Shared ESLint config for typescript projects",
+  "keywords": [
+    "eslint-config",
+    "eslint-flat-config",
+    "eslint",
+    "flat config",
+    "javascript",
+    "typescript"
+  ],
+  "author": {
+    "name": "Dmytro Zelenetskyi",
+    "email": "dmytro.zelenetskyi@gmail.com",
+    "url": "https://codeandgin.co"
+  },
+  "homepage": "https://github.com/zemd/eslint-flat-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zemd/eslint-flat-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zemd/eslint-flat-config/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "funding": "https://github.com/sponsors/zemd",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "peerDependencies": {
+    "eslint": ">=9.2.0"
+  },
+  "dependencies": {
+    "@zemd/eslint-js": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "catalog:",
+    "@types/eslint__js": "catalog:",
+    "@zemd/tsconfig": "catalog:",
+    "eslint": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:"
+  },
+  "scripts": {
+    "build": "tsup-node --minify",
+    "dev": "tsup-node --watch"
+  }
+}

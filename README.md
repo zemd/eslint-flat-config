@@ -1,20 +1,18 @@
-# @zemd/eslint-flat-config
+# ESLint configs for modern JavaScript projects
 
-[![npm](https://img.shields.io/npm/v/@zemd/eslint-flat-config?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-flat-config)
-
-- As simple as flat config can be, without re-inventing the classic config,
+- As simple as flat configs can be, without re-inventing the classic nested config,
 - Helps to code with less stress,
 - Helps to find bugs using only necessary rules,
 - Adds minimum of what you need and allows to configure,
-- Supports _Typescript_, _React.js_, _Playwright_, _Storybook_, _Vitest_ and others out-of-box,
+- Includes bundles with _Typescript_, _React.js_, _Playwright_, _Storybook_, _Vitest_,
 - **DOES NOT** sort imports and **does not** include formatting/stylistic rules,
 - Works with eslint v9+
 
 ## Vision
 
-This package aims to help you develop confidently without pressure from tools and too strict rules. At the same time, it tries to ensure that tools help you avoid shooting yourself in the foot.
+All packages within the monorepo aim to help you develop confidently without pressure from tools and too strict rules. At the same time, it tries to ensure that tools help you avoid shooting yourself in the foot.
 
-Some key points behind this package include:
+Some key points behind these packages include:
 
 - A developer should not be blocked by the tool and should be able to use language features,
 - No or minimum _warnings_, just errors that don't mess up output
@@ -26,66 +24,50 @@ Some key points behind this package include:
 
 ## Usage
 
+> [!NOTE]  
+> After the version **3.2.0** the package was split onto several packages. Thus, please choose the package you need for your project.
+
+The monorepo includes the following packages:
+
+- [`@zemd/eslint-js`](./packages/js/README.md) - The package with the javascript rules only
+- [`@zemd/eslint-ts`](./packages/ts/README.md) - The package with the typescript rules and javascript rules from the `@zemd/eslint-js`. If you need only typescript you can import just them separately. The package also re-exports the rules from the `@zemd/eslint-js`.
+- [`@zemd/eslint-react`](./packages/react/README.md) - The package with the react rules and typescript rules from the `@zemd/eslint-ts`. If you need only react you can import just them separately. Additionally, the package re-exports `@zemd/eslint-js` rules.
+- [`@zemd/eslint-rock-stack`](./packages/rock-stack/README.md) - The package with the rules for react.js, graphql, playwright, tailwind, turbo, vitest. Additionally, there are rules for storybook, which are not included in the default configuration. Each configuration can be exported separately.
+- [`@zemd/next`](./packages/next/README.md) - The package with the rules for next.js. It inherits everything from the `@zemd/eslint-rock-stack` package. However, you can import only the rules you need.
+
+Each package allows you to configure the rules. Please refer to the typescript definitions for the configuration options.
+
 ### Installation
 
 ```sh
-npm install --save-dev eslint @zemd/eslint-flat-config
-bun add --dev eslint @zemd/eslint-flat-config
+npm install --save-dev eslint @zemd/eslint-rock-stack
 ```
 
 ### Configuration
 
 ```typescript
 // eslint.config.js
-import { createConfig } from "@zemd/eslint-flat-config";
+import { typescript, storybook } from "@zemd/eslint-rock-stack";
 
-//  If you prefer importing the factory method as default:
-// import createConfig from "@zemd/eslint-flat-config";
-
-// Or if you want to import only default configuration:
-// import { config } from "@zemd/eslint-flat-config";
-// export default config;
-
-export default createConfig();
-```
-
-All optional features are **disabled** by default. You can enable features as you need them.
-
-```typescript
-// eslint.config.js
-import { createConfig } from "@zemd/eslint-flat-config";
-
-export default createConfig({
-  storybook: true,
-  nextjs: true,
-  playwright: true,
-  vitest: true,
-  turbo: true,
-  tailwind: true,
-  graphql: true,
-});
+export default [...typescript(), ...storybook({ filesMain: ["./packages/storybook/.storybook/main.js"], filesStories: ["./packages/storybook/**/*.{stories,story}.{js,jsx,ts,tsx}"] })];
 ```
 
 #### Advanced customization
 
-Sometimes you might want to override some internal behavior of the rules provided by the package. It can be achieved by filtering out the array you get from `createConfig` factory method. Each feature rule set is named, so you can identify it easily:
+Since each package exports an array of rules, you can easily filter out the rules you want to disable:
 
 ```typescript
 // eslint.config.js
-import { createConfig } from "@zemd/eslint-flat-config";
+import rock from "@zemd/eslint-rock-stack";
 
-const config = createConfig().filter((feature) => {
-  return feature.name !== "zemd/react/rules";
-});
-
-export default [...config];
+export default rock().filter((feature) => !feature.name.startsWith("zemd/graphql"));
 ```
 
 Or you can import exactly what you need from the package:
 
 ```typescript
 // eslint.config.js
-import { javascript, typescript, vitest } from "@zemd/eslint-flat-config";
+import { javascript, typescript, vitest } from "@zemd/eslint-rock-stack";
 
 export default [...javascript(), ...typescript(), ...vitest()];
 ```
@@ -117,50 +99,6 @@ npx @eslint/config-inspector@latest
 # or bunx @eslint/config-inspector@latest
 ```
 
-## Rules
-
-Since `eslint` is a tool for javascript project the core set of rules is `javascript`. I recommend to include at minimum `javascript` rules in your configuration.
-
-### Recommended configs
-
-These set of rules are enabled by default when you call `createConfig()` function without additional parameters. The rules are constructed by composing `javascript()`, `typescript()` and `react()` configs.
-
-**Javascript config:**
-
-- `eslint-config-flat-gitignore` - ignores all files from your .gitignore file
-- `@eslint/js` - recommended rules **plus** the ones that were not included
-- `eslint-plugin-unicorn` - carefully hand-picked rules avoiding some style relating rules
-- `eslint-plugin-sonarjs` - all recommended rules
-- `@eslint-community/eslint-plugin-eslint-comments` - additional ESLint rules for ESLint directive comments (e.g. //eslint-disable-line)
-- `@eslint/markdown`(_disabled by default_) - helpful rules for linting code blocks in markdown files
-
-**Typescript config:**
-
-- `@typescript-eslint/eslint-plugin` - carefully hand-picked rules in conjunction with `strict-type-checked` config.
-
-**React config:**
-
-- `eslint-plugin-react` - recommended rules and some additional rules
-- `eslint-plugin-react-hooks` - recommended rules
-- `eslint-plugin-jsx-a11y` - recommended rules
-- `eslint-plugin-react-hooks-extra` - additional set of rules for react hooks.
-  - I am considering also switching from `eslint-plugin-react` to `@eslint-react/eslint-plugin` in the future, but till then can use some of the rules from underlying package.
-- `eslint-plugin-react-refresh`
-- `eslint-plugin-react-compiler`
-- `eslint-plugin-react-web-api` - recommended rules from the package
-
-### Available configs as additional
-
-Each feature can be used separately and available in the exports of the package.
-
-- `graphql` - rules from `@graphql-eslint/eslint-plugin` for schema and operations
-- `nextjs` - compoud rules from `recommended` and `core-web-vitals` configs from the `@next/eslint-plugin-next` package.
-- `playwright` - recommended rules from `eslint-plugin-playwright`
-- `storybook` - recommended and csf-strict rules from `eslint-plugin-storybook`
-- `tailwind` - recommended rules from `eslint-plugin-tailwindcss` except `tailwindcss/classnames-order`, since the official prettier plugin sorts classes differently.
-- `turbo` - recommended rules from `eslint-config-turbo`
-- `vitest` - recommended rules from `@vitest/eslint-plugin`
-
 ## Inspirations and alternatives
 
 - [Sheriff](https://www.eslint-config-sheriff.dev/) -- Great set of rules, but with some style restrictions
@@ -169,9 +107,8 @@ Each feature can be used separately and available in the exports of the package.
 
 ## License
 
-The `@zemd/eslint-flat-config` is licensed under the Apache-2.0 license.
+All the packages within the current monorepo are licensed under the Apache-2.0 license.
 
 ## Donate
 
-[![](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/red_rabbit)
 [![](https://img.shields.io/static/v1?label=UNITED24&message=support%20Ukraine&color=blue)](https://u24.gov.ua/)

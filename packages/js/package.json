@@ -1,0 +1,65 @@
+{
+  "name": "@zemd/eslint-js",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "description": "Shared ESLint config for javascript projects",
+  "keywords": [
+    "eslint-config",
+    "eslint-flat-config",
+    "eslint",
+    "flat config",
+    "javascript"
+  ],
+  "author": {
+    "name": "Dmytro Zelenetskyi",
+    "email": "dmytro.zelenetskyi@gmail.com",
+    "url": "https://codeandgin.co"
+  },
+  "homepage": "https://github.com/zemd/eslint-flat-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zemd/eslint-flat-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zemd/eslint-flat-config/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "funding": "https://github.com/sponsors/zemd",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "peerDependencies": {
+    "eslint": ">=9.2.0"
+  },
+  "dependencies": {
+    "@eslint-community/eslint-plugin-eslint-comments": "^4.4.1",
+    "@eslint/js": "^9.18.0",
+    "@zemd/eslint-common": "workspace:*",
+    "eslint-config-flat-gitignore": "^1.0.0",
+    "eslint-plugin-sonarjs": "^3.0.1",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "globals": "^15.14.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "catalog:",
+    "@types/eslint__js": "catalog:",
+    "@zemd/tsconfig": "catalog:",
+    "eslint": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:"
+  },
+  "scripts": {
+    "build": "tsup-node --minify",
+    "dev": "tsup-node --watch"
+  }
+}

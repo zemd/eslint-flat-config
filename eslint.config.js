@@ -1,13 +1,5 @@
-import { createConfig } from "./src/";
+import next from "@zemd/eslint-next";
 
 export default [
-  ...createConfig({
-    storybook: true,
-    graphql: true,
-    nextjs: true,
-    playwright: true,
-    tailwind: true,
-    turbo: true,
-    vitest: true,
-  }),
+  ...next({ enableRefresh: true }),
 ];

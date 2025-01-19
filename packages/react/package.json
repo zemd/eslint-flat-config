@@ -1,0 +1,71 @@
+{
+  "name": "@zemd/eslint-react",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "description": "Shared ESLint config for react projects",
+  "keywords": [
+    "eslint-config",
+    "eslint-flat-config",
+    "eslint",
+    "flat config",
+    "javascript",
+    "typescript",
+    "react"
+  ],
+  "author": {
+    "name": "Dmytro Zelenetskyi",
+    "email": "dmytro.zelenetskyi@gmail.com",
+    "url": "https://codeandgin.co"
+  },
+  "homepage": "https://github.com/zemd/eslint-flat-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zemd/eslint-flat-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zemd/eslint-flat-config/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "funding": "https://github.com/sponsors/zemd",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "peerDependencies": {
+    "eslint": ">=9.2.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.20.0",
+    "@zemd/eslint-common": "workspace:*",
+    "@zemd/eslint-ts": "workspace:*",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-e552027-20250112",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-hooks-extra": "^1.23.2",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "eslint-plugin-react-web-api": "^1.23.2",
+    "local-pkg": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "catalog:",
+    "@types/eslint__js": "catalog:",
+    "@zemd/tsconfig": "catalog:",
+    "eslint": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:"
+  },
+  "scripts": {
+    "build": "tsup-node --minify",
+    "dev": "tsup-node --watch"
+  }
+}
