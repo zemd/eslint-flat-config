@@ -1,5 +1,11 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.1
+
+### Patch Changes
+
+- d70f833: fixing exports
+
 ## 1.1.0
 
 ### Minor Changes
