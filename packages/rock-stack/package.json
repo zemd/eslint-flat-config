@@ -42,17 +42,22 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "peerDependencies": {
-    "eslint": ">=9.2.0"
+    "eslint": ">=9.2.0",
+    "eslint-plugin-tailwindcss": "^3.18.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-tailwindcss": {
+      "optional": true
+    }
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^4.3.0",
     "@vitest/eslint-plugin": "^1.1.25",
     "@zemd/eslint-react": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-plugin-playwright": "^2.1.0",
+    "eslint-plugin-playwright": "^2.2.0",
     "eslint-plugin-storybook": "^0.11.2",
-    "eslint-plugin-tailwindcss": "^3.18.0",
-    "eslint-plugin-turbo": "^2.3.3"
+    "eslint-plugin-turbo": "^2.3.4"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",

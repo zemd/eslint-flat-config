@@ -2,12 +2,20 @@ import type { Linter } from "eslint";
 import react from "@zemd/eslint-react";
 import graphql from "./graphql.js";
 import playwright from "./playwright";
-import tailwind from "./tailwind";
+// import tailwind from "./tailwind";
 import turbo from "./turbo";
 import vitest from "./vitest";
 
 export default function fullstack(): Array<Linter.Config> {
-  return [...react(), ...graphql(), ...playwright(), ...tailwind(), ...turbo(), ...vitest()];
+  return [
+    // better diff comment
+    ...react(),
+    ...graphql(),
+    ...playwright(),
+    // ...tailwind(),
+    ...turbo(),
+    ...vitest(),
+  ];
 }
 
 export * from "@zemd/eslint-react";
