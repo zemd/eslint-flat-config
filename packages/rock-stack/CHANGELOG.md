@@ -1,5 +1,11 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.0
+
+### Minor Changes
+
+- 2598082: Making tailwindcss rules optional, until it can support tailwind v4
+
 ## 1.0.0
 
 ### Major Changes
