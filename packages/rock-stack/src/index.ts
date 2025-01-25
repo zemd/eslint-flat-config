@@ -21,7 +21,7 @@ export default function fullstack(): Array<Linter.Config> {
 export * from "@zemd/eslint-react";
 export { default as graphql } from "./graphql";
 export { default as playwright } from "./playwright";
-export { default as tailwind } from "./tailwind";
+// export { default as tailwind } from "./tailwind";
 export { default as turbo } from "./turbo";
 export { default as vitest } from "./vitest";
 export { default as storybook } from "./storybook";
