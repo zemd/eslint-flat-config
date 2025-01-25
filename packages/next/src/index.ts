@@ -5,14 +5,21 @@ import rock from "@zemd/eslint-rock-stack";
 
 export * from "@zemd/eslint-rock-stack";
 
+type NextSettings = {
+  rootDir?: string[];
+  [key: string]: unknown;
+};
+
 type NextOptions = {
   enableRefresh: boolean;
   files: string[];
+  nextSettings: NextSettings;
 };
 
 export function next({
   enableRefresh = false,
   files = [GLOB_SRC_ALL],
+  nextSettings = {},
 }: Partial<NextOptions> = {}): Array<Linter.Config> {
   return [
     {
@@ -31,6 +38,11 @@ export function next({
       files,
       plugins: {
         "@next/next": nextjs,
+      },
+      settings: {
+        next: {
+          ...nextSettings,
+        },
       },
       rules: {
         ...nextjs.configs.recommended.rules,
