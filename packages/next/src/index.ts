@@ -17,7 +17,7 @@ type NextOptions = {
 };
 
 export function next({
-  enableRefresh = false,
+  enableRefresh = true,
   files = [GLOB_SRC_ALL],
   nextSettings = {},
 }: Partial<NextOptions> = {}): Array<Linter.Config> {
