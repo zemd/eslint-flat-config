@@ -1,5 +1,14 @@
 # @zemd/eslint-next
 
+## 1.0.4
+
+### Patch Changes
+
+- 2443ed5: adding @eslint/json, upgrading deps
+- Updated dependencies [2443ed5]
+  - @zemd/eslint-common@1.0.1
+  - @zemd/eslint-rock-stack@1.1.2
+
 ## 1.0.3
 
 ### Patch Changes
