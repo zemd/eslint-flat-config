@@ -1,5 +1,11 @@
 # @zemd/eslint-next
 
+## 1.0.3
+
+### Patch Changes
+
+- 166b054: allowing to change next settings
+
 ## 1.0.2
 
 ### Patch Changes

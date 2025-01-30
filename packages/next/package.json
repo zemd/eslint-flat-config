@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-next",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "Apache-2.0",
   "description": "Shared ESLint config for next.js projects",
   "keywords": [
@@ -46,7 +46,7 @@
     "eslint": ">=9.2.0"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^15.1.5",
+    "@next/eslint-plugin-next": "^15.1.6",
     "@zemd/eslint-rock-stack": "workspace:*",
     "@zemd/eslint-common": "workspace:*"
   },
