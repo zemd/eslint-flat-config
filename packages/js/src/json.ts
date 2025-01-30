@@ -34,7 +34,6 @@ export function json({
       language: "json/json",
       rules: {
         ...plugin.configs.recommended.rules,
-        "sort-keys": ["off"],
       },
     },
     {
@@ -44,7 +43,6 @@ export function json({
       languageOptions: jsoncLanguageOptions as Linter.LanguageOptions,
       rules: {
         ...plugin.configs.recommended.rules,
-        "sort-keys": ["off"],
       },
     },
     {
@@ -53,7 +51,6 @@ export function json({
       language: "json/json5",
       rules: {
         ...plugin.configs.recommended.rules,
-        "sort-keys": ["off"],
       },
     },
   ];
