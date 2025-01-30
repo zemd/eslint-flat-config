@@ -6,8 +6,10 @@ import { GLOB_SRC } from "@zemd/eslint-common";
 import comments from "@eslint-community/eslint-plugin-eslint-comments";
 import gitignore from "eslint-config-flat-gitignore";
 import globals from "globals";
+import json from "./json.js";
 
 export * from "@zemd/eslint-common";
+export { json } from "./json.js";
 
 /**
  * The ECMAScript version of the code being linted.
@@ -107,4 +109,6 @@ export function javascript({
   return rules;
 }
 
-export default javascript;
+export default function (...params: Parameters<typeof javascript>): Array<Linter.Config> {
+  return [...javascript(...params), ...json()];
+}

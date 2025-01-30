@@ -6,13 +6,14 @@ This package includes a set of ESLint configurations for JavaScript projects.
 
 **The package includes**:
 
-| Package                                           | Description                                                                        | Rules                                                                                      |
-| ------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| `eslint-config-flat-gitignore`                    | ignores all files from your `.gitignore` file                                      |                                                                                            |
-| `@eslint/js`                                      | standard ESLint rules                                                              | `recommended` plus hand-picked rules that were not included                                |
-| `eslint-plugin-unicorn`                           | modern set of rules                                                                | I think pretty opinionated, so I carefully hand-picked rules, avoiding style related rules |
-| `eslint-plugin-sonarjs`                           | ESLint plugin maintained by Sonar, designed to help developers write Clean Code    | all `recommended` rules minus some disabled for better DX                                  |
-| `@eslint-community/eslint-plugin-eslint-comments` | additional ESLint rules for ESLint directive comments (e.g. //eslint-disable-line) | `recommended` rules                                                                        |
+| Package                                           | Description                                                                        | Rules                                                                                      | License       |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------- |
+| `eslint-config-flat-gitignore`                    | ignores all files from your `.gitignore` file                                      |                                                                                            | MIT           |
+| `@eslint/js`                                      | standard ESLint rules                                                              | `recommended` plus hand-picked rules that were not included                                | MIT           |
+| `eslint-plugin-unicorn`                           | modern set of rules                                                                | I think pretty opinionated, so I carefully hand-picked rules, avoiding style related rules | MIT           |
+| `eslint-plugin-sonarjs`                           | ESLint plugin maintained by Sonar, designed to help developers write Clean Code    | all `recommended` rules minus some disabled for better DX                                  | LGPL-3.0-only |
+| `@eslint-community/eslint-plugin-eslint-comments` | additional ESLint rules for ESLint directive comments (e.g. //eslint-disable-line) | `recommended` rules                                                                        | MIT           |
+| `@eslint/json`                                    | plugin that allows you to natively lint JSON and JSONC                             | `recommended` rules minus the `sort-keys`                                                  | Apache-2.0    |
 
 ## Installation
 

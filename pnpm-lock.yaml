@@ -83,6 +83,9 @@ importers:
       "@eslint/js":
         specifier: ^9.19.0
         version: 9.19.0
+      "@eslint/json":
+        specifier: ^0.10.0
+        version: 0.10.0
       "@zemd/eslint-common":
         specifier: workspace:*
         version: link:../common
@@ -1635,6 +1638,13 @@ packages:
       }
     engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
 
+  "@eslint/json@0.10.0":
+    resolution:
+      {
+        integrity: sha512-aW0181XofoAwuB0sI263bhwnvAlb6OGnGGxHjTZQNLFErfsAXCnwRD+Uxx6/pK73XtKuQ2w1wbhiTJ2BC/erAQ==,
+      }
+    engines: { node: ^18.18.0 || ^20.9.0 || >=21.1.0 }
+
   "@eslint/object-schema@2.1.5":
     resolution:
       {
@@ -1865,6 +1875,13 @@ packages:
         integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==,
       }
     engines: { node: ">=12.22" }
+
+  "@humanwhocodes/momoa@3.3.6":
+    resolution:
+      {
+        integrity: sha512-7/sAGm3YsT6xG1bDkTSHvOpQB+cR4I2InfMVw110nuOCrxZvOQHgRqBMxSoTeUQrk9RS4OU9Aw2MBMZVJgLZMg==,
+      }
+    engines: { node: ">=18" }
 
   "@humanwhocodes/retry@0.3.1":
     resolution:
@@ -7192,6 +7209,13 @@ snapshots:
 
   "@eslint/js@9.19.0": {}
 
+  "@eslint/json@0.10.0":
+    dependencies:
+      "@eslint/core": 0.10.0
+      "@eslint/plugin-kit": 0.2.5
+      "@humanwhocodes/momoa": 3.3.6
+      natural-compare: 1.4.0
+
   "@eslint/object-schema@2.1.5": {}
 
   "@eslint/plugin-kit@0.2.5":
@@ -7420,6 +7444,8 @@ snapshots:
       "@humanwhocodes/retry": 0.3.1
 
   "@humanwhocodes/module-importer@1.0.1": {}
+
+  "@humanwhocodes/momoa@3.3.6": {}
 
   "@humanwhocodes/retry@0.3.1": {}
 
