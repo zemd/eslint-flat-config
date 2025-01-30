@@ -10,3 +10,4 @@ catalog:
   "@types/eslint__js": "^8.42.3"
   "@types/node": "^22.10.2"
   "@zemd/tsconfig": "^1.3.0"
+  "eslint-plugin-react-refresh": ^0.4.18
