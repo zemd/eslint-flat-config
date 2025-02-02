@@ -9,15 +9,15 @@ This package includes a set of ESLint configurations for React projects.
 
 **The package includes**:
 
-| Package                           | Description                                                            | Rules                                                                                                                              |
-| --------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `eslint-plugin-react`             | React specific linting rules                                           | `recommended` and `jsx-runtime` rules. Additionally manually selected rules that were not included.                                |
-| `eslint-plugin-jsx-a11y`          | Accessibility rules for JSX                                            | `recommended` rules.                                                                                                               |
-| `eslint-plugin-react-hooks`       | Rules for React hooks                                                  | `recommended` rules.                                                                                                               |
-| `eslint-plugin-react-hooks-extra` | Additional rules for React hooks                                       | `recommended` rules.                                                                                                               |
-| `eslint-plugin-react-web-api`     | ESLint plugin for React to interact with Web APIs                      | `recommended` rules.                                                                                                               |
-| `eslint-plugin-react-compiler`    | React 19 specific rules.                                               | At the moment there is only one rule exists.                                                                                       |
-| `eslint-plugin-react-refresh`     | Validate that your components can safely be updated with Fast Refresh. | configurable option. By default, `recommended` rules and additionally configuration added for `vite`, `remix` and `react router 7` |
+| Package                           | Description                                                            | Rules                                                                                                                              | License |
+| --------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| `eslint-plugin-react`             | React specific linting rules                                           | `recommended` and `jsx-runtime` rules. Additionally manually selected rules that were not included.                                | MIT     |
+| `eslint-plugin-jsx-a11y`          | Accessibility rules for JSX                                            | `recommended` rules.                                                                                                               | MIT     |
+| `eslint-plugin-react-hooks`       | Rules for React hooks                                                  | `recommended` rules.                                                                                                               | MIT     |
+| `eslint-plugin-react-hooks-extra` | Additional rules for React hooks                                       | `recommended` rules.                                                                                                               | MIT     |
+| `eslint-plugin-react-web-api`     | ESLint plugin for React to interact with Web APIs                      | `recommended` rules.                                                                                                               | MIT     |
+| `eslint-plugin-react-compiler`    | React 19 specific rules.                                               | At the moment there is only one rule exists.                                                                                       | MIT     |
+| `eslint-plugin-react-refresh`     | Validate that your components can safely be updated with Fast Refresh. | configurable option. By default, `recommended` rules and additionally configuration added for `vite`, `remix` and `react router 7` | MIT     |
 
 ## Installation
 

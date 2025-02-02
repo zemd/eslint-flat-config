@@ -6,16 +6,16 @@ This package includes a set of ESLint configurations for modern fullstack projec
 
 **The package includes**:
 
-| Package                         | Description                                                                                              | Rules                                                                            |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| `@zemd/eslint-js`               | A bundle that comprises rules for javascript                                                             |                                                                                  |
-| `@zemd/eslint-ts`               | A bundle that comprises rules for typescript                                                             |                                                                                  |
-| `@zemd/eslint-react`            | A bundle that comprises rules for react                                                                  |                                                                                  |
-| `@graphql-eslint/eslint-plugin` | GraphQL ESLint rules                                                                                     | `schema-recommended` and `operations-recommended`                                |
-| `eslint-plugin-tailwindcss`     | since v1.1.0 the config is **optional** due to Tailwind v4 release, which is not supported by the config | `recommended` excluding **classnames-order**                                     |
-| `eslint-plugin-turbo`           |                                                                                                          | `recommended`                                                                    |
-| `@vitest/eslint-plugin`         |                                                                                                          | `recommended`                                                                    |
-| `eslint-plugin-storybook`       |                                                                                                          | `recommended`, `csf-strict`. The rules are available but not included by default |
+| Package                         | Description                                                                                              | Rules                                                                            | License    |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ---------- |
+| `@zemd/eslint-js`               | A bundle that comprises rules for javascript                                                             |                                                                                  | Apache 2.0 |
+| `@zemd/eslint-ts`               | A bundle that comprises rules for typescript                                                             |                                                                                  | Apache 2.0 |
+| `@zemd/eslint-react`            | A bundle that comprises rules for react                                                                  |                                                                                  | Apache 2.0 |
+| `@graphql-eslint/eslint-plugin` | GraphQL ESLint rules                                                                                     | `schema-recommended` and `operations-recommended`                                | MIT        |
+| `eslint-plugin-tailwindcss`     | since v1.1.0 the config is **optional** due to Tailwind v4 release, which is not supported by the config | `recommended` excluding **classnames-order**                                     | MIT        |
+| `eslint-plugin-turbo`           |                                                                                                          | `recommended`                                                                    | MIT        |
+| `@vitest/eslint-plugin`         |                                                                                                          | `recommended`                                                                    | MIT        |
+| `eslint-plugin-storybook`       |                                                                                                          | `recommended`, `csf-strict`. The rules are available but not included by default | MIT        |
 
 ## Installation
 

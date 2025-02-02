@@ -9,9 +9,9 @@ This package includes a set of ESLint configurations for Typescript projects.
 
 **The package includes**:
 
-| Package                            | Description                                                                    | Rules                                                                                                                                                                   |
-| ---------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `@typescript-eslint/eslint-plugin` | At the moment the industry standard for enabling typescript support for ESLint | carefully hand-picked rules in conjunction with `strict-type-checked` config. Additionally, there are disabled rules for `@eslint/js` that overlap and can make issues. |
+| Package                            | Description                                                                    | Rules                                                                                                                                                                   | License |
+| ---------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| `@typescript-eslint/eslint-plugin` | At the moment the industry standard for enabling typescript support for ESLint | carefully hand-picked rules in conjunction with `strict-type-checked` config. Additionally, there are disabled rules for `@eslint/js` that overlap and can make issues. | MIT     |
 
 ## Installation
 
@@ -28,6 +28,9 @@ import typescript from "@zemd/eslint-ts";
 export default [...typescript()];
 // import { typescript } from "@zemd/eslint-ts"; // import only typescript config
 // export default [...typescript()];
+
+// you can also import any other config from @zemd/eslint-js or @zemd/eslint-common
+// import { javascript, json, JS_FILES } from "@zemd/eslint-js";
 ```
 
 ## License

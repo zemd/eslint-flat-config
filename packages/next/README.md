@@ -6,10 +6,10 @@ This package includes a set of ESLint configurations for Next.js projects.
 
 **The package includes**:
 
-| Package                    | Description | Rules                                                                                    |
-| -------------------------- | ----------- | ---------------------------------------------------------------------------------------- |
-| `@zemd/eslint-rock`        |             |                                                                                          |
-| `@next/eslint-plugin-next` |             | `recommended`, `core-web-vitals` and additional fixes for the `react-refresh` if enabled |
+| Package                    | Description | Rules                                                                                    | License    |
+| -------------------------- | ----------- | ---------------------------------------------------------------------------------------- | ---------- |
+| `@zemd/eslint-rock`        |             |                                                                                          | Apache 2.0 |
+| `@next/eslint-plugin-next` |             | `recommended`, `core-web-vitals` and additional fixes for the `react-refresh` if enabled | MIT        |
 
 ## Installation
 
