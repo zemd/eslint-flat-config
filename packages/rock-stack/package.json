@@ -62,7 +62,7 @@
     "@zemd/eslint-common": "workspace:*",
     "eslint-plugin-playwright": "^2.2.0",
     "eslint-plugin-storybook": "^0.11.2",
-    "eslint-plugin-turbo": "^2.3.4"
+    "eslint-plugin-turbo": "^2.4.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
