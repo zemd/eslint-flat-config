@@ -57,12 +57,12 @@
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^4.3.0",
-    "@vitest/eslint-plugin": "^1.1.25",
+    "@vitest/eslint-plugin": "^1.1.31",
     "@zemd/eslint-react": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
     "eslint-plugin-playwright": "^2.2.0",
     "eslint-plugin-storybook": "^0.11.2",
-    "eslint-plugin-turbo": "^2.4.0"
+    "eslint-plugin-turbo": "^2.4.2"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
