@@ -56,6 +56,18 @@ export const rules: Linter.RulesRecord = {
     // https://typescript-eslint.io/rules/require-array-sort-compare/
     "error",
   ],
+  "@typescript-eslint/restrict-template-expressions": [
+    // https://typescript-eslint.io/rules/restrict-template-expressions/
+    "error",
+    {
+      allow: [{ name: ["Error", "URL", "URLSearchParams"], from: "lib" }],
+      allowAny: true,
+      allowBoolean: true,
+      allowNullish: true,
+      allowNumber: true,
+      allowRegExp: true,
+    },
+  ],
   "@typescript-eslint/no-unsafe-call": [
     // https://typescript-eslint.io/rules/no-unsafe-call/
     // should not be forced by default, turn on when you really need it

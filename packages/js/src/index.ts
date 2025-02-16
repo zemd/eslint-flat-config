@@ -102,6 +102,7 @@ export function javascript({
         ...sonarjs.configs.recommended.rules,
         "sonarjs/no-clear-text-protocols": ["off"],
         "sonarjs/no-useless-intersection": ["off"],
+        "sonarjs/todo-tag": ["off"],
         ...comments.configs.recommended.rules,
       },
     },
