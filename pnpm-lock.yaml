@@ -261,6 +261,9 @@ importers:
       "@typescript-eslint/parser":
         specifier: ^8.24.0
         version: 8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
+      "@zemd/eslint-common":
+        specifier: workspace:*
+        version: link:../common
       "@zemd/eslint-js":
         specifier: workspace:*
         version: link:../js

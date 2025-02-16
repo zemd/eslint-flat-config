@@ -29,6 +29,7 @@
   "funding": "https://github.com/sponsors/zemd",
   "type": "module",
   "scripts": {
+    "prebuild": "turbo telemetry disable",
     "build": "turbo build",
     "build:inspector": "pnpm dlx @eslint/config-inspector build",
     "dev": "turbo dev",
