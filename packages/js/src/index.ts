@@ -92,6 +92,7 @@ export function javascript({
       plugins: {
         ...eslint.plugins,
         ...unicorn.plugins,
+        // @ts-ignore
         sonarjs, // https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md#rules
         "@eslint-community/eslint-comments": comments,
       },

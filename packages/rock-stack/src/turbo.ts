@@ -16,7 +16,10 @@ export default function turbo({
     {
       name: "zemd/turbo/rules",
       files: [`**/turbo.json`],
-      plugins: { turbo: plugin },
+      plugins: {
+        // @ts-ignore
+        turbo: plugin,
+      },
       rules: {
         ...plugin.configs["flat/recommended"].rules,
         "turbo/no-undeclared-env-vars": [
