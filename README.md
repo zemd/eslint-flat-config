@@ -1,4 +1,4 @@
-# ESLint Configs for Modern JavaScript Projects 🚀
+# ESLint Configs for Modern JavaScript Projects
 
 Welcome to the ultimate ESLint setup — no fluff, just what you need to write clean, bug-free code. Say goodbye to unnecessary stress and hello to a smooth dev experience! 🎉
 
@@ -12,25 +12,14 @@ Welcome to the ultimate ESLint setup — no fluff, just what you need to write c
 - **DOES NOT** enforce import sorting or stylistic formatting (that's a job for Prettier 😉),
 - Works with eslint v9+
 
-## 🎯 Vision
-
-This monorepo is all about making your life easier — less tool stress, more confidence. Here’s the philosophy behind it:
-
-- 🔹 No tool should block you from using language features,
-- 🔹 Minimal warnings, just meaningful errors that help (not annoy) you.
-- 🔹 No formatting rules — Prettier handles that so you don’t have to debate semicolons,
-- 🔹 Simple configuration — just native JS arrays, no unnecessary abstractions,
-- 🔹 Batteries included 🔋: Enable only what you need (TypeScript, React, Next.js, Tailwind, Vitest, Playwright, Storybook, etc.).
-- 🔹 Rules guide you to write better code, not force a rigid style.
-
-## 🚀 Usage
+## Usage
 
 > [!NOTE]  
-> Starting from `eslint-flat-config`@v3.2.0, the package was split into multiple packages. Pick what suits your project best! 🛠️
+> Starting from `@zemd/eslint-flat-config`@v3.2.0, the package was split into multiple packages. Pick what suits your project best! 🛠️
 
 ### Available Packages
 
-| Package                                                      | npm                                                                                                                                                     | Description                                                                                                                |
+| Package                                                      | Registry                                                                                                                                                | Description                                                                                                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | [`@zemd/eslint-js`](./packages/js/README.md)                 | [![npm](https://img.shields.io/npm/v/@zemd/eslint-js?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-js)                 | JavaScript-only rules.                                                                                                     |
 | [`@zemd/eslint-ts`](./packages/ts/README.md)                 | [![npm](https://img.shields.io/npm/v/@zemd/eslint-ts?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-ts)                 | TypeScript rules (includes JS rules from @zemd/eslint-js).                                                                 |
@@ -38,13 +27,13 @@ This monorepo is all about making your life easier — less tool stress, more co
 | [`@zemd/eslint-rock-stack`](./packages/rock-stack/README.md) | [![npm](https://img.shields.io/npm/v/@zemd/eslint-rock-stack?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-rock-stack) | Rules for Fullstack projects that include React.js, GraphQL, Playwright, Tailwind(optional), Turbo, Vitest, and Storybook. |
 | [`@zemd/eslint-next`](./packages/next/README.md)             | [![npm](https://img.shields.io/npm/v/@zemd/eslint-next?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-next)             | Rules for Next.js projects (inherits from `@zemd/eslint-rock-stack`).                                                      |
 
-## 🔧 Installation
+## Installation
 
 ```sh
 npm install --save-dev eslint @zemd/eslint-rock-stack
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Basic Setup
 
@@ -81,7 +70,7 @@ import { javascript, typescript, vitest } from "@zemd/eslint-rock-stack";
 export default [...javascript(), ...typescript(), ...vitest()];
 ```
 
-## 🏎️ Add script for package.json
+## Add script for package.json
 
 ```bash
 npm pkg set scripts.lint="eslint ."
@@ -99,7 +88,7 @@ or manually:
 }
 ```
 
-## 🛠️ Debug your rules
+## Debug your rules
 
 Use [`@eslint/config-inspector`](https://github.com/eslint/config-inspector) to debug your ESLint setup.
 
@@ -109,15 +98,26 @@ npx @eslint/config-inspector@latest
 bunx @eslint/config-inspector@latest
 ```
 
-## 🔍 Inspirations and alternatives
+## Vision
 
-- ▪️ [Sheriff](https://www.eslint-config-sheriff.dev/) -- Great, but includes some stylistic restrictions,
-- ▪️ [Antfu config](https://github.com/antfu/eslint-config) -- Another solid choice,
-- ▪️ [XO](https://github.com/spence-s/flat-xo) -- Flat version of `xo`, but still in beta.
+This monorepo is all about making your life easier — less tool stress, more confidence. Here’s the philosophy behind it:
 
-## 📜 License
+- 💠 No tool should block you from using language features,
+- 💠 Minimal warnings, just meaningful errors that help (not annoy) you.
+- 💠 No formatting rules — Prettier handles that so you don’t have to debate semicolons,
+- 💠 Simple configuration — just native JS arrays, no unnecessary abstractions,
+- 💠 Batteries included 🔋: Enable only what you need (TypeScript, React, Next.js, Tailwind, Vitest, Playwright, Storybook, etc.).
+- 💠 Rules guide you to write better code, not force a rigid style.
 
-All packages in this monorepo are licensed under Apache-2.0 license.
+## Inspirations and alternatives
+
+- [Sheriff](https://www.eslint-config-sheriff.dev/) -- Great, but includes some stylistic restrictions,
+- [Antfu config](https://github.com/antfu/eslint-config) -- Another solid choice,
+- [XO](https://github.com/spence-s/flat-xo) -- Flat version of `xo`, but still in beta.
+
+## License
+
+All packages in this monorepo are licensed under **Apache-2.0 license** 😇.
 
 ## 💙 💛 Donate
 
