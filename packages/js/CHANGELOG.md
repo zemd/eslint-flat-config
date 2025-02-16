@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.0.3
+
+### Patch Changes
+
+- 8830307: enhancing js and ts linting rules
+
 ## 1.0.2
 
 ### Patch Changes
