@@ -1,5 +1,14 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.6
+
+### Patch Changes
+
+- e2bce15: update readme for all packages
+- Updated dependencies [e2bce15]
+  - @zemd/eslint-common@1.0.2
+  - @zemd/eslint-react@1.0.5
+
 ## 1.1.5
 
 ### Patch Changes

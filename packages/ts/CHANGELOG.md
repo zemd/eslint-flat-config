@@ -1,5 +1,14 @@
 # @zemd/eslint-ts
 
+## 1.0.5
+
+### Patch Changes
+
+- e2bce15: update readme for all packages
+- Updated dependencies [e2bce15]
+  - @zemd/eslint-common@1.0.2
+  - @zemd/eslint-js@1.0.5
+
 ## 1.0.4
 
 ### Patch Changes
