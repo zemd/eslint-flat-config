@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 1.0.2
+
+### Patch Changes
+
+- e2bce15: update readme for all packages
+
 ## 1.0.1
 
 ### Patch Changes
