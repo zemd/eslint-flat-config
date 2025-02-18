@@ -1,5 +1,13 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.5
+
+### Patch Changes
+
+- f81427a: updating unicorn rules and bumping deps
+- Updated dependencies [f81427a]
+  - @zemd/eslint-react@1.0.4
+
 ## 1.1.4
 
 ### Patch Changes

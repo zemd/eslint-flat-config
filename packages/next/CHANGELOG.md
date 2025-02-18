@@ -1,5 +1,13 @@
 # @zemd/eslint-next
 
+## 1.0.7
+
+### Patch Changes
+
+- f81427a: updating unicorn rules and bumping deps
+- Updated dependencies [f81427a]
+  - @zemd/eslint-rock-stack@1.1.5
+
 ## 1.0.6
 
 ### Patch Changes
