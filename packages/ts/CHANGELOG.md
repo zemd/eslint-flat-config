@@ -1,5 +1,13 @@
 # @zemd/eslint-ts
 
+## 1.0.4
+
+### Patch Changes
+
+- f81427a: updating unicorn rules and bumping deps
+- Updated dependencies [f81427a]
+  - @zemd/eslint-js@1.0.4
+
 ## 1.0.3
 
 ### Patch Changes
