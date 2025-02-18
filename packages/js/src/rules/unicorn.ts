@@ -17,7 +17,6 @@ export const rules: Linter.RulesRecord = {
   "unicorn/no-array-method-this-argument": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md
   "unicorn/no-await-expression-member": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
   "unicorn/no-empty-file": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md
-  "unicorn/no-instanceof-array": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-array.md
   "unicorn/no-invalid-remove-event-listener": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-remove-event-listener.md
   "unicorn/no-new-buffer": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-buffer.md
   "unicorn/no-this-assignment": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
@@ -75,6 +74,11 @@ export const rules: Linter.RulesRecord = {
   "unicorn/switch-case-braces": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md
   "unicorn/text-encoding-identifier-case": "error", // (???) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md
   "unicorn/throw-new-error": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/throw-new-error.md
+  "unicorn/consistent-date-clone": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-date-clone.md
+  "unicorn/no-named-default": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-named-default.md
+  // "unicorn/consistent-assert": "error", // this is more stylistic rule, which might annoy. Disabling for now. https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md
+  "unicorn/no-instanceof-builtins": ["error", { strategy: "loose" }], // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md
+  "unicorn/no-accessor-recursion": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md
 };
 
 export default <Feature>{
