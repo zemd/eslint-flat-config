@@ -1,4 +1,4 @@
-# ESLint Configs for Modern JavaScript Projects
+# {{ title }}
 
 Welcome to the ultimate ESLint setup — no fluff, just what you need to write clean, bug-free code. Say goodbye to unnecessary stress and hello to a smooth dev experience! 🎉
 
@@ -19,14 +19,7 @@ Welcome to the ultimate ESLint setup — no fluff, just what you need to write c
 
 ### Available Packages
 
-| Package                                                  | Version                                                                                                                                              | Description                                   | License            |
-| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------ |
-| [@zemd/eslint-common](packages/common/README.md)         | [![](https://img.shields.io/npm/v/@zemd/eslint-common?color=%230000ff&labelColor=%23000)](https://www.npmjs.com/package/@zemd/eslint-common)         | Common utilities for @zemd/eslint-\* packages | Apache License 2.0 |
-| [@zemd/eslint-js](packages/js/README.md)                 | [![](https://img.shields.io/npm/v/@zemd/eslint-js?color=%230000ff&labelColor=%23000)](https://www.npmjs.com/package/@zemd/eslint-js)                 | Shared ESLint config for javascript projects  | Apache License 2.0 |
-| [@zemd/eslint-next](packages/next/README.md)             | [![](https://img.shields.io/npm/v/@zemd/eslint-next?color=%230000ff&labelColor=%23000)](https://www.npmjs.com/package/@zemd/eslint-next)             | Shared ESLint config for next.js projects     | Apache License 2.0 |
-| [@zemd/eslint-rock-stack](packages/rock-stack/README.md) | [![](https://img.shields.io/npm/v/@zemd/eslint-rock-stack?color=%230000ff&labelColor=%23000)](https://www.npmjs.com/package/@zemd/eslint-rock-stack) | Shared ESLint config for modern projects      | Apache License 2.0 |
-| [@zemd/eslint-react](packages/react/README.md)           | [![](https://img.shields.io/npm/v/@zemd/eslint-react?color=%230000ff&labelColor=%23000)](https://www.npmjs.com/package/@zemd/eslint-react)           | Shared ESLint config for react projects       | Apache License 2.0 |
-| [@zemd/eslint-ts](packages/ts/README.md)                 | [![](https://img.shields.io/npm/v/@zemd/eslint-ts?color=%230000ff&labelColor=%23000)](https://www.npmjs.com/package/@zemd/eslint-ts)                 | Shared ESLint config for typescript projects  | Apache License 2.0 |
+{{ block packages }}
 
 ## Installation
 
@@ -118,8 +111,8 @@ This monorepo is all about making your life easier — less tool stress, more co
 
 ## License
 
-The `@zemd/eslint-flat-config` is licensed under **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** 😇.
+{{ block license }}
 
 ## 💙 💛 Donate
 
-[![](https://img.shields.io/static/v1?color=blue&label=UNITED24&message=support+Ukraine)](https://u24.gov.ua/)
+{{ block donate }}
