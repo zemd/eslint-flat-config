@@ -31,6 +31,8 @@ jobs:
 
       - name: Update readme
         run: pnpm readme
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       - name: Format
         run: pnpm format
