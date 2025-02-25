@@ -66,7 +66,6 @@
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
-    "@types/eslint__js": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsup": "catalog:",

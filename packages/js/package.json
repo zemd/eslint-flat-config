@@ -43,17 +43,16 @@
   },
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.4.1",
-    "@eslint/js": "^9.20.0",
+    "@eslint/js": "^9.21.0",
     "@eslint/json": "^0.10.0",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-config-flat-gitignore": "^2.0.0",
+    "eslint-config-flat-gitignore": "^2.1.0",
     "eslint-plugin-sonarjs": "^3.0.2",
     "eslint-plugin-unicorn": "^57.0.0",
-    "globals": "^15.15.0"
+    "globals": "^16.0.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
-    "@types/eslint__js": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsup": "catalog:",

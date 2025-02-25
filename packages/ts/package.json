@@ -45,12 +45,11 @@
   "dependencies": {
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-js": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^8.24.1",
-    "@typescript-eslint/parser": "^8.24.1"
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
-    "@types/eslint__js": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsup": "catalog:",
