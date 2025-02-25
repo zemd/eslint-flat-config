@@ -1,5 +1,13 @@
 # @zemd/eslint-react
 
+## 1.0.6
+
+### Patch Changes
+
+- 5ad5ffa: update deps
+- Updated dependencies [5ad5ffa]
+  - @zemd/eslint-ts@1.0.6
+
 ## 1.0.5
 
 ### Patch Changes
