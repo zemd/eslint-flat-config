@@ -1,5 +1,14 @@
 # @zemd/eslint-next
 
+## 1.0.10
+
+### Patch Changes
+
+- f04ce40: repo/packages maintenance
+- Updated dependencies [f04ce40]
+  - @zemd/eslint-rock-stack@1.1.8
+  - @zemd/eslint-common@1.0.3
+
 ## 1.0.9
 
 ### Patch Changes
