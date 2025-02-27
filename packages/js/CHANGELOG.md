@@ -1,5 +1,19 @@
 # @zemd/eslint-js
 
+## 1.0.7
+
+### Patch Changes
+
+- f04ce40: repo/packages maintenance
+- Updated dependencies [f04ce40]
+  - @zemd/eslint-common@1.0.3
+
+## 1.0.6
+
+### Patch Changes
+
+- 5ad5ffa: update deps
+
 ## 1.0.5
 
 ### Patch Changes

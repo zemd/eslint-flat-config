@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-rock-stack",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "license": "Apache-2.0",
   "description": "Shared ESLint config for modern projects",
   "keywords": [
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zemd/eslint-flat-config.git"
+    "url": "git+https://github.com/zemd/eslint-flat-config.git"
   },
   "bugs": {
     "url": "https://github.com/zemd/eslint-flat-config/issues"
@@ -33,12 +33,10 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./tailwind": {
-      "types": "./dist/tailwind.d.ts",
       "import": "./dist/tailwind.js",
       "require": "./dist/tailwind.cjs"
     }
@@ -66,7 +64,6 @@
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
-    "@types/eslint__js": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsup": "catalog:",
@@ -74,6 +71,7 @@
   },
   "scripts": {
     "build": "tsup-node --minify",
-    "dev": "tsup-node --watch"
+    "dev": "tsup-node --watch",
+    "lint": "publint"
   }
 }

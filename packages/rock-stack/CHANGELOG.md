@@ -1,5 +1,22 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.8
+
+### Patch Changes
+
+- f04ce40: repo/packages maintenance
+- Updated dependencies [f04ce40]
+  - @zemd/eslint-common@1.0.3
+  - @zemd/eslint-react@1.0.7
+
+## 1.1.7
+
+### Patch Changes
+
+- 5ad5ffa: update deps
+- Updated dependencies [5ad5ffa]
+  - @zemd/eslint-react@1.0.6
+
 ## 1.1.6
 
 ### Patch Changes

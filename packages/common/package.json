@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "Apache-2.0",
   "description": "Common utilities for @zemd/eslint-* packages",
   "keywords": [
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zemd/eslint-flat-config.git"
+    "url": "git+https://github.com/zemd/eslint-flat-config.git"
   },
   "bugs": {
     "url": "https://github.com/zemd/eslint-flat-config/issues"
@@ -30,7 +30,6 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
@@ -49,6 +48,7 @@
   },
   "scripts": {
     "build": "tsup-node --minify",
-    "dev": "tsup-node --watch"
+    "dev": "tsup-node --watch",
+    "lint": "publint"
   }
 }

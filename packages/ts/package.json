@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-ts",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "license": "Apache-2.0",
   "description": "Shared ESLint config for typescript projects",
   "keywords": [
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zemd/eslint-flat-config.git"
+    "url": "git+https://github.com/zemd/eslint-flat-config.git"
   },
   "bugs": {
     "url": "https://github.com/zemd/eslint-flat-config/issues"
@@ -31,7 +31,6 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
@@ -45,12 +44,11 @@
   "dependencies": {
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-js": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^8.24.1",
-    "@typescript-eslint/parser": "^8.24.1"
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
-    "@types/eslint__js": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsup": "catalog:",
@@ -58,6 +56,7 @@
   },
   "scripts": {
     "build": "tsup-node --minify",
-    "dev": "tsup-node --watch"
+    "dev": "tsup-node --watch",
+    "lint": "publint"
   }
 }

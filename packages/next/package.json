@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-next",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "license": "Apache-2.0",
   "description": "Shared ESLint config for next.js projects",
   "keywords": [
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zemd/eslint-flat-config.git"
+    "url": "git+https://github.com/zemd/eslint-flat-config.git"
   },
   "bugs": {
     "url": "https://github.com/zemd/eslint-flat-config/issues"
@@ -34,7 +34,6 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
@@ -52,7 +51,6 @@
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
-    "@types/eslint__js": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsup": "catalog:",
@@ -60,6 +58,7 @@
   },
   "scripts": {
     "build": "tsup-node --minify",
-    "dev": "tsup-node --watch"
+    "dev": "tsup-node --watch",
+    "lint": "publint"
   }
 }
