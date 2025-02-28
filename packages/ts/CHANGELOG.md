@@ -1,5 +1,11 @@
 # @zemd/eslint-ts
 
+## 1.0.8
+
+### Patch Changes
+
+- db4c150: disable @typescript-eslint/require-await, use globals also in typescript files
+
 ## 1.0.7
 
 ### Patch Changes
