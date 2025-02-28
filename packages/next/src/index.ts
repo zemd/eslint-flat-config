@@ -2,6 +2,7 @@ import { GLOB_SRC_ALL } from "@zemd/eslint-common";
 import type { Linter } from "eslint";
 import nextjs from "@next/eslint-plugin-next";
 import rock from "@zemd/eslint-rock-stack";
+import reactRefresh from "eslint-plugin-react-refresh";
 
 export * from "@zemd/eslint-rock-stack";
 
@@ -38,6 +39,7 @@ export function next({
       files,
       plugins: {
         "@next/next": nextjs,
+        "react-refresh": reactRefresh,
       },
       settings: {
         next: {
