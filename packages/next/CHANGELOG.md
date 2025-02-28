@@ -1,5 +1,11 @@
 # @zemd/eslint-next
 
+## 1.0.11
+
+### Patch Changes
+
+- b11bded: import react-refresh module
+
 ## 1.0.10
 
 ### Patch Changes
