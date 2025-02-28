@@ -1,4 +1,4 @@
-import { GLOB_REACT } from "@zemd/eslint-common";
+import { GLOB_REACT, GLOB_TS } from "@zemd/eslint-common";
 import type { Linter } from "eslint";
 import jsx from "./rules/jsx";
 import react19 from "eslint-plugin-react-compiler";
@@ -20,7 +20,7 @@ type ReactOptions = {
 export function react({
   enableRefresh = "recommended",
   enableReact19 = true,
-  files = [GLOB_REACT],
+  files = [GLOB_REACT, GLOB_TS],
   parserOptions,
   ...opts
 }: Partial<ReactOptions> = {}): Array<Linter.Config> {

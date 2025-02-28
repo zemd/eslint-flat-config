@@ -107,6 +107,10 @@ export const rules: Linter.RulesRecord = {
     // should not be forced by default, turn on when you really need it
     "off",
   ],
+  "@typescript-eslint/require-await": [
+    // should not be forced by default, turn on when you really need it
+    "off",
+  ],
 };
 
 export default <Feature>{
