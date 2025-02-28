@@ -47,7 +47,8 @@
   "dependencies": {
     "@next/eslint-plugin-next": "^15.1.7",
     "@zemd/eslint-rock-stack": "workspace:*",
-    "@zemd/eslint-common": "workspace:*"
+    "@zemd/eslint-common": "workspace:*",
+    "eslint-plugin-react-refresh": "catalog:"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",

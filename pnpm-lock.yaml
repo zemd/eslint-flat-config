@@ -129,6 +129,9 @@ importers:
       "@zemd/eslint-rock-stack":
         specifier: workspace:*
         version: link:../rock-stack
+      eslint-plugin-react-refresh:
+        specifier: "catalog:"
+        version: 0.4.19(eslint@9.21.0(jiti@2.4.2))
     devDependencies:
       "@types/eslint":
         specifier: "catalog:"
