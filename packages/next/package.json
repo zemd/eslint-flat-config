@@ -45,7 +45,7 @@
     "eslint": ">=9.2.0"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^15.1.7",
+    "@next/eslint-plugin-next": "^15.2.0",
     "@zemd/eslint-rock-stack": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
     "eslint-plugin-react-refresh": "catalog:"
