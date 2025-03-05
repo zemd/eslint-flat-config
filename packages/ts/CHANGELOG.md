@@ -1,5 +1,11 @@
 # @zemd/eslint-ts
 
+## 1.0.9
+
+### Patch Changes
+
+- 8826f17: update deps
+
 ## 1.0.8
 
 ### Patch Changes
