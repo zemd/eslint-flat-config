@@ -1,5 +1,11 @@
 # @zemd/eslint-next
 
+## 1.0.14
+
+### Patch Changes
+
+- @zemd/eslint-rock-stack@1.1.11
+
 ## 1.0.13
 
 ### Patch Changes
