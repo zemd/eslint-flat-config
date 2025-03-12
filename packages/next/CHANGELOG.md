@@ -1,5 +1,13 @@
 # @zemd/eslint-next
 
+## 1.0.15
+
+### Patch Changes
+
+- ea7b91a: repo maintenance
+- Updated dependencies [ea7b91a]
+  - @zemd/eslint-rock-stack@1.1.12
+
 ## 1.0.14
 
 ### Patch Changes

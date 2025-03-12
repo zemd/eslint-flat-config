@@ -1,5 +1,13 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.12
+
+### Patch Changes
+
+- ea7b91a: repo maintenance
+- Updated dependencies [ea7b91a]
+  - @zemd/eslint-react@1.0.11
+
 ## 1.1.11
 
 ### Patch Changes
