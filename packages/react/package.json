@@ -4,13 +4,16 @@
   "license": "Apache-2.0",
   "description": "Shared ESLint config for react projects",
   "keywords": [
+    "eslint",
     "eslint-config",
     "eslint-flat-config",
     "eslint",
     "flat config",
     "javascript",
     "typescript",
-    "react"
+    "react",
+    "eslintconfig",
+    "eslint rules"
   ],
   "author": {
     "name": "Dmytro Zelenetskyi",

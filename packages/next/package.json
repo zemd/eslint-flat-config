@@ -4,6 +4,7 @@
   "license": "Apache-2.0",
   "description": "Shared ESLint config for next.js projects",
   "keywords": [
+    "eslint",
     "eslint-config",
     "eslint-flat-config",
     "eslint",
@@ -12,7 +13,9 @@
     "typescript",
     "react",
     "tailwindcss",
-    "next.js"
+    "next.js",
+    "eslintconfig",
+    "eslint rules"
   ],
   "author": {
     "name": "Dmytro Zelenetskyi",

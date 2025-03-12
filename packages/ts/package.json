@@ -4,12 +4,15 @@
   "license": "Apache-2.0",
   "description": "Shared ESLint config for typescript projects",
   "keywords": [
+    "eslint",
     "eslint-config",
     "eslint-flat-config",
     "eslint",
     "flat config",
     "javascript",
-    "typescript"
+    "typescript",
+    "eslintconfig",
+    "eslint rules"
   ],
   "author": {
     "name": "Dmytro Zelenetskyi",

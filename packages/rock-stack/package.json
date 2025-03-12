@@ -4,6 +4,7 @@
   "license": "Apache-2.0",
   "description": "Shared ESLint config for modern projects",
   "keywords": [
+    "eslint",
     "eslint-config",
     "eslint-flat-config",
     "eslint",
@@ -11,7 +12,9 @@
     "javascript",
     "typescript",
     "react",
-    "tailwindcss"
+    "tailwindcss",
+    "eslintconfig",
+    "eslint rules"
   ],
   "author": {
     "name": "Dmytro Zelenetskyi",

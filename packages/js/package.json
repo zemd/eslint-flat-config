@@ -4,11 +4,14 @@
   "license": "Apache-2.0",
   "description": "Shared ESLint config for javascript projects",
   "keywords": [
+    "eslint",
     "eslint-config",
     "eslint-flat-config",
     "eslint",
     "flat config",
-    "javascript"
+    "javascript",
+    "eslintconfig",
+    "eslint rules"
   ],
   "author": {
     "name": "Dmytro Zelenetskyi",
