@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.0.9
+
+### Patch Changes
+
+- ea7b91a: repo maintenance
+
 ## 1.0.8
 
 ### Patch Changes
