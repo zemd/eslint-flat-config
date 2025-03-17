@@ -5,7 +5,7 @@ catalog:
   "eslint": "^9.22.0"
   "tsup": "^8.4.0"
   "typescript": ^5.8.2
-  "@swc/core": "1.11.8"
+  "@swc/core": "1.11.11"
   "@types/eslint": "^9.6.1"
   "@types/node": "^22.13.10"
   "@zemd/tsconfig": "^1.4.0"

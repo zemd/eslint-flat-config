@@ -53,9 +53,9 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-compiler": "^19.0.0-beta-714736e-20250131",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-hooks-extra": "^1.31.0",
+    "eslint-plugin-react-hooks-extra": "^1.34.1",
     "eslint-plugin-react-refresh": "catalog:",
-    "eslint-plugin-react-web-api": "^1.31.0",
+    "eslint-plugin-react-web-api": "^1.34.1",
     "local-pkg": "^1.1.1"
   },
   "devDependencies": {
