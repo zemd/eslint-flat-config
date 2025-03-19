@@ -6,7 +6,7 @@ import {
   GLOB_JSONC,
   GLOB_JSONC_TSCONFIG,
 } from "@zemd/eslint-common";
-import type { Linter } from "eslint";
+import type { ESLint, Linter } from "eslint";
 
 type JSONOptions = {
   jsonFiles: string[];
@@ -25,7 +25,7 @@ export function json({
     {
       name: "zemd/json/setup",
       plugins: {
-        json: plugin,
+        json: plugin as unknown as ESLint.Plugin,
       },
     },
     {
