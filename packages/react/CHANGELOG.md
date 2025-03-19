@@ -1,5 +1,12 @@
 # @zemd/eslint-react
 
+## 1.0.12
+
+### Patch Changes
+
+- 03cfbbc: update deps
+  - @zemd/eslint-ts@1.0.12
+
 ## 1.0.11
 
 ### Patch Changes
