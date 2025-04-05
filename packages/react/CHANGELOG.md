@@ -1,5 +1,13 @@
 # @zemd/eslint-react
 
+## 1.0.14
+
+### Patch Changes
+
+- 8464713: update dependencies
+- Updated dependencies [8464713]
+  - @zemd/eslint-ts@1.0.14
+
 ## 1.0.13
 
 ### Patch Changes
