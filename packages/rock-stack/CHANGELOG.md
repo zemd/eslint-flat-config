@@ -1,5 +1,13 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.16
+
+### Patch Changes
+
+- 7d3e3df: update deps
+- Updated dependencies [7d3e3df]
+  - @zemd/eslint-react@1.0.15
+
 ## 1.1.15
 
 ### Patch Changes

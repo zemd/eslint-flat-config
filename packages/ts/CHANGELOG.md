@@ -1,5 +1,13 @@
 # @zemd/eslint-ts
 
+## 1.0.15
+
+### Patch Changes
+
+- 7d3e3df: update deps
+- Updated dependencies [7d3e3df]
+  - @zemd/eslint-js@1.0.12
+
 ## 1.0.14
 
 ### Patch Changes
