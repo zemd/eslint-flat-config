@@ -1,5 +1,11 @@
 # @zemd/eslint-react
 
+## 1.0.16
+
+### Patch Changes
+
+- 00bb861: update deps
+
 ## 1.0.15
 
 ### Patch Changes
