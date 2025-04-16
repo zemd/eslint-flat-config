@@ -1,5 +1,12 @@
 # @zemd/eslint-next
 
+## 1.0.21
+
+### Patch Changes
+
+- Updated dependencies [3d0763e]
+  - @zemd/eslint-rock-stack@1.1.18
+
 ## 1.0.20
 
 ### Patch Changes
