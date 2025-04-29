@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.0.15
+
+### Patch Changes
+
+- 9ba7cc0: update deps
+
 ## 1.0.14
 
 ### Patch Changes
