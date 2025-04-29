@@ -68,6 +68,7 @@ export const rules: Linter.RulesRecord = {
   "unicorn/prefer-structured-clone": "error", // (Dec 2024) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-structured-clone.md
   "unicorn/prefer-math-min-max": "error", // (Dec 2024) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-min-max.md
   "unicorn/prefer-global-this": "error", // (Dec 2024) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-global-this.md
+  "unicorn/prefer-import-meta-properties": "error", // (Apr 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-import-meta-properties.md
   "unicorn/relative-url-style": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md
   "unicorn/require-array-join-separator": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md
   "unicorn/require-number-to-fixed-digits-argument": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md
@@ -79,6 +80,7 @@ export const rules: Linter.RulesRecord = {
   // "unicorn/consistent-assert": "error", // this is more stylistic rule, which might annoy. Disabling for now. https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md
   "unicorn/no-instanceof-builtins": ["error", { strategy: "loose" }], // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md
   "unicorn/no-accessor-recursion": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md
+  "unicorn/no-unnecessary-array-splice-count": "error", // (APr 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-array-splice-count.md
 };
 
 export default <Feature>{
