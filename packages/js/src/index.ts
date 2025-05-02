@@ -7,6 +7,7 @@ import comments from "@eslint-community/eslint-plugin-eslint-comments";
 import gitignore from "eslint-config-flat-gitignore";
 import globals from "globals";
 import json from "./json.js";
+import * as pluginRegex from "eslint-plugin-regexp";
 
 export * from "@zemd/eslint-common";
 export { json } from "./json.js";
@@ -95,6 +96,7 @@ export function javascript({
         // @ts-ignore
         sonarjs, // https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md#rules
         "@eslint-community/eslint-comments": comments,
+        regexp: pluginRegex.configs["flat/recommended"].plugins.regexp,
       },
       rules: {
         ...eslint.rules,
@@ -104,6 +106,7 @@ export function javascript({
         "sonarjs/no-useless-intersection": ["off"],
         "sonarjs/todo-tag": ["off"],
         ...comments.configs.recommended.rules,
+        ...pluginRegex.configs["flat/recommended"].rules,
       },
     },
   ];
