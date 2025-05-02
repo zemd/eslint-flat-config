@@ -1,0 +1,67 @@
+{
+  "name": "@zemd/eslint-astro",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "description": "Shared ESLint config for Astro based projects",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-flat-config",
+    "eslint",
+    "flat config",
+    "javascript",
+    "typescript",
+    "react",
+    "tailwindcss",
+    "eslintconfig",
+    "eslint rules",
+    "astro"
+  ],
+  "author": {
+    "name": "Dmytro Zelenetskyi",
+    "email": "dmytro.zelenetskyi@gmail.com",
+    "url": "https://codeandgin.co"
+  },
+  "homepage": "https://github.com/zemd/eslint-flat-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zemd/eslint-flat-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zemd/eslint-flat-config/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "funding": "https://github.com/sponsors/zemd",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "peerDependencies": {
+    "eslint": ">=9.2.0"
+  },
+  "dependencies": {
+    "@zemd/eslint-react": "workspace:*",
+    "@zemd/eslint-common": "workspace:*",
+    "eslint-plugin-astro": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "catalog:",
+    "@zemd/tsconfig": "catalog:",
+    "eslint": "catalog:",
+    "tsup": "catalog:",
+    "typescript": "catalog:"
+  },
+  "scripts": {
+    "build": "tsup-node --minify",
+    "dev": "tsup-node --watch",
+    "lint": "publint"
+  }
+}
