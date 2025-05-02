@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.1.0
+
+### Minor Changes
+
+- 4aa3dbd: add eslint-plugin-regexp plugin rules
+
 ## 1.0.15
 
 ### Patch Changes
