@@ -38,6 +38,9 @@ importers:
       "@eslint/config-inspector":
         specifier: ^1.0.2
         version: 1.0.2(eslint@9.25.1(jiti@2.4.2))
+      "@zemd/eslint-astro":
+        specifier: workspace:*
+        version: link:packages/astro
       "@zemd/eslint-next":
         specifier: workspace:*
         version: link:packages/next
