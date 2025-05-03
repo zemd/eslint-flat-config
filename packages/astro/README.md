@@ -1,46 +1,31 @@
-# Shared ESLint config for next.js projects
+# Shared ESLint config for Astro projects
 
-[![npm](https://img.shields.io/npm/v/@zemd/eslint-next?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-next)
+[![npm](https://img.shields.io/npm/v/@zemd/eslint-astro?color=0000ff&label=npm&labelColor=000)](https://npmjs.com/package/@zemd/eslint-astro)
 [![Static Badge](https://img.shields.io/badge/%40zemd%2Feslint--config--flat-gray?style=social&logo=github&label=GitHub&labelColor=blue)](https://github.com/zemd/eslint-flat-config)
 
-This package includes a set of ESLint configurations for Next.js projects.
+This package includes a set of ESLint configurations for Astro projects.
 
 **The package includes**:
 
-| Package                    | Description                    | Rules                                                                                    | License    |
-| -------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------- | ---------- |
-| `@zemd/eslint-rock`        |                                |                                                                                          | Apache 2.0 |
-| `@next/eslint-plugin-next` | Official next.js eslint plugin | `recommended`, `core-web-vitals` and additional fixes for the `react-refresh` if enabled | MIT        |
+| Package               | Description                                          | Rules                                                          | License    |
+| --------------------- | ---------------------------------------------------- | -------------------------------------------------------------- | ---------- |
+| `eslint-plugin-astro` | ESLint plugin for Astro components                   | `recommended`                                                  | MIT        |
+| `@zemd/eslint-react`  | ESlint bundle for linting js/ts and react components | see https://npmjs.com/package/@zemd/eslint-react for more info | Apache 2.0 |
 
 ## Installation
 
 ```bash
-npm install --save-dev @zemd/eslint-next
+npm install --save-dev @zemd/eslint-astro
 ```
 
 ## Usage
 
-### Basic Setup
-
 ```javascript
 // eslint.config.js
 
-import next from "@zemd/eslint-next";
-export default [...next()];
-```
-
-### More Advanced Setup
-
-You can cherry-pick only what you need:
-
-```javascript
-// eslint.config.js
-
-// you can import any rule set separately from the underlying packages
-// if you want to get the rules for the next.js, just import it from the package
-import { next, javascript, typescript, react } from "@zemd/eslint-next";
-
-export default [...next(), ...javascript(), ...typescript(), ...react()];
+import astro from "@zemd/eslint-astro"; // this will include all rules including @zemd/eslint-react
+// import { astro } from "@zemd/eslint-astro"; // if you want to cherry-pick
+export default [...astro()];
 ```
 
 ## You might be also interested in
@@ -56,7 +41,7 @@ export default [...next(), ...javascript(), ...typescript(), ...react()];
 
 ## License
 
-The `@zemd/eslint-next` is licensed under **Apache-2.0 license** 😇.
+The `@zemd/eslint-astro` is licensed under **Apache-2.0 license** 😇.
 
 ## 💙 💛 Donate
 
