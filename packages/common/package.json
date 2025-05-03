@@ -18,7 +18,8 @@
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zemd/eslint-flat-config.git"
+    "url": "git+https://github.com/zemd/eslint-flat-config.git",
+    "directory": "packages/common"
   },
   "bugs": {
     "url": "https://github.com/zemd/eslint-flat-config/issues"
