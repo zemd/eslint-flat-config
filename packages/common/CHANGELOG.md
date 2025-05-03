@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 1.0.4
+
+### Patch Changes
+
+- 7e0535f: initial release for astro based bundle
+
 ## 1.0.3
 
 ### Patch Changes
