@@ -6,6 +6,7 @@ export const GQL_FILES = ["graphql", "gql"] as const;
 export const JSON_FILES = ["json"] as const;
 export const JSONC_FILES = ["jsonc"] as const;
 export const JSON5_FILES = ["json5"] as const;
+export const ASTRO_FILES = ["astro"] as const;
 
 export const REACT_FILES = [...JSX_FILES, ...TSX_FILES] as const;
 export const SRC_FILES = [...JS_FILES, ...TS_FILES] as const;
@@ -29,6 +30,7 @@ export const GLOB_TSX = `**/*.{${TSX_FILES.join(",")}}` as const;
 export const GLOB_GQL = `**/*.{${GQL_FILES.join(",")}}` as const;
 
 export const GLOB_REACT = `**/*.{${REACT_FILES.join(",")}}` as const;
+export const GLOB_ASTRO = `**/*.{${ASTRO_FILES.join(",")}}` as const;
 
 export const GLOB_TEST = `**/*.{test,spec}.{${SRC_ALL_FILES.join(",")}}` as const;
 
