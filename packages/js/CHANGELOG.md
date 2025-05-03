@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.1.2
+
+### Patch Changes
+
+- 03fa747: update README.md
+
 ## 1.1.1
 
 ### Patch Changes
