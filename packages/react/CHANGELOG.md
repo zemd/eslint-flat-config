@@ -1,5 +1,13 @@
 # @zemd/eslint-react
 
+## 1.0.22
+
+### Patch Changes
+
+- 03fa747: update README.md
+- Updated dependencies [03fa747]
+  - @zemd/eslint-ts@1.0.21
+
 ## 1.0.21
 
 ### Patch Changes

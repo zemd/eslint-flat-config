@@ -1,5 +1,13 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.23
+
+### Patch Changes
+
+- 03fa747: update README.md
+- Updated dependencies [03fa747]
+  - @zemd/eslint-react@1.0.22
+
 ## 1.1.22
 
 ### Patch Changes
