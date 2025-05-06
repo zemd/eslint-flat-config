@@ -1,5 +1,12 @@
 # @zemd/eslint-ts
 
+## 1.0.22
+
+### Patch Changes
+
+- Updated dependencies [906fea2]
+  - @zemd/eslint-js@1.1.3
+
 ## 1.0.21
 
 ### Patch Changes
