@@ -1,5 +1,11 @@
 # @zemd/eslint-react
 
+## 1.0.23
+
+### Patch Changes
+
+- @zemd/eslint-ts@1.0.22
+
 ## 1.0.22
 
 ### Patch Changes
