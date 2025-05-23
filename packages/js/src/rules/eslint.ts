@@ -106,6 +106,10 @@ export const rules: Linter.RulesRecord = {
     // https://eslint.org/docs/latest/rules/no-useless-call
     "error",
   ],
+  "no-unassigned-vars": [
+    // https://eslint.org/docs/latest/rules/no-unassigned-vars
+    "error",
+  ],
   "prefer-object-has-own": [
     // https://eslint.org/docs/latest/rules/prefer-object-has-own
     "error",
