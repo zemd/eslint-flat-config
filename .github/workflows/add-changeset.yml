@@ -1,8 +1,5 @@
 name: Add Changeset with New Version
 
-permissions:
-  contents: write
-
 on:
   workflow_dispatch:
     inputs:
@@ -22,6 +19,9 @@ on:
 
 jobs:
   add_changeset:
+    permissions:
+      contents: write
+
     if: github.actor == 'zemd'
     runs-on: ubuntu-latest
 

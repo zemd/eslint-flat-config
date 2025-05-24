@@ -1,12 +1,5 @@
 name: Release
 
-permissions:
-  id-token: write
-  contents: write
-  packages: write
-  pull-requests: write
-  issues: read
-
 on:
   push:
     branches:
@@ -16,6 +9,12 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release:
+    permissions:
+      id-token: write
+      contents: write
+      packages: write
+      pull-requests: write
+      issues: read
     name: Release
     runs-on: ubuntu-latest
     steps:
