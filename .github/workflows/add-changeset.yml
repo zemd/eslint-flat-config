@@ -17,6 +17,8 @@ on:
         required: true
         default: ""
 
+permissions: read-all
+
 jobs:
   add_changeset:
     permissions:
