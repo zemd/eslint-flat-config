@@ -1,5 +1,11 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.27
+
+### Patch Changes
+
+- de26ad3: update deps
+
 ## 1.1.26
 
 ### Patch Changes
