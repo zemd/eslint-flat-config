@@ -1,5 +1,13 @@
 # @zemd/eslint-ts
 
+## 1.0.25
+
+### Patch Changes
+
+- d78ecd8: bump deps
+- Updated dependencies [d78ecd8]
+  - @zemd/eslint-js@1.1.6
+
 ## 1.0.24
 
 ### Patch Changes
