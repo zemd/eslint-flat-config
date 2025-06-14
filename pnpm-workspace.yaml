@@ -5,8 +5,8 @@ catalog:
   "eslint": "^9.23.0"
   "tsup": "^8.4.0"
   "typescript": ^5.8.2
-  "@swc/core": "1.11.13"
+  "@swc/core": "1.11.31"
   "@types/eslint": "^9.6.1"
-  "@types/node": "^22.13.13"
+  "@types/node": "^24.0.0"
   "@zemd/tsconfig": "^1.4.0"
   "eslint-plugin-react-refresh": ^0.4.19
