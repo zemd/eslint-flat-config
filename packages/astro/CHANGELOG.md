@@ -1,5 +1,12 @@
 # @zemd/eslint-astro
 
+## 0.0.7
+
+### Patch Changes
+
+- Updated dependencies [cb1dede]
+  - @zemd/eslint-react@1.0.27
+
 ## 0.0.6
 
 ### Patch Changes

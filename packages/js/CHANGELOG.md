@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.1.7
+
+### Patch Changes
+
+- cb1dede: bump dependencies
+
 ## 1.1.6
 
 ### Patch Changes
