@@ -51,7 +51,7 @@
     "@zemd/eslint-common": "workspace:*",
     "eslint-config-flat-gitignore": "^2.1.0",
     "eslint-plugin-regexp": "^2.9.0",
-    "eslint-plugin-sonarjs": "^3.0.2",
+    "eslint-plugin-sonarjs": "^3.0.3",
     "eslint-plugin-unicorn": "^59.0.1",
     "globals": "^16.2.0"
   },
