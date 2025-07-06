@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.1.9
+
+### Patch Changes
+
+- 9440811: bump deps
+
 ## 1.1.8
 
 ### Patch Changes
