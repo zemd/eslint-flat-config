@@ -9,13 +9,14 @@ type VitestConfig = {
 
 export default function vitest({
   files = [GLOB_TEST],
-  enableTypeChecking = false,
+  enableTypeChecking = true,
 }: Partial<VitestConfig> = {}): Array<Linter.Config> {
   return [
     {
       name: "zemd/vitest/rules",
       files,
       plugins: {
+        // @ts-ignore see https://github.com/vitest-dev/eslint-plugin-vitest/issues/737
         vitest: plugin,
       },
       rules: plugin.configs.recommended.rules,
