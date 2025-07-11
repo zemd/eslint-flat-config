@@ -78,7 +78,17 @@ export function react({
                       "@react-router/serve",
                       "@react-router/dev",
                     ].some((pkg) => isPackageExists(pkg))
-                      ? ["meta", "links", "headers", "loader", "action"]
+                      ? [
+                          "meta",
+                          "links",
+                          "headers",
+                          "loader",
+                          "action",
+                          "clientLoader",
+                          "clientAction",
+                          "handle",
+                          "shouldRevalidate",
+                        ]
                       : []),
                   ],
                 },
