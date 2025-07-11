@@ -1,5 +1,13 @@
 # @zemd/eslint-next
 
+## 1.0.35
+
+### Patch Changes
+
+- 26d5d71: bump deps
+- Updated dependencies [26d5d71]
+  - @zemd/eslint-rock-stack@1.1.32
+
 ## 1.0.34
 
 ### Patch Changes

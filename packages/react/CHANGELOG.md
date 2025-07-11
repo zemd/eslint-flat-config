@@ -1,5 +1,14 @@
 # @zemd/eslint-react
 
+## 1.0.30
+
+### Patch Changes
+
+- 26d5d71: bump deps
+- d0111b4: more allowed exports for react router
+- Updated dependencies [26d5d71]
+  - @zemd/eslint-ts@1.0.29
+
 ## 1.0.29
 
 ### Patch Changes
