@@ -48,8 +48,8 @@
   "dependencies": {
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-js": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^8.36.0",
-    "@typescript-eslint/parser": "^8.36.0"
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
