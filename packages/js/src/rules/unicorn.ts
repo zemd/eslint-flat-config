@@ -80,12 +80,16 @@ export const rules: Linter.RulesRecord = {
   // "unicorn/consistent-assert": "error", // this is more stylistic rule, which might annoy. Disabling for now. https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md
   "unicorn/no-instanceof-builtins": ["error", { strategy: "loose" }], // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md
   "unicorn/no-accessor-recursion": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md
-  "unicorn/no-unnecessary-array-splice-count": "error", // (APr 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-array-splice-count.md
+  "unicorn/no-unnecessary-array-splice-count": "error", // (Apr 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-array-splice-count.md
+  "unicorn/prefer-class-fields": "error", // (July 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-class-fields.md
+  "unicorn/no-array-reverse": ["error", { allowExpressionStatement: true }], // (July 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reverse.md
+  "unicorn/require-module-specifiers": "error", // (July 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-specifiers.md
+  "unicorn/no-useless-error-capture-stack-trace": "error", // (July 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-error-capture-stack-trace.md
 };
 
-export default <Feature>{
+export default {
   plugins: {
     unicorn,
   },
   rules,
-};
+} satisfies Feature;
