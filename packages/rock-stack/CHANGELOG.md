@@ -1,5 +1,13 @@
 # @zemd/eslint-rock-stack
 
+## 1.1.33
+
+### Patch Changes
+
+- 0601e34: update deps
+- Updated dependencies [0601e34]
+  - @zemd/eslint-react@1.0.31
+
 ## 1.1.32
 
 ### Patch Changes

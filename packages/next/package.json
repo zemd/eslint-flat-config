@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-next",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "license": "Apache-2.0",
   "description": "Shared ESLint config for next.js projects",
   "keywords": [
