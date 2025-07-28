@@ -62,9 +62,9 @@
     "@vitest/eslint-plugin": "^1.3.4",
     "@zemd/eslint-react": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-plugin-playwright": "^2.2.0",
-    "eslint-plugin-storybook": "^9.0.15",
-    "eslint-plugin-turbo": "^2.5.0"
+    "eslint-plugin-playwright": "^2.2.1",
+    "eslint-plugin-storybook": "^9.0.18",
+    "eslint-plugin-turbo": "^2.5.5"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
