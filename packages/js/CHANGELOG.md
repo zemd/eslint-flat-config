@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 1.1.12
+
+### Patch Changes
+
+- b64d639: bump dependencies
+
 ## 1.1.11
 
 ### Patch Changes
