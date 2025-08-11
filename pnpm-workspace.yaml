@@ -4,10 +4,10 @@ packages:
 catalog:
   eslint: ^9.32.0
   tsup: ^8.4.0
-  typescript: ^5.8.2
-  "@swc/core": 1.13.2
+  typescript: ^5.9.2
+  "@swc/core": 1.13.3
   "@types/eslint": ^9.6.1
-  "@types/node": ^24.1.0
+  "@types/node": ^24.2.0
   "@zemd/tsconfig": ^1.4.0
   eslint-plugin-react-refresh: ^0.4.19
 
