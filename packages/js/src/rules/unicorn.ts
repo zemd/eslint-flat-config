@@ -85,6 +85,10 @@ export const rules: Linter.RulesRecord = {
   "unicorn/no-array-reverse": ["error", { allowExpressionStatement: true }], // (July 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reverse.md
   "unicorn/require-module-specifiers": "error", // (July 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-specifiers.md
   "unicorn/no-useless-error-capture-stack-trace": "error", // (July 2025) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-error-capture-stack-trace.md
+  "unicorn/prefer-bigint-literals": "error", // (added in Unicorn v61.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-bigint-literals.md
+  "unicorn/prefer-classlist-toggle": "error", // (added in Unicorn v61.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-classlist-toggle.md
+  "unicorn/require-module-attributes": "error", // (added in Unicorn v61.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-attributes.md
+  "unicorn/no-array-sort": "error", // (added in Unicorn v61.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-sort.md
 };
 
 export default {
