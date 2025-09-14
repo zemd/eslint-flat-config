@@ -167,10 +167,14 @@ export const rules: Linter.RulesRecord = {
   // "dot-notation": 0, // we are using the @typescript/eslint version
   // "no-shadow": 0, // we are using the @typescript/eslint version
   // "default-param-last": 0, // we are using the @typescript/eslint version
+  "preserve-caught-error": [
+    // https://eslint.org/docs/latest/rules/preserve-caught-error (added in ESLint v9.35.0)
+    "error",
+  ],
 };
 
 // see more: https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
-export default <Feature>{
+export default {
   plugins: {
     eslint,
   },
@@ -178,4 +182,4 @@ export default <Feature>{
     ...eslint.configs.recommended.rules,
     ...rules,
   },
-};
+} satisfies Feature;

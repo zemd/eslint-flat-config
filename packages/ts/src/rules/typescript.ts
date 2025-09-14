@@ -113,7 +113,7 @@ export const rules: Linter.RulesRecord = {
   ],
 };
 
-export default <Feature>{
+export default {
   plugins: {
     "@typescript-eslint": plugin as unknown as ESLint.Plugin,
   },
@@ -129,4 +129,4 @@ export default <Feature>{
     "no-unused-vars": ["off"],
     "no-dupe-class-members": ["off"],
   },
-};
+} satisfies Feature;
