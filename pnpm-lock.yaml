@@ -6650,7 +6650,7 @@ snapshots:
       "@babel/parser": 7.27.5
       "@babel/template": 7.27.2
       "@babel/types": 7.27.0
-      debug: 4.4.0
+      debug: 4.4.3
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
