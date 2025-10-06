@@ -1,5 +1,11 @@
 # @zemd/eslint-ts
 
+## 1.0.35
+
+### Patch Changes
+
+- 98906ba: bump deps
+
 ## 1.0.34
 
 ### Patch Changes
