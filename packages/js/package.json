@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
-    "@eslint/js": "^9.36.0",
+    "@eslint/js": "^9.37.0",
     "@eslint/json": "^0.13.2",
     "@zemd/eslint-common": "workspace:*",
     "eslint-config-flat-gitignore": "^2.1.0",
