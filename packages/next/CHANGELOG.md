@@ -1,5 +1,12 @@
 # @zemd/eslint-next
 
+## 1.0.43
+
+### Patch Changes
+
+- b69ea80: bump deps
+  - @zemd/eslint-rock-stack@1.1.40
+
 ## 1.0.42
 
 ### Patch Changes
