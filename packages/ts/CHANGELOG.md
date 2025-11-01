@@ -1,5 +1,13 @@
 # @zemd/eslint-ts
 
+## 1.0.38
+
+### Patch Changes
+
+- b18ad98: update deps
+- Updated dependencies [b18ad98]
+  - @zemd/eslint-js@1.1.17
+
 ## 1.0.37
 
 ### Patch Changes
