@@ -89,11 +89,16 @@ export const rules: Linter.RulesRecord = {
   "unicorn/prefer-classlist-toggle": "error", // (added in Unicorn v61.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-classlist-toggle.md
   "unicorn/require-module-attributes": "error", // (added in Unicorn v61.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-module-attributes.md
   "unicorn/no-array-sort": "error", // (added in Unicorn v61.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-sort.md
+  "unicorn/no-immediate-mutation": "error", // (added in Unicorn v62.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md
+  "unicorn/no-useless-collection-argument": "error", // (added in Unicorn v62.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-collection-argument.md
+  "unicorn/prefer-response-static-json": "error", // (added in Unicorn v62.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-response-static-json.md
 };
 
-export default {
+const feature: Feature = {
   plugins: {
     unicorn,
   },
   rules,
-} satisfies Feature;
+};
+
+export default feature;
