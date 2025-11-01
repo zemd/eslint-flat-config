@@ -174,7 +174,7 @@ export const rules: Linter.RulesRecord = {
 };
 
 // see more: https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js
-export default {
+const feature: Feature = {
   plugins: {
     eslint,
   },
@@ -182,4 +182,5 @@ export default {
     ...eslint.configs.recommended.rules,
     ...rules,
   },
-} satisfies Feature;
+};
+export default feature;

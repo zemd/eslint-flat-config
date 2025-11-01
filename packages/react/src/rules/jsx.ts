@@ -11,7 +11,7 @@ import reactWebApi from "eslint-plugin-react-web-api";
 // - https://github.com/jsx-eslint/eslint-plugin-react
 // - https://github.com/rel1cx/eslint-react
 
-export default <Feature>{
+const feature: Feature = {
   plugins: {
     react,
     "jsx-a11y": a11y,
@@ -50,3 +50,5 @@ export default <Feature>{
     "react-web-api/no-leaked-resize-observer": "error",
   },
 };
+
+export default feature;
