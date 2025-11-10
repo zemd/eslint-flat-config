@@ -51,7 +51,7 @@
   "dependencies": {
     "@zemd/eslint-react": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-plugin-astro": "^1.4.0"
+    "eslint-plugin-astro": "^1.5.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
