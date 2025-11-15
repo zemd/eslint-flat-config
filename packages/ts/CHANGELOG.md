@@ -1,5 +1,13 @@
 # @zemd/eslint-ts
 
+## 1.0.40
+
+### Patch Changes
+
+- 70b8ffc: update dependencies
+- Updated dependencies [70b8ffc]
+  - @zemd/eslint-js@1.1.19
+
 ## 1.0.39
 
 ### Patch Changes

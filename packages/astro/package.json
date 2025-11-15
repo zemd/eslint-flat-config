@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-astro",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "license": "Apache-2.0",
   "description": "Shared ESLint config for Astro based projects",
   "keywords": [
