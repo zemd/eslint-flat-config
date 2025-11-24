@@ -38,11 +38,6 @@ const feature: Feature = {
     ...a11y.configs.recommended.rules,
     ...hooks.configs.recommended.rules,
     "react-hooks-extra/no-direct-set-state-in-use-effect": "error",
-    "react-hooks-extra/no-direct-set-state-in-use-layout-effect": "error",
-    "react-hooks-extra/no-unnecessary-use-callback": "error",
-    "react-hooks-extra/no-unnecessary-use-memo": "error",
-    "react-hooks-extra/no-useless-custom-hooks": "error",
-    "react-hooks-extra/prefer-use-state-lazy-initialization": "error",
     // react-web-api recommended rules
     "react-web-api/no-leaked-timeout": "error",
     "react-web-api/no-leaked-interval": "error",
