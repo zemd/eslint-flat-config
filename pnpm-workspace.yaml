@@ -5,9 +5,9 @@ catalog:
   eslint: ^9.39.1
   tsup: ^8.5.1
   typescript: ^5.9.3
-  "@swc/core": 1.15.3
+  "@swc/core": 1.15.8
   "@types/eslint": ^9.6.1
-  "@types/node": ^24.10.1
+  "@types/node": ^25.0.3
   "@zemd/tsconfig": ^1.4.0
   eslint-plugin-react-refresh: ^0.4.24
 
