@@ -1,5 +1,13 @@
 # @zemd/eslint-next
 
+## 1.0.48
+
+### Patch Changes
+
+- a9c5bc4: chore: update dependencies
+- Updated dependencies [a9c5bc4]
+  - @zemd/eslint-rock-stack@1.1.45
+
 ## 1.0.47
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@zemd/eslint-react",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "license": "Apache-2.0",
   "description": "Shared ESLint config for react projects",
   "keywords": [

@@ -1,5 +1,13 @@
 # @zemd/eslint-ts
 
+## 1.0.42
+
+### Patch Changes
+
+- a9c5bc4: chore: update dependencies
+- Updated dependencies [a9c5bc4]
+  - @zemd/eslint-js@1.1.20
+
 ## 1.0.41
 
 ### Patch Changes
