@@ -1,5 +1,13 @@
 # @zemd/eslint-react
 
+## 1.0.43
+
+### Patch Changes
+
+- a9c5bc4: chore: update dependencies
+- Updated dependencies [a9c5bc4]
+  - @zemd/eslint-ts@1.0.42
+
 ## 1.0.42
 
 ### Patch Changes
