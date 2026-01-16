@@ -50,7 +50,7 @@
     "@zemd/eslint-next": "workspace:*",
     "@zemd/tsconfig": "^1.5.0",
     "husky": "^9.1.7",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.0",
     "publint": "^0.3.16",
     "turbo": "^2.7.4",
     "typescript": "^5.9.3"
