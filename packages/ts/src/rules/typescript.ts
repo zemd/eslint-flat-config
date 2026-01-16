@@ -111,6 +111,11 @@ export const rules: Linter.RulesRecord = {
     // should not be forced by default, turn on when you really need it
     "off",
   ],
+  "@typescript-eslint/strict-void-return": [
+    // https://typescript-eslint.io/rules/strict-void-return/
+    // added since @typescript-eslint/eslint-plugin@8.53.0 (2026-01-12)
+    "error",
+  ],
 };
 
 const feature: Feature = {
