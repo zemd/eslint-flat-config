@@ -2,9 +2,9 @@ packages:
   - packages/*
 
 catalog:
-  "@swc/core": 1.15.8
+  "@swc/core": 1.15.10
   "@types/eslint": ^9.6.1
-  "@types/node": ^25.0.7
+  "@types/node": ^25.0.9
   "@zemd/tsconfig": ^1.4.0
   eslint: ^9.39.2
   eslint-plugin-react-refresh: ^0.4.26
