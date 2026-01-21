@@ -1,5 +1,13 @@
 # @zemd/eslint-react
 
+## 1.0.45
+
+### Patch Changes
+
+- 2f7165c: Dependencies update
+- Updated dependencies [2f7165c]
+  - @zemd/eslint-ts@1.0.44
+
 ## 1.0.44
 
 ### Patch Changes
