@@ -31,12 +31,10 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.mjs"
     }
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "peerDependencies": {
     "eslint": "^9.2.0"
   },
