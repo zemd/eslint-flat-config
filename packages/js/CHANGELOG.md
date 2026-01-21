@@ -1,5 +1,16 @@
 # @zemd/eslint-js
 
+## 2.0.0
+
+### Major Changes
+
+- 3ad0b02: Make sonarjs optional, migrate from tsup to tsdown
+
+### Patch Changes
+
+- Updated dependencies [3ad0b02]
+  - @zemd/eslint-common@2.0.0
+
 ## 1.1.22
 
 ### Patch Changes
