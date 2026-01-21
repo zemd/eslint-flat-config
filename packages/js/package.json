@@ -40,13 +40,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "peerDependencies": {
-    "eslint": ">=9.2.0",
-    "eslint-plugin-sonarjs": "^3.0.5"
-  },
-  "peerDependenciesMeta": {
-    "eslint-plugin-sonarjs": {
-      "optional": true
-    }
+    "eslint": ">=9.2.0"
   },
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.6.0",
