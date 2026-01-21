@@ -1,5 +1,5 @@
 import type { Linter } from "eslint";
-import sonarjs from "eslint-plugin-sonarjs";
+import { createRequire } from "module";
 import unicorn from "./rules/unicorn.js";
 import eslint from "./rules/eslint.js";
 import { GLOB_SRC } from "@zemd/eslint-common";
@@ -8,6 +8,7 @@ import gitignore from "eslint-config-flat-gitignore";
 import globals from "globals";
 import json from "./json.js";
 import * as pluginRegex from "eslint-plugin-regexp";
+import { isPackageExists } from "local-pkg";
 
 export * from "@zemd/eslint-common";
 export { json } from "./json.js";
@@ -42,6 +43,8 @@ type EcmaVersion =
   | 2025
   | "latest";
 
+const require = createRequire(import.meta.url);
+
 /**
  * The type of JavaScript source code.
  */
@@ -60,6 +63,11 @@ export function javascript({
   files = [GLOB_SRC],
   ...opts
 }: Partial<JavascriptOptions> = {}): Array<Linter.Config> {
+  const enableSonar = isPackageExists("eslint-plugin-sonarjs");
+  const sonarjs = enableSonar
+    ? (require("eslint-plugin-sonarjs") as typeof import("eslint-plugin-sonarjs"))
+    : undefined;
+
   const rules: Array<Linter.Config> = [
     gitignore({
       name: "zemd/gitignore/ignores",
@@ -77,7 +85,7 @@ export function javascript({
         ecmaVersion,
         globals: {
           ...globals.browser,
-          ...globals.es2021,
+          ...globals.es2023,
           ...globals.node,
           document: "readonly",
           navigator: "readonly",
@@ -93,18 +101,21 @@ export function javascript({
       plugins: {
         ...eslint.plugins,
         ...unicorn.plugins,
-        // @ts-ignore
-        sonarjs, // https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md#rules
+        ...(sonarjs ? { sonarjs } : {}), // https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md#rules
         "@eslint-community/eslint-comments": comments,
         regexp: pluginRegex.configs["flat/recommended"].plugins.regexp,
       },
       rules: {
         ...eslint.rules,
         ...unicorn.rules,
-        ...sonarjs.configs.recommended.rules,
-        "sonarjs/no-clear-text-protocols": ["off"],
-        "sonarjs/no-useless-intersection": ["off"],
-        "sonarjs/todo-tag": ["off"],
+        ...(sonarjs ? sonarjs.configs.recommended.rules : {}),
+        ...(sonarjs
+          ? {
+              "sonarjs/no-clear-text-protocols": ["off"],
+              "sonarjs/no-useless-intersection": ["off"],
+              "sonarjs/todo-tag": ["off"],
+            }
+          : {}),
         ...comments.configs.recommended.rules,
         ...pluginRegex.configs["flat/recommended"].rules,
       },

@@ -55,12 +55,12 @@
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsup": "catalog:",
+    "tsdown": "^0.20.0-beta.4",
     "typescript": "catalog:"
   },
   "scripts": {
-    "build": "tsup-node --minify",
-    "dev": "tsup-node --watch",
+    "build": "tsdown --minify",
+    "dev": "tsdown --watch",
     "lint": "publint"
   }
 }
