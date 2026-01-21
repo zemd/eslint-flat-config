@@ -38,13 +38,11 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.mjs"
     }
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "peerDependencies": {
     "eslint": ">=9.2.0"
   },
@@ -57,12 +55,12 @@
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsup": "catalog:",
+    "tsdown": "^0.20.0-beta.4",
     "typescript": "catalog:"
   },
   "scripts": {
-    "build": "tsup-node --minify",
-    "dev": "tsup-node --watch",
+    "build": "tsdown --minify",
+    "dev": "tsdown --watch",
     "lint": "publint"
   }
 }

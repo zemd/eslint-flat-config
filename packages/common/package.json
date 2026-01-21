@@ -31,24 +31,22 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "import": "./dist/index.mjs"
     }
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "peerDependencies": {
     "eslint": "^9.2.0"
   },
   "devDependencies": {
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsup": "catalog:",
+    "tsdown": "^0.20.0-beta.4",
     "typescript": "catalog:"
   },
   "scripts": {
-    "build": "tsup-node --minify",
-    "dev": "tsup-node --watch",
+    "build": "tsdown --minify",
+    "dev": "tsdown --watch",
     "lint": "publint"
   }
 }
