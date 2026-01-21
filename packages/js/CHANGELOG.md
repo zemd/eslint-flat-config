@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 2.0.1
+
+### Patch Changes
+
+- 51f48b5: Removing sonarjs from dependencies
+
 ## 2.0.0
 
 ### Major Changes
