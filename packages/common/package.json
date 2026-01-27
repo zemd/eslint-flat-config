@@ -41,7 +41,7 @@
   "devDependencies": {
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "^0.20.0-beta.4",
+    "tsdown": "^0.20.1",
     "typescript": "catalog:"
   },
   "scripts": {
