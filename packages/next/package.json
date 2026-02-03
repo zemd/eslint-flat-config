@@ -47,7 +47,7 @@
     "eslint": ">=9.2.0"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^16.1.4",
+    "@next/eslint-plugin-next": "^16.1.6",
     "@zemd/eslint-rock-stack": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
     "eslint-plugin-react-refresh": "catalog:"
@@ -56,7 +56,7 @@
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "^0.20.0-beta.4",
+    "tsdown": "^0.20.1",
     "typescript": "catalog:"
   },
   "scripts": {

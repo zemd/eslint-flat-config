@@ -60,15 +60,15 @@
     "@vitest/eslint-plugin": "^1.6.6",
     "@zemd/eslint-react": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-plugin-playwright": "^2.5.0",
-    "eslint-plugin-storybook": "^10.1.11",
-    "eslint-plugin-turbo": "^2.7.5"
+    "eslint-plugin-playwright": "^2.5.1",
+    "eslint-plugin-storybook": "^10.2.4",
+    "eslint-plugin-turbo": "^2.8.2"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "^0.20.0-beta.4",
+    "tsdown": "^0.20.1",
     "typescript": "catalog:"
   },
   "scripts": {
