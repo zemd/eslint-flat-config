@@ -55,7 +55,7 @@
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "^0.20.0-beta.4",
+    "tsdown": "^0.20.3",
     "typescript": "catalog:"
   },
   "scripts": {
