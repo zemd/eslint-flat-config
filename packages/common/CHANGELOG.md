@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 2.0.1
+
+### Patch Changes
+
+- cbb7697: Update dependencies, Add eslint 10 support
+
 ## 2.0.0
 
 ### Major Changes
