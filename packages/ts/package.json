@@ -41,19 +41,19 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "peerDependencies": {
-    "eslint": ">=9.2.0"
+    "eslint": ">=9.2.0 || >=10.0.0"
   },
   "dependencies": {
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-js": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^8.53.1",
-    "@typescript-eslint/parser": "^8.53.1"
+    "@typescript-eslint/eslint-plugin": "^8.55.0",
+    "@typescript-eslint/parser": "^8.55.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "^0.20.0-beta.4",
+    "tsdown": "^0.20.3",
     "typescript": "catalog:"
   },
   "scripts": {
