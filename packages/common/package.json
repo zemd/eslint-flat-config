@@ -36,7 +36,7 @@
   },
   "module": "./dist/index.mjs",
   "peerDependencies": {
-    "eslint": "^9.2.0"
+    "eslint": ">=9.2.0 || >=10.0.0"
   },
   "devDependencies": {
     "@zemd/tsconfig": "catalog:",

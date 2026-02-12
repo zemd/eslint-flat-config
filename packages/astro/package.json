@@ -44,7 +44,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "peerDependencies": {
-    "eslint": ">=9.2.0"
+    "eslint": ">=9.2.0 || >=10.0.0"
   },
   "dependencies": {
     "@zemd/eslint-react": "workspace:*",

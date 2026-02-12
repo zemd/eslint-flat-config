@@ -46,7 +46,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "peerDependencies": {
-    "eslint": ">=9.2.0",
+    "eslint": ">=9.2.0 || >=10.0.0",
     "eslint-plugin-tailwindcss": "^3.18.0",
     "storybook": "^10.1.11"
   },
