@@ -1,5 +1,13 @@
 # @zemd/eslint-js
 
+## 2.0.2
+
+### Patch Changes
+
+- cbb7697: Update dependencies, Add eslint 10 support
+- Updated dependencies [cbb7697]
+  - @zemd/eslint-common@2.0.1
+
 ## 2.0.1
 
 ### Patch Changes
