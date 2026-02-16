@@ -45,11 +45,11 @@
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.6.0",
     "@eslint/js": "^10.0.1",
-    "@eslint/json": "^1.0.0",
+    "@eslint/json": "^1.0.1",
     "@zemd/eslint-common": "workspace:*",
     "eslint-config-flat-gitignore": "^2.1.0",
     "eslint-plugin-regexp": "^3.0.0",
-    "eslint-plugin-unicorn": "^62.0.0",
+    "eslint-plugin-unicorn": "^63.0.0",
     "globals": "^17.3.0",
     "local-pkg": "^1.1.2"
   },
