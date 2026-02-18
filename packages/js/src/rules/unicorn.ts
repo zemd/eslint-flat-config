@@ -92,6 +92,7 @@ export const rules: Linter.RulesRecord = {
   "unicorn/no-immediate-mutation": "error", // (added in Unicorn v62.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md
   "unicorn/no-useless-collection-argument": "error", // (added in Unicorn v62.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-collection-argument.md
   "unicorn/prefer-response-static-json": "error", // (added in Unicorn v62.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-response-static-json.md
+  "unicorn/isolated-functions": "error", // (added in Unicorn v63.0.0) https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/isolated-functions.md
 };
 
 const feature: Feature = {
