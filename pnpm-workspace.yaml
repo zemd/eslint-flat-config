@@ -4,7 +4,7 @@ packages:
 catalog:
   "@swc/core": 1.15.11
   "@types/eslint": ^9.6.1
-  "@types/node": ^25.2.3
+  "@types/node": ^25.3.0
   "@zemd/tsconfig": ^1.4.0
   eslint: ^10.0.0
   eslint-plugin-react-refresh: ^0.5.0

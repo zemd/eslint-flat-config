@@ -47,7 +47,7 @@
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^1.0.1",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-config-flat-gitignore": "^2.1.0",
+    "eslint-config-flat-gitignore": "^2.2.1",
     "eslint-plugin-regexp": "^3.0.0",
     "eslint-plugin-unicorn": "^63.0.0",
     "globals": "^17.3.0",
