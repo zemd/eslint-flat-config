@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 2.0.3
+
+### Patch Changes
+
+- f71c074: Update dependencies, eslint 10 support
+
 ## 2.0.2
 
 ### Patch Changes

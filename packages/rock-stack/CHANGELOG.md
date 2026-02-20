@@ -1,5 +1,13 @@
 # @zemd/eslint-rock-stack
 
+## 2.0.3
+
+### Patch Changes
+
+- f71c074: Update dependencies, eslint 10 support
+- Updated dependencies [f71c074]
+  - @zemd/eslint-react@2.0.3
+
 ## 2.0.2
 
 ### Patch Changes
