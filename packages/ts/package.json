@@ -17,7 +17,7 @@
   "author": {
     "name": "Dmytro Zelenetskyi",
     "email": "dmytro.zelenetskyi@gmail.com",
-    "url": "https://codeandgin.co"
+    "url": "https://zemd.dev"
   },
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
@@ -46,8 +46,8 @@
   "dependencies": {
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-js": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^8.55.0",
-    "@typescript-eslint/parser": "^8.55.0"
+    "@typescript-eslint/eslint-plugin": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",

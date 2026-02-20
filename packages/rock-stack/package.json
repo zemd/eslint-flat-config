@@ -19,7 +19,7 @@
   "author": {
     "name": "Dmytro Zelenetskyi",
     "email": "dmytro.zelenetskyi@gmail.com",
-    "url": "https://codeandgin.co"
+    "url": "https://zemd.dev"
   },
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
@@ -57,12 +57,12 @@
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^4.4.0",
-    "@vitest/eslint-plugin": "^1.6.7",
-    "@zemd/eslint-react": "workspace:*",
+    "@vitest/eslint-plugin": "^1.6.9",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-plugin-playwright": "^2.5.1",
-    "eslint-plugin-storybook": "^10.2.8",
-    "eslint-plugin-turbo": "^2.8.3"
+    "@zemd/eslint-react": "workspace:*",
+    "eslint-plugin-playwright": "^2.7.0",
+    "eslint-plugin-storybook": "^10.2.10",
+    "eslint-plugin-turbo": "^2.8.10"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",

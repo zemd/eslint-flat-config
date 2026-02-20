@@ -20,7 +20,7 @@
   "author": {
     "name": "Dmytro Zelenetskyi",
     "email": "dmytro.zelenetskyi@gmail.com",
-    "url": "https://codeandgin.co"
+    "url": "https://zemd.dev"
   },
   "homepage": "https://github.com/zemd/eslint-flat-config",
   "repository": {
@@ -49,7 +49,7 @@
   "dependencies": {
     "@zemd/eslint-react": "workspace:*",
     "@zemd/eslint-common": "workspace:*",
-    "eslint-plugin-astro": "^1.5.0"
+    "eslint-plugin-astro": "^1.6.0"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",

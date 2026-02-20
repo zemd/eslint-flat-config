@@ -64,9 +64,7 @@ export function javascript({
   ...opts
 }: Partial<JavascriptOptions> = {}): Array<Linter.Config> {
   const enableSonar = isPackageExists("eslint-plugin-sonarjs");
-  const sonarjs = enableSonar
-    ? (require("eslint-plugin-sonarjs") as typeof import("eslint-plugin-sonarjs"))
-    : undefined;
+  const sonarjs = enableSonar ? require("eslint-plugin-sonarjs") : undefined;
 
   const rules: Array<Linter.Config> = [
     gitignore({

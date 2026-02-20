@@ -4,7 +4,7 @@ packages:
 catalog:
   "@swc/core": 1.15.11
   "@types/eslint": ^9.6.1
-  "@types/node": ^25.2.2
+  "@types/node": ^25.3.0
   "@zemd/tsconfig": ^1.4.0
   eslint: ^10.0.0
   eslint-plugin-react-refresh: ^0.5.0
@@ -13,8 +13,9 @@ catalog:
   typescript: ^5.9.3
 
 overrides:
-  brace-expansion@>=1.0.0 <=1.1.11: ">=1.1.12"
-  brace-expansion@>=2.0.0 <=2.0.1: ">=2.0.2"
+  ajv@>=8.0.0 <8.18.0: ">=8.18.0"
+  brace-expansion@>=1.0.0 <=1.1.11: "1.1.12"
+  brace-expansion@>=2.0.0 <=2.0.1: "2.0.2"
   h3@<=1.15.4: ">=1.15.5"
   js-yaml@>=4.0.0 <4.1.1: ">=4.1.1"
   storybook@>=9.0.0 <9.1.17: ">=9.1.17"
