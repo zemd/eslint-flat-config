@@ -45,7 +45,7 @@
     "eslint": ">=9.2.0 || >=10.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.1",
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-ts": "workspace:*",
     "eslint-plugin-jsx-a11y": "^6.10.2",
