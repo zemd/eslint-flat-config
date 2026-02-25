@@ -1,7 +1,7 @@
 import type { Feature } from "@zemd/eslint-common";
 import react from "eslint-plugin-react";
 import parserTs from "@typescript-eslint/parser";
-import a11y from "eslint-plugin-jsx-a11y";
+// import a11y from "eslint-plugin-jsx-a11y";
 import hooks from "eslint-plugin-react-hooks";
 import reactHooksExtra from "eslint-plugin-react-hooks-extra";
 import type { ESLint } from "eslint";
@@ -14,7 +14,7 @@ import reactWebApi from "eslint-plugin-react-web-api";
 const feature: Feature = {
   plugins: {
     react,
-    "jsx-a11y": a11y,
+    // "jsx-a11y": a11y,
     "react-hooks": hooks,
     "react-hooks-extra": reactHooksExtra as unknown as ESLint.Plugin,
     "react-web-api": reactWebApi as unknown as ESLint.Plugin,
@@ -35,7 +35,7 @@ const feature: Feature = {
     "react/no-this-in-sfc": "error", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-this-in-sfc.md
     "react/prefer-read-only-props": "error", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
     "react/jsx-pascal-case": "error", // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-    ...a11y.configs.recommended.rules,
+    // ...a11y.configs.recommended.rules,
     ...hooks.configs.recommended.rules,
     "react-hooks-extra/no-direct-set-state-in-use-effect": "error",
     // react-web-api recommended rules
