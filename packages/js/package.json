@@ -43,7 +43,6 @@
     "eslint": ">=9.2.0 || >=10.0.0"
   },
   "dependencies": {
-    "@eslint-community/eslint-plugin-eslint-comments": "^4.6.0",
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^1.0.1",
     "@zemd/eslint-common": "workspace:*",

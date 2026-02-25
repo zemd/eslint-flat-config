@@ -3,7 +3,7 @@ import { createRequire } from "module";
 import unicorn from "./rules/unicorn.js";
 import eslint from "./rules/eslint.js";
 import { GLOB_SRC } from "@zemd/eslint-common";
-import comments from "@eslint-community/eslint-plugin-eslint-comments";
+// import comments from "@eslint-community/eslint-plugin-eslint-comments";
 import gitignore from "eslint-config-flat-gitignore";
 import globals from "globals";
 import json from "./json.js";
@@ -100,7 +100,7 @@ export function javascript({
         ...eslint.plugins,
         ...unicorn.plugins,
         ...(sonarjs ? { sonarjs } : {}), // https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md#rules
-        "@eslint-community/eslint-comments": comments,
+        // "@eslint-community/eslint-comments": comments,
         regexp: pluginRegex.configs["flat/recommended"].plugins.regexp,
       },
       rules: {
@@ -114,7 +114,7 @@ export function javascript({
               "sonarjs/todo-tag": ["off"],
             }
           : {}),
-        ...comments.configs.recommended.rules,
+        // ...comments.configs.recommended.rules,
         ...pluginRegex.configs["flat/recommended"].rules,
       },
     },
