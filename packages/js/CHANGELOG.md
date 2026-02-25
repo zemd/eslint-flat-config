@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 2.0.4
+
+### Patch Changes
+
+- c33490f: Temporarily dropping support for outdated plugins
+
 ## 2.0.3
 
 ### Patch Changes
