@@ -47,8 +47,8 @@
   "types": "./dist/index.d.mts",
   "peerDependencies": {
     "eslint": ">=9.2.0 || >=10.0.0",
-    "eslint-plugin-tailwindcss": "^3.18.0",
-    "storybook": "^10.2.12"
+    "eslint-plugin-tailwindcss": "3.18.0",
+    "storybook": "10.2.12"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-tailwindcss": {
@@ -56,19 +56,19 @@
     }
   },
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^4.4.0",
-    "@vitest/eslint-plugin": "^1.6.12",
+    "@graphql-eslint/eslint-plugin": "4.4.0",
+    "@vitest/eslint-plugin": "1.6.12",
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-react": "workspace:*",
-    "eslint-plugin-playwright": "^2.9.0",
-    "eslint-plugin-storybook": "^10.2.19",
-    "eslint-plugin-turbo": "^2.8.17"
+    "eslint-plugin-playwright": "2.9.0",
+    "eslint-plugin-storybook": "10.2.19",
+    "eslint-plugin-turbo": "2.8.17"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "^0.21.2",
+    "tsdown": "0.21.2",
     "typescript": "catalog:"
   },
   "scripts": {
