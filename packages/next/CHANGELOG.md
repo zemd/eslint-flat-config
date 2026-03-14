@@ -1,5 +1,14 @@
 # @zemd/eslint-next
 
+## 2.0.5
+
+### Patch Changes
+
+- e929336: Update dependencies
+- Updated dependencies [e929336]
+  - @zemd/eslint-rock-stack@2.0.5
+  - @zemd/eslint-common@2.0.2
+
 ## 2.0.4
 
 ### Patch Changes

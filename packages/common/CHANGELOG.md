@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 2.0.2
+
+### Patch Changes
+
+- e929336: Update dependencies
+
 ## 2.0.1
 
 ### Patch Changes
