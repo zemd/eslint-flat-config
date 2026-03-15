@@ -60,7 +60,7 @@
     "@vitest/eslint-plugin": "1.6.12",
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-react": "workspace:*",
-    "eslint-plugin-playwright": "2.9.0",
+    "eslint-plugin-playwright": "2.10.0",
     "eslint-plugin-storybook": "10.2.19",
     "eslint-plugin-turbo": "2.8.17"
   },
@@ -68,7 +68,7 @@
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "0.21.2",
+    "tsdown": "0.21.3",
     "typescript": "catalog:"
   },
   "scripts": {
