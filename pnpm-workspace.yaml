@@ -2,7 +2,7 @@ packages:
   - packages/*
 
 catalog:
-  "@swc/core": 1.15.18
+  "@swc/core": 1.15.21
   "@types/eslint": 9.6.1
   "@types/node": 25.5.0
   "@zemd/tsconfig": 1.5.0
