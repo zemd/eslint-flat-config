@@ -57,18 +57,18 @@
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "4.4.0",
-    "@vitest/eslint-plugin": "1.6.12",
+    "@vitest/eslint-plugin": "1.6.13",
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-react": "workspace:*",
-    "eslint-plugin-playwright": "2.10.0",
-    "eslint-plugin-storybook": "10.2.19",
-    "eslint-plugin-turbo": "2.8.17"
+    "eslint-plugin-playwright": "2.10.1",
+    "eslint-plugin-storybook": "10.3.1",
+    "eslint-plugin-turbo": "2.8.20"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
-    "tsdown": "0.21.3",
+    "tsdown": "catalog:",
     "typescript": "catalog:"
   },
   "scripts": {
