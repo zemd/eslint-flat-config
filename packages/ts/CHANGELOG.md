@@ -1,5 +1,14 @@
 # @zemd/eslint-ts
 
+## 2.0.6
+
+### Patch Changes
+
+- ff2e9b0: Update dependencies
+- Updated dependencies [ff2e9b0]
+  - @zemd/eslint-common@2.0.3
+  - @zemd/eslint-js@2.0.6
+
 ## 2.0.5
 
 ### Patch Changes
