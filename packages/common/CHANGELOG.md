@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 2.0.3
+
+### Patch Changes
+
+- ff2e9b0: Update dependencies
+
 ## 2.0.2
 
 ### Patch Changes
