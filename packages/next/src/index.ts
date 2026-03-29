@@ -49,30 +49,7 @@ export function next({
       rules: {
         ...nextjs.configs.recommended.rules,
         ...nextjs.configs["core-web-vitals"].rules,
-        ...(enableRefresh
-          ? {
-              "react-refresh/only-export-components": [
-                "warn",
-                {
-                  allowExportNames: [
-                    "dynamic",
-                    "dynamicParams",
-                    "revalidate",
-                    "fetchCache",
-                    "runtime",
-                    "preferredRegion",
-                    "maxDuration",
-                    "config",
-                    "generateStaticParams",
-                    "metadata",
-                    "generateMetadata",
-                    "viewport",
-                    "generateViewport",
-                  ],
-                },
-              ],
-            }
-          : {}),
+        ...(enableRefresh ? reactRefresh.configs.next.rules : {}),
       },
     },
   ];
