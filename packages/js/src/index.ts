@@ -3,6 +3,7 @@ import { createRequire } from "module";
 import unicorn from "./rules/unicorn.js";
 import eslint from "./rules/eslint.js";
 import { GLOB_SRC } from "@zemd/eslint-common";
+import { getWorkspacePackagePaths } from "@zemd/eslint-common";
 // import comments from "@eslint-community/eslint-plugin-eslint-comments";
 import gitignore from "eslint-config-flat-gitignore";
 import globals from "globals";
@@ -63,7 +64,8 @@ export function javascript({
   files = [GLOB_SRC],
   ...opts
 }: Partial<JavascriptOptions> = {}): Array<Linter.Config> {
-  const enableSonar = isPackageExists("eslint-plugin-sonarjs");
+  const paths = getWorkspacePackagePaths();
+  const enableSonar = isPackageExists("eslint-plugin-sonarjs", { paths });
   const sonarjs = enableSonar ? require("eslint-plugin-sonarjs") : undefined;
 
   const rules: Array<Linter.Config> = [

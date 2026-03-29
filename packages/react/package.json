@@ -45,19 +45,18 @@
     "eslint": ">=9.2.0 || >=10.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "8.57.1",
+    "@eslint-react/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "8.57.2",
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-ts": "workspace:*",
-    "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-compiler": "19.1.0-rc.2",
     "eslint-plugin-react-hooks": "7.0.1",
-    "eslint-plugin-react-hooks-extra": "2.13.0",
     "eslint-plugin-react-refresh": "catalog:",
-    "eslint-plugin-react-web-api": "3.0.0",
     "local-pkg": "1.1.2"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
+    "@types/node": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsdown": "catalog:",

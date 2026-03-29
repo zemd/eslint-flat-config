@@ -3,6 +3,7 @@
   "display": "@zemd/eslint-config",
   "extends": "@zemd/tsconfig/tsconfig-node.json",
   "compilerOptions": {
+    "types": ["node"],
     "baseUrl": ".",
     "outDir": "./dist",
     "rootDir": "./src",
@@ -10,7 +11,7 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "allowJs": true,
-    "noImplicitAny": false,
+    "noImplicitAny": false
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
