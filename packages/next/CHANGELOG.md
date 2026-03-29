@@ -1,5 +1,17 @@
 # @zemd/eslint-next
 
+## 3.0.0
+
+### Major Changes
+
+- b964e64: Migrate from eslint-plugin-react to @eslint-react/eslint-plugin
+
+### Patch Changes
+
+- Updated dependencies [b964e64]
+  - @zemd/eslint-rock-stack@3.0.0
+  - @zemd/eslint-common@3.0.0
+
 ## 2.0.6
 
 ### Patch Changes

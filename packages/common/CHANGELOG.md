@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 3.0.0
+
+### Major Changes
+
+- b964e64: Migrate from eslint-plugin-react to @eslint-react/eslint-plugin
+
 ## 2.0.3
 
 ### Patch Changes
