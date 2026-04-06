@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 3.0.1
+
+### Patch Changes
+
+- 00f428f: Update dependencies
+
 ## 3.0.0
 
 ### Major Changes

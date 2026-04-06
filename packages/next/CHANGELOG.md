@@ -1,5 +1,14 @@
 # @zemd/eslint-next
 
+## 3.0.1
+
+### Patch Changes
+
+- 00f428f: Update dependencies
+- Updated dependencies [00f428f]
+  - @zemd/eslint-rock-stack@3.0.1
+  - @zemd/eslint-common@3.0.1
+
 ## 3.0.0
 
 ### Major Changes
