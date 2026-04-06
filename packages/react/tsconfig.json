@@ -4,7 +4,6 @@
   "extends": "@zemd/tsconfig/tsconfig-node.json",
   "compilerOptions": {
     "types": ["node"],
-    "baseUrl": ".",
     "outDir": "./dist",
     "rootDir": "./src",
     "sourceMap": false,
