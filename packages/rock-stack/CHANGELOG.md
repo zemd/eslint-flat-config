@@ -1,5 +1,12 @@
 # @zemd/eslint-rock-stack
 
+## 3.0.2
+
+### Patch Changes
+
+- Updated dependencies [0536ac2]
+  - @zemd/eslint-react@3.0.2
+
 ## 3.0.1
 
 ### Patch Changes

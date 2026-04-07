@@ -1,5 +1,11 @@
 # @zemd/eslint-react
 
+## 3.0.2
+
+### Patch Changes
+
+- 0536ac2: Use canary version of eslint-plugin-react-hooks to support eslint 10
+
 ## 3.0.1
 
 ### Patch Changes
