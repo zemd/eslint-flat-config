@@ -1,5 +1,11 @@
 # @zemd/eslint-common
 
+## 3.0.2
+
+### Patch Changes
+
+- a53cbf8: Update dependencies
+
 ## 3.0.1
 
 ### Patch Changes
