@@ -1,5 +1,14 @@
 # @zemd/eslint-react
 
+## 3.0.3
+
+### Patch Changes
+
+- a53cbf8: Update dependencies
+- Updated dependencies [a53cbf8]
+  - @zemd/eslint-common@3.0.2
+  - @zemd/eslint-ts@3.0.2
+
 ## 3.0.2
 
 ### Patch Changes
