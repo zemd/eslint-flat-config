@@ -39,7 +39,7 @@
     "eslint": ">=9.2.0 || >=10.0.0"
   },
   "devDependencies": {
-    "@types/node": "25.5.2",
+    "@types/node": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsdown": "catalog:",
