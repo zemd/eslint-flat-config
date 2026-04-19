@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "4.4.0",
-    "@vitest/eslint-plugin": "1.6.15",
+    "@vitest/eslint-plugin": "1.6.16",
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-react": "workspace:*",
     "eslint-plugin-playwright": "2.10.1",
