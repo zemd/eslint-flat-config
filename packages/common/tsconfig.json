@@ -4,12 +4,12 @@
   "extends": "@zemd/tsconfig/tsconfig-node.json",
   "compilerOptions": {
     "types": ["node"],
-    "baseUrl": ".",
     "outDir": "./dist",
     "rootDir": "./src",
     "sourceMap": false,
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "isolatedDeclarations": false,
     "allowJs": true,
     "noImplicitAny": false
   },
