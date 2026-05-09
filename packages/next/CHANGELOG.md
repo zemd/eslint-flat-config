@@ -1,5 +1,14 @@
 # @zemd/eslint-next
 
+## 3.0.4
+
+### Patch Changes
+
+- c9ead70: Update dependencies
+- Updated dependencies [c9ead70]
+  - @zemd/eslint-rock-stack@3.0.4
+  - @zemd/eslint-common@3.0.3
+
 ## 3.0.3
 
 ### Patch Changes
