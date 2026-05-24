@@ -5,11 +5,11 @@ allowBuilds:
   esbuild: true
 
 catalog:
-  "@swc/core": 1.15.33
+  "@swc/core": 1.15.40
   "@types/eslint": 9.6.1
-  "@types/node": 25.6.2
+  "@types/node": 25.9.1
   "@zemd/tsconfig": 2.0.0
-  eslint: 10.3.0
+  eslint: 10.4.0
   eslint-plugin-react-refresh: 0.5.2
   tsdown: 0.22.0
   typescript: 6.0.3
