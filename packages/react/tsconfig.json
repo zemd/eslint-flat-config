@@ -9,7 +9,6 @@
     "sourceMap": false,
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "allowJs": true,
     "noImplicitAny": false
   },
   "include": ["src/**/*"],
