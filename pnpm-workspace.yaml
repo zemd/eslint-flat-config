@@ -13,7 +13,7 @@ catalog:
   "@zemd/tsconfig": 2.0.0
   eslint: 10.7.0
   eslint-plugin-react-refresh: 0.5.3
-  tsdown: 0.22.12
+  tsdown: 0.22.13
   typescript: 6.0.3
 
 minimumReleaseAgeExclude:
