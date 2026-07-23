@@ -1,5 +1,16 @@
 # @zemd/eslint-next
 
+## 3.1.0
+
+### Minor Changes
+
+- ca1a55a: Repository maintenance
+
+### Patch Changes
+
+- Updated dependencies [ca1a55a]
+  - @zemd/eslint-rock-stack@3.1.0
+
 ## 3.0.4
 
 ### Patch Changes
