@@ -42,7 +42,6 @@ export const rules: Linter.RulesRecord = {
   "unicorn/prefer-code-point": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md
   "unicorn/prefer-date-now": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-date-now.md
   "unicorn/prefer-dom-node-append": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-append.md
-  "unicorn/prefer-dom-node-dataset": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-dataset.md
   "unicorn/prefer-dom-node-remove": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-remove.md
   "unicorn/prefer-event-target": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-target.md
   "unicorn/prefer-export-from": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
