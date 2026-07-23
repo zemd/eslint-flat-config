@@ -47,13 +47,14 @@
     "eslint": ">=9.2.0 || >=10.0.0"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "16.2.6",
+    "@next/eslint-plugin-next": "16.2.11",
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-rock-stack": "workspace:*",
     "eslint-plugin-react-refresh": "catalog:"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
+    "@types/node": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsdown": "catalog:",

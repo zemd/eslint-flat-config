@@ -32,6 +32,97 @@ import javascript from "@zemd/eslint-js";
 export default [...javascript()];
 ```
 
+## Configuring environments (globals)
+
+By default every file is linted with the `"all"` environment, meaning both
+Node.js and browser globals are available (great for isomorphic code). You can
+change the default environment with the `env` option:
+
+```javascript
+import javascript from "@zemd/eslint-js";
+
+// A browser-only app
+export default [...javascript({ env: "browser" })];
+```
+
+Available presets:
+
+| `env`       | Globals                                                     |
+| ----------- | ----------------------------------------------------------- |
+| `"all"`     | Node.js **and** browser globals (default)                   |
+| `"node"`    | Node.js globals only (`process`, `Buffer`, `__dirname`, …)  |
+| `"browser"` | browser globals only (`window`, `document`, `navigator`, …) |
+| `"none"`    | no runtime globals (only the base language globals)         |
+
+The base language globals are always included regardless of the selected
+environment, and by default they stay **in sync with `ecmaVersion`** — so
+`ecmaVersion: 2024` uses the `es2024` globals, and `ecmaVersion: "latest"` uses
+the newest available preset. Override them explicitly with `languageGlobals`
+(any preset from the [`globals`](https://npmjs.com/package/globals) package, e.g.
+`"es2020"`, `"es2024"`, `"builtin"`, or `"latest"`):
+
+```javascript
+import javascript from "@zemd/eslint-js";
+
+// Parse 2024 syntax; globals default to es2024 automatically.
+export default [...javascript({ ecmaVersion: 2024 })];
+
+// …or pin the globals independently of the syntax level.
+export default [...javascript({ ecmaVersion: 2024, languageGlobals: "latest" })];
+```
+
+You can also pass a raw globals record for custom runtimes (e.g. web workers,
+Deno, Bun):
+
+```javascript
+import globals from "globals";
+import javascript from "@zemd/eslint-js";
+
+export default [...javascript({ env: { ...globals.worker } })];
+```
+
+### Monorepos: different environments per package
+
+When `@zemd/eslint-js` is used from the **root** of a monorepo, individual
+packages often target different runtimes — some are Node.js-only, some are
+browser-only, and some are mixed. Use `overrides` to map paths to environments.
+Anything not matched by an override falls back to the default `env`, and each
+file resolves to **exactly one** environment (a `node` package will not leak
+browser globals, and vice versa):
+
+```javascript
+import javascript from "@zemd/eslint-js";
+
+export default [
+  ...javascript({
+    // Fallback for everything not matched below (e.g. shared/isomorphic code).
+    env: "all",
+    overrides: [
+      { files: ["packages/server/**", "apps/api/**"], env: "node" },
+      { files: ["packages/ui/**", "apps/web/**"], env: "browser" },
+      // Extend a preset with extra globals for a specific package:
+      { files: ["packages/worker/**"], env: "node", globals: { EdgeRuntime: "readonly" } },
+    ],
+  }),
+];
+```
+
+> Use a trailing `/**` (e.g. `packages/server/**`) so the pattern matches every
+> file inside the package directory.
+
+Custom globals passed via the top-level `globals` option are merged into **every**
+environment (the default `env` and each override):
+
+```javascript
+import javascript from "@zemd/eslint-js";
+
+export default [
+  ...javascript({
+    globals: { myGlobal: "readonly" },
+  }),
+];
+```
+
 ## SonarJS rules (optional)
 
 To stay compliant with enterprise policies that forbid LGPL software, SonarJS rules are **optional**. If you want to use them, install `eslint-plugin-sonarjs` and the rules will be detected and enabled automatically.

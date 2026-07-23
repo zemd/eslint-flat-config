@@ -171,6 +171,7 @@ export const rules: Linter.RulesRecord = {
     // https://eslint.org/docs/latest/rules/preserve-caught-error (added in ESLint v9.35.0)
     "error",
   ],
+  "no-return-await": "off",
 };
 
 // see more: https://github.com/eslint/eslint/blob/main/packages/js/src/configs/eslint-recommended.js

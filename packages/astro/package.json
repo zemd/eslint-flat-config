@@ -49,10 +49,11 @@
   "dependencies": {
     "@zemd/eslint-common": "workspace:*",
     "@zemd/eslint-react": "workspace:*",
-    "eslint-plugin-astro": "1.7.0"
+    "eslint-plugin-astro": "3.0.1"
   },
   "devDependencies": {
     "@types/eslint": "catalog:",
+    "@types/node": "catalog:",
     "@zemd/tsconfig": "catalog:",
     "eslint": "catalog:",
     "tsdown": "catalog:",
