@@ -13,7 +13,6 @@ export const rules: Linter.RulesRecord = {
   "unicorn/new-for-builtins": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md
   "unicorn/no-abusive-eslint-disable": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-abusive-eslint-disable.md
   "unicorn/no-array-callback-reference": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md
-  "unicorn/no-array-for-each": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md
   "unicorn/no-array-method-this-argument": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md
   "unicorn/no-await-expression-member": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
   "unicorn/no-empty-file": "error", // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md
