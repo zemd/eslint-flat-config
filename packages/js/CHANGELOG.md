@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 3.1.1
+
+### Patch Changes
+
+- 308b0b4: Removing deprecated rule
+
 ## 3.1.0
 
 ### Minor Changes

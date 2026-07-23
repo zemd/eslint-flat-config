@@ -1,5 +1,12 @@
 # @zemd/eslint-ts
 
+## 3.1.1
+
+### Patch Changes
+
+- Updated dependencies [308b0b4]
+  - @zemd/eslint-js@3.1.1
+
 ## 3.1.0
 
 ### Minor Changes
