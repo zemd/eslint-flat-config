@@ -1,5 +1,11 @@
 # @zemd/eslint-js
 
+## 3.1.0
+
+### Minor Changes
+
+- ca1a55a: Repository maintenance
+
 ## 3.0.3
 
 ### Patch Changes
