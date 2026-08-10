@@ -45,14 +45,14 @@
   },
   "devDependencies": {
     "@changesets/cli": "2.31.1",
-    "@eslint/config-inspector": "3.1.0",
+    "@eslint/config-inspector": "3.2.0",
     "@zemd/eslint-astro": "workspace:*",
     "@zemd/eslint-next": "workspace:*",
     "@zemd/tsconfig": "catalog:",
     "husky": "9.1.7",
     "prettier": "3.9.6",
-    "publint": "0.3.22",
-    "turbo": "2.10.7",
+    "publint": "0.3.23",
+    "turbo": "2.10.8",
     "typescript": "catalog:"
   },
   "packageManager": "pnpm@11.16.0+sha512.b767e9a98fc87aec0f42daefcd0e84941c2cdb45d73c4e1e68860fb2bdfdbe032ab592105479e5e05c237f740c8a5ffdbbb52385797ddc2296745a1bbb883e8d"

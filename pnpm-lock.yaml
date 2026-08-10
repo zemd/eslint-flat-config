@@ -64,8 +64,8 @@ importers:
         specifier: 2.31.1
         version: 2.31.1(@types/node@26.1.1)
       '@eslint/config-inspector':
-        specifier: 3.1.0
-        version: 3.1.0(eslint@10.7.0(jiti@2.7.0))(srvx@0.11.22)(typescript@6.0.3)
+        specifier: 3.2.0
+        version: 3.2.0(eslint@10.7.0(jiti@2.7.0))(srvx@0.12.5)
       '@zemd/eslint-astro':
         specifier: workspace:*
         version: link:packages/astro
@@ -82,11 +82,11 @@ importers:
         specifier: 3.9.6
         version: 3.9.6
       publint:
-        specifier: 0.3.22
-        version: 0.3.22
+        specifier: 0.3.23
+        version: 0.3.23
       turbo:
-        specifier: 2.10.7
-        version: 2.10.7
+        specifier: 2.10.8
+        version: 2.10.8
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -117,7 +117,7 @@ importers:
         version: 10.7.0(jiti@2.7.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3)
+        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -135,7 +135,7 @@ importers:
         version: 10.7.0(jiti@2.7.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3)
+        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -181,7 +181,7 @@ importers:
         version: 10.7.0(jiti@2.7.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3)
+        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -215,7 +215,7 @@ importers:
         version: 10.7.0(jiti@2.7.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3)
+        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -261,7 +261,7 @@ importers:
         version: 10.7.0(jiti@2.7.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3)
+        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -270,7 +270,7 @@ importers:
     dependencies:
       '@graphql-eslint/eslint-plugin':
         specifier: 4.4.0
-        version: 4.4.0(@types/node@26.1.1)(crossws@0.4.10(srvx@0.11.22))(eslint@10.7.0(jiti@1.21.7))(graphql@16.14.2)(typescript@6.0.3)
+        version: 4.4.0(@types/node@26.1.1)(crossws@0.4.10(srvx@0.12.5))(eslint@10.7.0(jiti@1.21.7))(graphql@16.14.2)(typescript@6.0.3)
       '@vitest/eslint-plugin':
         specifier: 1.6.23
         version: 1.6.23(@typescript-eslint/eslint-plugin@8.65.0(@typescript-eslint/parser@8.65.0(eslint@10.7.0(jiti@1.21.7))(typescript@6.0.3))(eslint@10.7.0(jiti@1.21.7))(typescript@6.0.3))(eslint@10.7.0(jiti@1.21.7))(typescript@6.0.3)
@@ -291,7 +291,7 @@ importers:
         version: 3.18.0(tailwindcss@3.4.19(yaml@2.9.0))
       eslint-plugin-turbo:
         specifier: 2.10.5
-        version: 2.10.5(eslint@10.7.0(jiti@1.21.7))(turbo@2.10.7)
+        version: 2.10.5(eslint@10.7.0(jiti@1.21.7))(turbo@2.10.8)
       storybook:
         specifier: 10.2.12
         version: 10.2.12(@testing-library/dom@10.4.1)(prettier@3.9.6)(react@19.2.7)
@@ -310,7 +310,7 @@ importers:
         version: 10.7.0(jiti@1.21.7)
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3)
+        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -344,7 +344,7 @@ importers:
         version: 10.7.0(jiti@2.7.0)
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3)
+        version: 0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3)
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
@@ -847,8 +847,8 @@ packages:
     resolution: {integrity: sha512-ii6Bw9jJ2zi2cWA2Z+9/QZ/+3DX6kwaV5Q986D/CdP3Lap3w/pgQZ373FV7byY/i7L4IRH/G43I5dz1ClsCbpA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  '@eslint/config-inspector@3.1.0':
-    resolution: {integrity: sha512-miBAPkS/jN/c5RG/aEYhQaS64wlLXeo2EXXQ2w3SdCWux5icdrHyXnZyiF9dW8TukLURqK6xgzyIdgE1uGx5Vg==}
+  '@eslint/config-inspector@3.2.0':
+    resolution: {integrity: sha512-kylJhcii8eDOiRFPANNUHOyDebBIOt+nqYXt8q6W9FbhYzFJAXjLzJz6KFNzY0WvIyOBKdbSQdwdPNrkMh05tg==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
@@ -1313,6 +1313,9 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
+  '@standard-schema/spec@1.1.0':
+    resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+
   '@storybook/global@5.0.0':
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
 
@@ -1335,33 +1338,33 @@ packages:
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
 
-  '@turbo/darwin-64@2.10.7':
-    resolution: {integrity: sha512-/c9cSBRermWDv85oufLhoH6XRLOVbvzJLRd+WLyfJCP+i0HFLQj4PVNDrHcY17/ve5l8X0Oua4bJBqJUgJPnZA==}
+  '@turbo/darwin-64@2.10.8':
+    resolution: {integrity: sha512-po+7rfJfUnFXjWlcoN2RwhErgzCdRtBc1T26vYPcywHlggmCQiQe1uWaE4j+BibI2uY9/2pDoFzMN0rmSaPFOw==}
     cpu: [x64]
     os: [darwin]
 
-  '@turbo/darwin-arm64@2.10.7':
-    resolution: {integrity: sha512-8lpCCGWZBl9PIF8w8f2iEWrLMbHBWIfJeV6l2UEGqysD6HRIM4ySj/8R7HGEzbECJ4r/gnJcHmxEoG8yjFe64A==}
+  '@turbo/darwin-arm64@2.10.8':
+    resolution: {integrity: sha512-+zB2btDJ00lnPRuqOvpVvgl4x34k/djZQGZTTCfjn7JgNCl8QFY5Njo5+dqkY1g/+9gbbsnAvWm9CmJg9ebcXA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@turbo/linux-64@2.10.7':
-    resolution: {integrity: sha512-Midw9Ed00yw9rqkWN82fY3LmLNFQ6yiL1GXB56DJKUEjWaEd27zh7ohCxzzrjfjQVrEeVWd3UPytTAV16XDQlA==}
+  '@turbo/linux-64@2.10.8':
+    resolution: {integrity: sha512-K1dxqiVisyN7cViVsfQLs6xscQbYuI8aO2nbUhFURDACgEDfZRdP/b4CCxeosBJpcMfhYyiibWqJorCnvz9kKg==}
     cpu: [x64]
-    os: [linux]
+    os: [android, linux]
 
-  '@turbo/linux-arm64@2.10.7':
-    resolution: {integrity: sha512-UVEy+MW/xn4BcsiV3v3uv0/oObyaQgVtRT+Jj4WE53rNH05VEYEc1Z13q3zV6276wCZR4Yxc4hiTTcjw7PjSpg==}
+  '@turbo/linux-arm64@2.10.8':
+    resolution: {integrity: sha512-Gi77ibVnrE1fEmvr+/wBD/yvRqhwp/RQuCp2+//lv1U1wNFFyVg0V7Wj8FG9FXPFAw5QHReo8rxc9+wBSDZjzA==}
     cpu: [arm64]
-    os: [linux]
+    os: [android, linux]
 
-  '@turbo/windows-64@2.10.7':
-    resolution: {integrity: sha512-l2nH9KGLV46SWjcXvyc2+xo5gdf5J0NVADknQk9OCJhzJBpiNl/byd26yIfwZBjLupdqT6UOdPhPxcpUPxRykQ==}
+  '@turbo/windows-64@2.10.8':
+    resolution: {integrity: sha512-znnLO1haJPYTHoKMKwlAvlkjRiYbbhBzME6wIGaMd+fwir23U6jVd1ecaTWWi1fbnRVqxMfgDBKseQ/hLKb83g==}
     cpu: [x64]
     os: [win32]
 
-  '@turbo/windows-arm64@2.10.7':
-    resolution: {integrity: sha512-qjE1apG6RThuX49vUJd5ks2dV2ndXC2qktDChQonFMvUzrMrEnZMQzO+IgxBiYq1j+NbXQcRwj84nGnk1TBw1g==}
+  '@turbo/windows-arm64@2.10.8':
+    resolution: {integrity: sha512-VN30vh3b3Czh2WzYHNTfF1FE0YMZ5aHsLO8dBMGHJewA6792wX6iJR8ZxlzFW6WdOu0gEAKIvlYhfyT81Wkm4Q==}
     cpu: [arm64]
     os: [win32]
 
@@ -1500,11 +1503,6 @@ packages:
   '@typescript-eslint/visitor-keys@8.65.0':
     resolution: {integrity: sha512-8C71BQkGjiMmXtop7pHVJu1l2NNShFdkCyD6a2ezzs5vU/L3LRtb69EtcteFwz0mYMPzIgOw0n6OV4VBUWZd7A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  '@valibot/to-json-schema@1.7.1':
-    resolution: {integrity: sha512-3qkmU6KXWh8GIThEAW3kuRHPQBMjWkKy+Ppz3WkUucx53DTpOa6siMn4xDGSOhlVyMrDaJTCTMLYPZVAIk1P0A==}
-    peerDependencies:
-      valibot: ^1.4.0
 
   '@vitest/eslint-plugin@1.6.23':
     resolution: {integrity: sha512-CbrXxQpIUMbeyylGlxaxTgnWYM44et4Nx58swl7+vrTyC9Ttx+hQoy8BGCregbbZ08K5qFhRHeoad1VvERUbkg==}
@@ -1948,12 +1946,19 @@ packages:
     resolution: {integrity: sha512-y+8xyqdGLL+6sh0tVeHcfP/QDd8gUgbasolJJpY7NgeQGSZ739bDtSiaiDgtoicy+mtYB81dKLxO9xRhCyIB3A==}
     engines: {node: '>=12.20'}
 
-  devframe@0.6.2:
-    resolution: {integrity: sha512-/P2MPHZzCRyuzEqPOThTDbiCsvbT7OkL1lj9/p6yiUycmC5xfRx5lOhjURYggSyTzEpOSUuWtlicr53ohEFZ5Q==}
+  devframe@0.8.2:
+    resolution: {integrity: sha512-oodQXEQnrvufA1so/E058Z3SG3bk9AlUE5+NIAsyx5ZJH9P/oX6WMxjC0bs5PPwtKbS7pBHjxja2AD8EwGE8/Q==}
+    hasBin: true
     peerDependencies:
-      '@modelcontextprotocol/sdk': ^1.0.0
+      '@modelcontextprotocol/client': ^2.0.0
+      '@modelcontextprotocol/server': ^2.0.0
+      cac: ^7.0.0
     peerDependenciesMeta:
-      '@modelcontextprotocol/sdk':
+      '@modelcontextprotocol/client':
+        optional: true
+      '@modelcontextprotocol/server':
+        optional: true
+      cac:
         optional: true
 
   didyoumean@1.2.2:
@@ -2333,12 +2338,12 @@ packages:
     resolution: {integrity: sha512-Chq1s4CY7jmh8gO2qvLIJyfCDIN+EHLFW/9iShnp1z8FjBQMoodWP1kDC36VAMXXIvAjj4ARa7ntfAV2BrjsbA==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
 
-  h3@2.0.1-rc.22:
-    resolution: {integrity: sha512-Esv0DMIuPkCTSWCA0vO73vcTqwzH1wjSrAO1TXNu/K3up1sZHa9EKMapbmxCDYBeymC3fVTk4qxp7ogQWQ+KgA==}
+  h3@2.0.1-rc.26:
+    resolution: {integrity: sha512-GDxlvDsKxgjRvG5UBRJYyGJTMWLV30CJ4cV+e7QCTgftDHihrvio1fVPbNembhEr6J4WNm8IWy3fookgyTweLw==}
     engines: {node: '>=20.11.1'}
     hasBin: true
     peerDependencies:
-      crossws: ^0.4.1
+      crossws: ^0.4.9
     peerDependenciesMeta:
       crossws:
         optional: true
@@ -2834,8 +2839,8 @@ packages:
     resolution: {integrity: sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
 
-  publint@0.3.22:
-    resolution: {integrity: sha512-6Z/scsr5CA7APdwyF35EY88CqgDj1textWuY788DVTJYPCWVv/Wn9G6KmLnrVRnStgYcahqN4wCDLZGSbQJ69w==}
+  publint@0.3.23:
+    resolution: {integrity: sha512-5MQipUPcB7MWw84zLUkHrg/H/UBtk3LL+A0GngTTBSsiNJLQurMUaSIRG3edlOrRz4UFe0AOKK9TZdIWviV+jQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2874,8 +2879,8 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
-  readdirp@5.0.0:
-    resolution: {integrity: sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==}
+  readdirp@5.1.1:
+    resolution: {integrity: sha512-Kko+Y5XQ6fM+Ce3dq3m9YGxnacYZYl9cA1wZjaF3Vbry2L3i1qVg8+CAgNPsXRArPMUMCaOR7oa9Nqntc43JKA==}
     engines: {node: '>= 20.19.0'}
 
   recast@0.23.12:
@@ -2949,8 +2954,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  rou3@0.8.1:
-    resolution: {integrity: sha512-ePa+XGk00/3HuCqrEnK3LxJW7I0SdNg6EFzKUJG73hMAdDcOUC/i/aSz7LSDwLrGr33kal/rqOGydzwl6U7zBA==}
+  rou3@0.9.1:
+    resolution: {integrity: sha512-z/sSmzvtwMDDnxsPVhfWMuG6F6mbmhFDXoVqLmMfbpDD9qfV3GDmSQpf0+W296/ZDIpW2wcMmBfpVFzcnOi/nA==}
 
   run-applescript@7.1.0:
     resolution: {integrity: sha512-DPe5pVFaAsinSaV6QjQ6gdiedWDcRCbUuiQfQa2wmWV7+xC9bGulGI8+TdRmoFkAPaBXk8CrAbnlY2ISniJ47Q==}
@@ -3009,8 +3014,8 @@ packages:
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
-  srvx@0.11.22:
-    resolution: {integrity: sha512-LqZxxBDMKuMAZzFzJnDCkFOrs9MZQZr0LvHiO/SuSZVdQaXD7xQ5UWTUxheJrQPve1qk9MG2B/yttUvJxw8egQ==}
+  srvx@0.12.5:
+    resolution: {integrity: sha512-IuvtDNQg5EIwv3c6dleyau7u8hCyGQ7D6+V/QM799Aud07z0wCUcurKLTRfyG33C8oUY+UWcVBFkfHMcbtmRLA==}
     engines: {node: '>=20.16.0'}
     hasBin: true
 
@@ -3093,6 +3098,10 @@ packages:
     resolution: {integrity: sha512-SHf/r48b7vOrjve9PxJo3MN5v5yuyjHvdUcrQffT3WXMUfnGmHDVbC4k3sHJaJTgZCwpUplIaAo5ANtMyp3YHg==}
     engines: {node: '>=18'}
 
+  tinyexec@1.3.0:
+    resolution: {integrity: sha512-QKAl9m8gWWGHV8jZcPeym6j+XULi6tOf1mT83WYJ4Lk2ytW/uwAWkrP0uFsdoYMdueVJ0qs26wZ+23xeB4ibNQ==}
+    engines: {node: '>=18'}
+
   tinyglobby@0.2.17:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
@@ -3162,8 +3171,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  turbo@2.10.7:
-    resolution: {integrity: sha512-GHx6WExIFSKNJ5qMlzDpXBXlu9ApxaMjqxAVrCNcW94xf/+uqgIz41SAuRUMbXva2ExNAaY/h8V0q90SWSzmRw==}
+  turbo@2.10.8:
+    resolution: {integrity: sha512-9+8YX5QOkGXzZxcIykTHgaooRHGMWO+jfdyRK0o+rN0U7hBIig2MrJ8r/aNzIPDPhdA73SGb0O+tIztaModTMg==}
     hasBin: true
 
   type-check@0.4.0:
@@ -3215,14 +3224,6 @@ packages:
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
-
-  valibot@1.4.2:
-    resolution: {integrity: sha512-gjdCvJ6d3RyHAneqxMYMW9QMCwYMb3jpOO0IyHZV1bnRHFBHrX3VkIILt5XYR0WhwHiH7Mty8ovuPZ/O3gamrg==}
-    peerDependencies:
-      typescript: '>=5'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
 
   verkit@0.1.2:
     resolution: {integrity: sha512-WqkT8n3hqizuCu71W3bUzf5fjBmkbXcudsehe/NbxA8PgqoKnSOY5K0Ba2ckg1qaRaSpSz7as/n9K1R9JXjQKg==}
@@ -3894,19 +3895,19 @@ snapshots:
     dependencies:
       '@eslint/core': 1.2.1
 
-  '@eslint/config-inspector@3.1.0(eslint@10.7.0(jiti@2.7.0))(srvx@0.11.22)(typescript@6.0.3)':
+  '@eslint/config-inspector@3.2.0(eslint@10.7.0(jiti@2.7.0))(srvx@0.12.5)':
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
       chokidar: 5.0.0
-      devframe: 0.6.2(srvx@0.11.22)(typescript@6.0.3)
+      devframe: 0.8.2(cac@7.0.0)(srvx@0.12.5)
       eslint: 10.7.0(jiti@2.7.0)
       jiti: 2.7.0
       tinyglobby: 0.2.17
     transitivePeerDependencies:
-      - '@modelcontextprotocol/sdk'
+      - '@modelcontextprotocol/client'
+      - '@modelcontextprotocol/server'
       - srvx
-      - typescript
 
   '@eslint/core@1.2.1':
     dependencies:
@@ -3937,7 +3938,7 @@ snapshots:
 
   '@fastify/busboy@3.2.0': {}
 
-  '@graphql-eslint/eslint-plugin@4.4.0(@types/node@26.1.1)(crossws@0.4.10(srvx@0.11.22))(eslint@10.7.0(jiti@1.21.7))(graphql@16.14.2)(typescript@6.0.3)':
+  '@graphql-eslint/eslint-plugin@4.4.0(@types/node@26.1.1)(crossws@0.4.10(srvx@0.12.5))(eslint@10.7.0(jiti@1.21.7))(graphql@16.14.2)(typescript@6.0.3)':
     dependencies:
       '@graphql-tools/code-file-loader': 8.1.36(graphql@16.14.2)
       '@graphql-tools/graphql-tag-pluck': 8.3.35(graphql@16.14.2)
@@ -3946,7 +3947,7 @@ snapshots:
       eslint: 10.7.0(jiti@1.21.7)
       fast-glob: 3.3.3
       graphql: 16.14.2
-      graphql-config: 5.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)(typescript@6.0.3)
+      graphql-config: 5.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)(typescript@6.0.3)
       graphql-depth-limit: 1.1.0(graphql@16.14.2)
       lodash.lowercase: 4.3.0
     transitivePeerDependencies:
@@ -3998,13 +3999,13 @@ snapshots:
       '@graphql-tools/utils': 11.2.2(graphql@16.14.2)
       graphql: 16.14.2
 
-  '@graphql-tools/executor-graphql-ws@3.1.5(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)':
+  '@graphql-tools/executor-graphql-ws@3.1.5(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)':
     dependencies:
       '@graphql-tools/executor-common': 1.0.6(graphql@16.14.2)
       '@graphql-tools/utils': 11.2.2(graphql@16.14.2)
       '@whatwg-node/disposablestack': 0.0.6
       graphql: 16.14.2
-      graphql-ws: 6.1.0(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)(ws@8.21.1)
+      graphql-ws: 6.1.0(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)(ws@8.21.1)
       isows: 1.0.7(ws@8.21.1)
       tslib: 2.8.1
       ws: 8.21.1
@@ -4109,9 +4110,9 @@ snapshots:
       graphql: 16.14.2
       tslib: 2.8.1
 
-  '@graphql-tools/url-loader@9.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)':
+  '@graphql-tools/url-loader@9.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)':
     dependencies:
-      '@graphql-tools/executor-graphql-ws': 3.1.5(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)
+      '@graphql-tools/executor-graphql-ws': 3.1.5(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)
       '@graphql-tools/executor-http': 3.3.0(@types/node@26.1.1)(graphql@16.14.2)
       '@graphql-tools/executor-legacy-ws': 1.1.32(graphql@16.14.2)
       '@graphql-tools/utils': 11.2.2(graphql@16.14.2)
@@ -4308,7 +4309,7 @@ snapshots:
 
   '@publint/pack@0.1.6':
     dependencies:
-      tinyexec: 1.2.4
+      tinyexec: 1.3.0
 
   '@quansync/fs@1.0.0':
     dependencies:
@@ -4367,6 +4368,8 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
+  '@standard-schema/spec@1.1.0': {}
+
   '@storybook/global@5.0.0': {}
 
   '@storybook/icons@2.1.0(react@19.2.7)':
@@ -4397,22 +4400,22 @@ snapshots:
     dependencies:
       '@testing-library/dom': 10.4.1
 
-  '@turbo/darwin-64@2.10.7':
+  '@turbo/darwin-64@2.10.8':
     optional: true
 
-  '@turbo/darwin-arm64@2.10.7':
+  '@turbo/darwin-arm64@2.10.8':
     optional: true
 
-  '@turbo/linux-64@2.10.7':
+  '@turbo/linux-64@2.10.8':
     optional: true
 
-  '@turbo/linux-arm64@2.10.7':
+  '@turbo/linux-arm64@2.10.8':
     optional: true
 
-  '@turbo/windows-64@2.10.7':
+  '@turbo/windows-64@2.10.8':
     optional: true
 
-  '@turbo/windows-arm64@2.10.7':
+  '@turbo/windows-arm64@2.10.8':
     optional: true
 
   '@tybys/wasm-util@0.10.3':
@@ -4668,10 +4671,6 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.65.0
       eslint-visitor-keys: 5.0.1
-
-  '@valibot/to-json-schema@1.7.1(valibot@1.4.2(typescript@6.0.3))':
-    dependencies:
-      valibot: 1.4.2(typescript@6.0.3)
 
   '@vitest/eslint-plugin@1.6.23(@typescript-eslint/eslint-plugin@8.65.0(@typescript-eslint/parser@8.65.0(eslint@10.7.0(jiti@1.21.7))(typescript@6.0.3))(eslint@10.7.0(jiti@1.21.7))(typescript@6.0.3))(eslint@10.7.0(jiti@1.21.7))(typescript@6.0.3)':
     dependencies:
@@ -4937,7 +4936,7 @@ snapshots:
 
   chokidar@5.0.0:
     dependencies:
-      readdirp: 5.0.0
+      readdirp: 5.1.1
 
   ci-info@4.4.0: {}
 
@@ -4978,9 +4977,9 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  crossws@0.4.10(srvx@0.11.22):
+  crossws@0.4.10(srvx@0.12.5):
     optionalDependencies:
-      srvx: 0.11.22
+      srvx: 0.12.5
 
   css.escape@1.5.1: {}
 
@@ -5017,22 +5016,21 @@ snapshots:
 
   detect-indent@7.0.2: {}
 
-  devframe@0.6.2(srvx@0.11.22)(typescript@6.0.3):
+  devframe@0.8.2(cac@7.0.0)(srvx@0.12.5):
     dependencies:
-      '@valibot/to-json-schema': 1.7.1(valibot@1.4.2(typescript@6.0.3))
+      '@standard-schema/spec': 1.1.0
       birpc: 4.0.0
-      cac: 7.0.0
-      crossws: 0.4.10(srvx@0.11.22)
+      crossws: 0.4.10(srvx@0.12.5)
       destr: 2.0.5
-      h3: 2.0.1-rc.22(crossws@0.4.10(srvx@0.11.22))
+      h3: 2.0.1-rc.26(crossws@0.4.10(srvx@0.12.5))
       mrmime: 2.0.1
       nostics: 1.2.0
       pathe: 2.0.3
       ufo: 1.6.4
-      valibot: 1.4.2(typescript@6.0.3)
+    optionalDependencies:
+      cac: 7.0.0
     transitivePeerDependencies:
       - srvx
-      - typescript
 
   didyoumean@1.2.2: {}
 
@@ -5278,11 +5276,11 @@ snapshots:
       postcss: 8.5.20
       tailwindcss: 3.4.19(yaml@2.9.0)
 
-  eslint-plugin-turbo@2.10.5(eslint@10.7.0(jiti@1.21.7))(turbo@2.10.7):
+  eslint-plugin-turbo@2.10.5(eslint@10.7.0(jiti@1.21.7))(turbo@2.10.8):
     dependencies:
       dotenv: 16.0.3
       eslint: 10.7.0(jiti@1.21.7)
-      turbo: 2.10.7
+      turbo: 2.10.8
 
   eslint-plugin-unicorn@72.0.0(eslint@10.7.0(jiti@2.7.0)):
     dependencies:
@@ -5529,13 +5527,13 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graphql-config@5.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)(typescript@6.0.3):
+  graphql-config@5.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)(typescript@6.0.3):
     dependencies:
       '@graphql-tools/graphql-file-loader': 8.1.18(graphql@16.14.2)
       '@graphql-tools/json-file-loader': 8.0.32(graphql@16.14.2)
       '@graphql-tools/load': 8.1.15(graphql@16.14.2)
       '@graphql-tools/merge': 9.2.2(graphql@16.14.2)
-      '@graphql-tools/url-loader': 9.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)
+      '@graphql-tools/url-loader': 9.1.6(@types/node@26.1.1)(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)
       '@graphql-tools/utils': 11.2.2(graphql@16.14.2)
       cosmiconfig: 8.3.6(typescript@6.0.3)
       graphql: 16.14.2
@@ -5556,21 +5554,21 @@ snapshots:
       arrify: 1.0.1
       graphql: 16.14.2
 
-  graphql-ws@6.1.0(crossws@0.4.10(srvx@0.11.22))(graphql@16.14.2)(ws@8.21.1):
+  graphql-ws@6.1.0(crossws@0.4.10(srvx@0.12.5))(graphql@16.14.2)(ws@8.21.1):
     dependencies:
       graphql: 16.14.2
     optionalDependencies:
-      crossws: 0.4.10(srvx@0.11.22)
+      crossws: 0.4.10(srvx@0.12.5)
       ws: 8.21.1
 
   graphql@16.14.2: {}
 
-  h3@2.0.1-rc.22(crossws@0.4.10(srvx@0.11.22)):
+  h3@2.0.1-rc.26(crossws@0.4.10(srvx@0.12.5)):
     dependencies:
-      rou3: 0.8.1
-      srvx: 0.11.22
+      rou3: 0.9.1
+      srvx: 0.12.5
     optionalDependencies:
-      crossws: 0.4.10(srvx@0.11.22)
+      crossws: 0.4.10(srvx@0.12.5)
 
   hasown@2.0.4:
     dependencies:
@@ -5989,7 +5987,7 @@ snapshots:
       ansi-styles: 5.2.0
       react-is: 17.0.2
 
-  publint@0.3.22:
+  publint@0.3.23:
     dependencies:
       '@publint/pack': 0.1.6
       package-manager-detector: 1.8.0
@@ -6025,7 +6023,7 @@ snapshots:
     dependencies:
       picomatch: 4.0.5
 
-  readdirp@5.0.0: {}
+  readdirp@5.1.1: {}
 
   recast@0.23.12:
     dependencies:
@@ -6107,7 +6105,7 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.0
       '@rolldown/binding-win32-x64-msvc': 1.2.0
 
-  rou3@0.8.1: {}
+  rou3@0.9.1: {}
 
   run-applescript@7.1.0: {}
 
@@ -6152,7 +6150,7 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  srvx@0.11.22: {}
+  srvx@0.12.5: {}
 
   storybook@10.2.12(@testing-library/dom@10.4.1)(prettier@3.9.6)(react@19.2.7):
     dependencies:
@@ -6264,6 +6262,8 @@ snapshots:
 
   tinyexec@1.2.4: {}
 
+  tinyexec@1.3.0: {}
+
   tinyglobby@0.2.17:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.5)
@@ -6287,7 +6287,7 @@ snapshots:
 
   ts-pattern@5.9.0: {}
 
-  tsdown@0.22.13(oxc-resolver@11.24.2)(publint@0.3.22)(typescript@6.0.3):
+  tsdown@0.22.13(oxc-resolver@11.24.2)(publint@0.3.23)(typescript@6.0.3):
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
@@ -6305,7 +6305,7 @@ snapshots:
       unconfig-core: 7.5.0
       verkit: 0.1.2
     optionalDependencies:
-      publint: 0.3.22
+      publint: 0.3.23
       typescript: 6.0.3
     transitivePeerDependencies:
       - '@typescript/native-preview'
@@ -6315,14 +6315,14 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  turbo@2.10.7:
+  turbo@2.10.8:
     optionalDependencies:
-      '@turbo/darwin-64': 2.10.7
-      '@turbo/darwin-arm64': 2.10.7
-      '@turbo/linux-64': 2.10.7
-      '@turbo/linux-arm64': 2.10.7
-      '@turbo/windows-64': 2.10.7
-      '@turbo/windows-arm64': 2.10.7
+      '@turbo/darwin-64': 2.10.8
+      '@turbo/darwin-arm64': 2.10.8
+      '@turbo/linux-64': 2.10.8
+      '@turbo/linux-arm64': 2.10.8
+      '@turbo/windows-64': 2.10.8
+      '@turbo/windows-arm64': 2.10.8
 
   type-check@0.4.0:
     dependencies:
@@ -6364,10 +6364,6 @@ snapshots:
       react: 19.2.7
 
   util-deprecate@1.0.2: {}
-
-  valibot@1.4.2(typescript@6.0.3):
-    optionalDependencies:
-      typescript: 6.0.3
 
   verkit@0.1.2: {}
 
