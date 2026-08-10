@@ -7,14 +7,14 @@ allowBuilds:
   esbuild: true
 
 catalog:
-  "@swc/core": 1.15.33
+  "@swc/core": 1.15.47
   "@types/eslint": 9.6.1
-  "@types/node": 26.1.1
-  "@zemd/tsconfig": 2.0.0
-  eslint: 10.7.0
+  "@types/node": 26.1.2
+  "@zemd/tsconfig": 2.1.0
+  eslint: 10.8.0
   eslint-plugin-react-refresh: 0.5.3
-  tsdown: 0.22.13
-  typescript: 6.0.3
+  tsdown: 0.22.14
+  typescript: 7.0.2
 
 minimumReleaseAgeExclude:
   - ws@8.20.1 || 8.21.0
