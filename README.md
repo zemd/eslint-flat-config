@@ -1,3 +1,5 @@
+
+
 # ESLint Configs for Modern JavaScript Projects
 
 Welcome to the ultimate ESLint setup — no fluff, just what you need to write clean, bug-free code. Say goodbye to unnecessary stress and hello to a smooth dev experience! 🎉
@@ -15,7 +17,7 @@ Welcome to the ultimate ESLint setup — no fluff, just what you need to write c
 ## Usage
 
 > [!NOTE]  
-> Starting from `@zemd/eslint-flat-config`@v3.2.0, the package was split into multiple packages. Pick what suits your project best! 🛠️
+> Starting from v3.2.0, this monorepo was split into multiple packages. Pick what suits your project best! 🛠️
 
 ### Available Packages
 
