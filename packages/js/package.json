@@ -47,9 +47,9 @@
     "@eslint/json": "2.0.1",
     "@zemd/eslint-common": "workspace:*",
     "eslint-config-flat-gitignore": "2.3.0",
-    "eslint-plugin-regexp": "3.1.1",
-    "eslint-plugin-unicorn": "72.0.0",
-    "globals": "17.7.0",
+    "eslint-plugin-regexp": "3.2.0",
+    "eslint-plugin-unicorn": "73.0.0",
+    "globals": "17.11.0",
     "local-pkg": "1.2.1"
   },
   "devDependencies": {
