@@ -1,5 +1,11 @@
 # ESLint Configs for Modern JavaScript Projects
 
+
+> [!CAUTION]
+> The code has been moved to https://github.com/zemd/tooling/tree/main/eslint
+
+---
+
 Welcome to the ultimate ESLint setup — no fluff, just what you need to write clean, bug-free code. Say goodbye to unnecessary stress and hello to a smooth dev experience! 🎉
 
 ## Why This ESLint Config?
